@@ -1,0 +1,103 @@
+canonical,aliases,category
+Python,python;Python 3;py;Python3,Programming Languages
+JavaScript,javascript;js;JS;Javascript,Programming Languages
+TypeScript,typescript;ts;TS,Programming Languages
+Java,java;Java EE;Java SE;JavaEE,Programming Languages
+PHP,php;PHP7;PHP8,Programming Languages
+C++,c++;cpp;C/C++;c plus plus,Programming Languages
+C#,c#;csharp;C Sharp;dotnet;.NET,Programming Languages
+Ruby,ruby;ruby on rails,Programming Languages
+Go,golang;go lang,Programming Languages
+Kotlin,kotlin,Programming Languages
+Swift,swift,Programming Languages
+Scala,scala,Programming Languages
+R,R language;R programming;langage R,Programming Languages
+MATLAB,matlab,Programming Languages
+Bash,bash;shell;shell script;scripting bash,Programming Languages
+SQL,sql;SQL Server;T-SQL;PL/SQL;requêtes SQL,Databases
+MySQL,mysql;my sql,Databases
+PostgreSQL,postgresql;postgres;pg,Databases
+MongoDB,mongodb;mongo;MongoDB Atlas,Databases
+SQLite,sqlite,Databases
+Oracle,oracle;Oracle DB;Oracle Database,Databases
+Redis,redis,Databases
+Elasticsearch,elasticsearch;elastic search;ELK,Databases
+Firebase,firebase;Firebase Realtime,Databases
+Cassandra,cassandra;Apache Cassandra,Databases
+MariaDB,mariadb,Databases
+React,react;reactjs;react.js;React JS,Frontend
+Vue.js,vue;vuejs;vue.js;Vue JS;Vue 3,Frontend
+Angular,angular;angularjs;angular.js,Frontend
+HTML,html;html5;HTML5,Frontend
+CSS,css;css3;CSS3,Frontend
+Bootstrap,bootstrap;Bootstrap 5,Frontend
+Tailwind CSS,tailwind;tailwind css;TailwindCSS,Frontend
+jQuery,jquery;jQuery UI,Frontend
+Next.js,nextjs;next.js;Next JS,Frontend
+Nuxt.js,nuxtjs;nuxt.js,Frontend
+Svelte,svelte;sveltekit,Frontend
+Node.js,nodejs;node.js;node js;NodeJS,Backend
+Express.js,express;expressjs;express.js,Backend
+Django,django;django rest framework;DRF,Backend
+Flask,flask,Backend
+FastAPI,fastapi;fast api,Backend
+Laravel,laravel,Backend
+Symfony,symfony,Backend
+Spring,spring;spring boot;spring framework;Spring Boot,Backend
+NestJS,nestjs;nest.js,Backend
+Ruby on Rails,rails;ror;ruby on rails,Backend
+ASP.NET,asp.net;aspnet;ASP .NET,Backend
+Docker,docker;conteneur docker;conteneurisation,DevOps & Cloud
+Kubernetes,kubernetes;k8s;kube,DevOps & Cloud
+AWS,aws;amazon web services;cloud aws;Amazon AWS,DevOps & Cloud
+Azure,azure;microsoft azure;cloud azure,DevOps & Cloud
+GCP,gcp;google cloud;google cloud platform,DevOps & Cloud
+CI/CD,ci/cd;intégration continue;déploiement continu;pipeline CI;GitHub Actions;Jenkins,DevOps & Cloud
+Linux,linux;ubuntu;debian;unix;administration linux,DevOps & Cloud
+Nginx,nginx,DevOps & Cloud
+Apache,apache;apache2,DevOps & Cloud
+Terraform,terraform;IaC;infrastructure as code,DevOps & Cloud
+Ansible,ansible,DevOps & Cloud
+Git,git;github;gitlab;contrôle de version;gestion de version;versioning,DevOps & Cloud
+Heroku,heroku,DevOps & Cloud
+Render,render.com,DevOps & Cloud
+Machine Learning,machine learning;apprentissage automatique;ML,Data & AI
+Deep Learning,deep learning;apprentissage profond;DL;réseau de neurones,Data & AI
+TensorFlow,tensorflow;tensor flow,Data & AI
+PyTorch,pytorch;torch,Data & AI
+Scikit-learn,scikit-learn;sklearn;scikit learn,Data & AI
+NLP,nlp;natural language processing;traitement du langage;NLTK;spaCy,Data & AI
+Computer Vision,computer vision;vision par ordinateur;OpenCV,Data & AI
+Power BI,power bi;powerbi;Power BI Desktop,Data & AI
+Tableau,tableau;tableau desktop,Data & AI
+Pandas,pandas,Data & AI
+NumPy,numpy,Data & AI
+Data Analysis,data analysis;analyse de données;analyse des données;analyse statistique,Data & AI
+Big Data,big data;Hadoop;Spark;Apache Spark,Data & AI
+REST API,rest api;api rest;restful;API REST;API RESTful;web services,APIs & Integration
+GraphQL,graphql,APIs & Integration
+Microservices,microservices;micro-services;architecture microservices,APIs & Integration
+WebSocket,websocket;web socket,APIs & Integration
+OAuth,oauth;oauth2,APIs & Integration
+JWT,jwt;json web token,APIs & Integration
+Postman,postman,APIs & Integration
+Swagger,swagger;openapi,APIs & Integration
+Android,android;développement android;android studio,Mobile
+iOS,ios;développement ios;xcode,Mobile
+React Native,react native;react-native,Mobile
+Flutter,flutter;dart,Mobile
+Ionic,ionic,Mobile
+Xamarin,xamarin,Mobile
+Agile,agile;scrum;kanban;méthode agile;méthodes agiles,Methodologies
+Jira,jira;gestion de projet jira,Methodologies
+Git Flow,gitflow;git flow,Methodologies
+TDD,tdd;test driven development;tests unitaires;unit testing;Jest;Pytest;JUnit,Methodologies
+UML,uml;modélisation uml;diagramme uml,Methodologies
+WordPress,wordpress;cms;CMS;Drupal;Joomla,CMS
+Shopify,shopify,CMS
+Cybersecurity,cybersecurity;sécurité informatique;sécurité web;sécurité réseau;pentest,Security
+Networking,networking;réseau;TCP/IP;CCNA;administration réseau,Networking
+Figma,figma;design figma,Design
+Adobe XD,adobe xd;xd,Design
+Photoshop,photoshop;adobe photoshop,Design
+UI/UX,ui/ux;ux design;ui design;expérience utilisateur;interface utilisateur,Design
