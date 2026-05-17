@@ -29,6 +29,7 @@ from config.settings import (
     REQUEST_DELAY_MIN,
     REQUEST_HEADERS,
     REQUEST_TIMEOUT,
+    USER_AGENTS,
 )
 
 logger = logging.getLogger(__name__)
@@ -38,11 +39,6 @@ class BaseScraper(ABC):
 
     def __init__(self, portal_key: str):
         self.portal_key = portal_key
-        # httpx.Client handles gzip and deflate automatically.
-        # We explicitly override Accept-Encoding to exclude br and zstd —
-        # Cloudflare-fronted sites (like emploi.cm) serve zstd when those
-        # are advertised, and neither httpx nor requests can decode zstd.
-        # Forcing gzip/deflate gets us clean, decodable responses.
         merged_headers = {**REQUEST_HEADERS, "Accept-Encoding": "gzip, deflate"}
         self.client = httpx.Client(
             headers=merged_headers,
@@ -62,18 +58,62 @@ class BaseScraper(ABC):
         """
         Politely fetch a URL and return a BeautifulSoup object.
         Returns None on any error so callers can skip gracefully.
-        httpx automatically decompresses gzip, deflate, and brotli.
         """
         self._polite_delay()
         try:
             logger.debug(f"[{self.portal_key}] GET {url}")
             response = self.client.get(url)
             response.raise_for_status()
-            # response.text is always a clean decoded string with httpx
             return BeautifulSoup(response.text, "lxml")
         except httpx.HTTPError as exc:
             logger.warning(f"[{self.portal_key}] Request failed: {exc} — {url}")
             return None
+
+    def get_rotating(self, url: str, retries: int = 3) -> Optional[BeautifulSoup]:
+        """
+        Fetch with rotating User-Agent and Referer spoofing.
+        Use this for sites that return 403 with a static header.
+        Retries up to `retries` times with a fresh UA each attempt.
+        """
+        for attempt in range(1, retries + 1):
+            self._polite_delay()
+            ua = random.choice(USER_AGENTS)
+            headers = {
+                "User-Agent": ua,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "Accept-Language": "fr-CM,fr;q=0.9,en-US;q=0.7,en;q=0.5",
+                "Accept-Encoding": "gzip, deflate",
+                "Referer": "https://www.google.com/",
+                "DNT": "1",
+                "Connection": "keep-alive",
+                "Upgrade-Insecure-Requests": "1",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "cross-site",
+            }
+            try:
+                logger.debug(f"[{self.portal_key}] GET (attempt {attempt}, UA: ...{ua[-30:]}) {url}")
+                response = httpx.get(
+                    url,
+                    headers=headers,
+                    timeout=REQUEST_TIMEOUT,
+                    follow_redirects=True,
+                )
+                response.raise_for_status()
+                return BeautifulSoup(response.text, "lxml")
+            except httpx.HTTPStatusError as exc:
+                status = exc.response.status_code
+                logger.warning(f"[{self.portal_key}] HTTP {status} on attempt {attempt} — {url}")
+                if status == 403 and attempt < retries:
+                    wait = 3 * attempt
+                    logger.info(f"[{self.portal_key}] Waiting {wait}s before retry...")
+                    time.sleep(wait)
+                else:
+                    return None
+            except httpx.HTTPError as exc:
+                logger.warning(f"[{self.portal_key}] Request error on attempt {attempt}: {exc}")
+                return None
+        return None
 
     def update_headers(self, headers: dict):
         """Merge extra headers into the client (e.g. Referer per scraper)."""

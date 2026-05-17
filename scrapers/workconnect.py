@@ -163,7 +163,18 @@ class WorkConnectScraper(BaseScraper):
             return cards
 
         except Exception as exc:
-            logger.error(f"[{PORTAL_KEY}] Selenium error: {exc}")
+            err = str(exc)
+            if "offline" in err.lower() or "reach host" in err.lower() or "net::" in err.lower():
+                logger.warning(
+                    f"[{PORTAL_KEY}] Selenium could not reach ChromeDriver CDN "
+                    f"(network restricted). WorkConnect will be skipped this run.\n"
+                    f"  Fix: ensure internet access, or install ChromeDriver manually:\n"
+                    f"  1. Download from https://googlechromelabs.github.io/chrome-for-testing/\n"
+                    f"  2. Add chromedriver.exe to your PATH\n"
+                    f"  Then re-run the scraper."
+                )
+            else:
+                logger.error(f"[{PORTAL_KEY}] Selenium error: {exc}")
             return []
 
     def _close_driver(self):

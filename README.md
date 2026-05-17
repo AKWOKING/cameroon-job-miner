@@ -33,7 +33,7 @@ Scrapes tech job listings from **4 Cameroonian job portals** every week, extract
 
 ```bash
 # 1. Set up
-git clone https://github.com/AKWOKING/cameroon-job-miner.git
+git clone https://github.com/YOUR_USERNAME/cameroon-job-miner.git
 cd cameroon-job-miner
 python -m venv venv && venv\Scripts\activate   # Windows
 pip install -r requirements.txt

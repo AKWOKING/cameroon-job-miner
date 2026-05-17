@@ -35,8 +35,10 @@ class ExpertiniCmScraper(BaseScraper):
             url = f"{SEARCH_URL}?page={page}" if page > 1 else SEARCH_URL
             logger.info(f"[{PORTAL_KEY}] Scraping page {page} → {url}")
 
-            soup = self.get(url)
+            # expertini returns 403 with static headers — use rotating UA + Referer
+            soup = self.get_rotating(url)
             if soup is None:
+                logger.warning(f"[{PORTAL_KEY}] Could not fetch page {page} after retries — skipping.")
                 break
 
             listing_urls = self._parse_listing_page(soup)
@@ -80,7 +82,7 @@ class ExpertiniCmScraper(BaseScraper):
     # ── Parse detail page ──────────────────────────────────────────────────────
 
     def _parse_detail_page(self, url: str) -> Optional[dict]:
-        soup = self.get(url)
+        soup = self.get_rotating(url)
         if soup is None:
             return None
 
