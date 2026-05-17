@@ -247,7 +247,7 @@ def run_mining():
 
     conn = sqlite3.connect(DB_PATH)
 
-    # Verify clean data exists
+      # Verify clean data exists
     try:
         df = load_clean_jobs(conn)
     except Exception as e:
@@ -258,21 +258,34 @@ def run_mining():
     exports = DATA_DIR / "exports"
     exports.mkdir(parents=True, exist_ok=True)
 
-    # ── Association rules ──────────────────────────────────────────────────────
+    # Guard: need enough skilled jobs for meaningful mining
+    skilled_count = df["skills_list"].apply(len).gt(0).sum()
+    if skilled_count < K_MIN:
+        logger.warning(
+            f"Only {skilled_count} jobs have extracted skills (need >= {K_MIN}). "
+            f"Mining skipped. Run scrapers to populate the DB with real job data."
+        )
+        conn.close()
+        return
+
+    # -- Association rules
     rules_df = run_apriori(df)
     if not rules_df.empty:
         rules_df.to_sql(RULES_TABLE, conn, if_exists="replace", index=False)
         rules_df.to_csv(exports / "association_rules.csv", index=False, encoding="utf-8-sig")
         logger.info(f"Saved {len(rules_df)} rules to DB and CSV")
     else:
-        logger.warning("No rules generated — check data volume and MIN_SUPPORT setting")
+        logger.warning("No rules generated - check data volume and MIN_SUPPORT setting")
 
-    # ── K-Means clustering ─────────────────────────────────────────────────────
-    clusters_df, profiles_df = run_kmeans(df)
-    clusters_df.to_sql(CLUSTERS_TABLE, conn, if_exists="replace", index=False)
-    clusters_df.to_csv(exports / "job_clusters.csv", index=False, encoding="utf-8-sig")
-    profiles_df.to_csv(exports / "cluster_profiles.csv", index=False, encoding="utf-8-sig")
-    logger.info(f"Saved cluster assignments and profiles to DB and CSV")
+    # -- K-Means clustering (guarded against empty feature matrix)
+    try:
+        clusters_df, profiles_df = run_kmeans(df)
+        clusters_df.to_sql(CLUSTERS_TABLE, conn, if_exists="replace", index=False)
+        clusters_df.to_csv(exports / "job_clusters.csv", index=False, encoding="utf-8-sig")
+        profiles_df.to_csv(exports / "cluster_profiles.csv", index=False, encoding="utf-8-sig")
+        logger.info(f"Saved cluster assignments and profiles to DB and CSV")
+    except ValueError as e:
+        logger.warning(f"K-Means skipped: {e}")
 
     conn.close()
 

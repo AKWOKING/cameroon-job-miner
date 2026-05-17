@@ -95,7 +95,7 @@ def save_jobs(conn: sqlite3.Connection, jobs: list[dict]) -> int:
     Insert jobs into SQLite, skipping duplicates (INSERT OR IGNORE).
     Returns the number of new rows inserted.
     """
-    scraped_at = datetime.utcnow().isoformat()
+    scraped_at = datetime.now(datetime.UTC).isoformat() if hasattr(datetime, 'UTC') else datetime.utcnow().isoformat()
     rows = []
     for job in jobs:
         job_hash = make_hash(job)
@@ -133,7 +133,7 @@ def save_jobs(conn: sqlite3.Connection, jobs: list[dict]) -> int:
 def export_csv(conn: sqlite3.Connection) -> Path:
     """Export the full jobs table to a timestamped CSV file."""
     EXPORTS_DIR.mkdir(parents=True, exist_ok=True)
-    timestamp = datetime.utcnow().strftime("%Y%m%d_%H%M%S")
+    timestamp = datetime.now(datetime.UTC).strftime("%Y%m%d_%H%M%S") if hasattr(datetime, 'UTC') else datetime.utcnow().strftime("%Y%m%d_%H%M%S")
     csv_path  = EXPORTS_DIR / f"jobs_{timestamp}.csv"
 
     df = pd.read_sql("SELECT * FROM jobs", conn)

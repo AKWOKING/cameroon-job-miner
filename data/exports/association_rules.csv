@@ -1,0 +1,1532 @@
+﻿if_skills,then_skills,support,confidence,lift
+Agile + Power BI,Jira,0.05,1.0,20.0
+Jira,Agile + SQL,0.05,1.0,20.0
+Agile,Jira + SQL,0.05,1.0,20.0
+Jira + SQL,Agile,0.05,1.0,20.0
+Bootstrap,JavaScript + MySQL,0.05,1.0,20.0
+Agile + SQL,Jira,0.05,1.0,20.0
+Jira,Agile + Power BI,0.05,1.0,20.0
+Agile,Jira + Power BI,0.05,1.0,20.0
+Docker + Python,Cybersecurity,0.05,1.0,20.0
+Flutter + REST API,Kotlin,0.05,1.0,20.0
+Bootstrap + MySQL,Laravel,0.05,1.0,20.0
+Laravel + MySQL,Bootstrap,0.05,1.0,20.0
+Bootstrap,Laravel + MySQL,0.05,1.0,20.0
+Laravel,Bootstrap + MySQL,0.05,1.0,20.0
+Bootstrap + PHP,Laravel,0.05,1.0,20.0
+Laravel + PHP,Bootstrap,0.05,1.0,20.0
+Bootstrap,Laravel + PHP,0.05,1.0,20.0
+WordPress,HTML + PHP,0.05,1.0,20.0
+Flutter + Git,Android,0.05,1.0,20.0
+Android + Git,Flutter,0.05,1.0,20.0
+Android + Git,Kotlin,0.05,1.0,20.0
+Flutter,Android + REST API,0.05,1.0,20.0
+Android,Flutter + REST API,0.05,1.0,20.0
+Flutter + REST API,Android,0.05,1.0,20.0
+Android + REST API,Flutter,0.05,1.0,20.0
+Kotlin,Android + Flutter,0.05,1.0,20.0
+Jira + Power BI,Agile,0.05,1.0,20.0
+Flutter + Kotlin,Android,0.05,1.0,20.0
+Android + Kotlin,Flutter,0.05,1.0,20.0
+Android + Flutter,Kotlin,0.05,1.0,20.0
+Flutter,Android + Git,0.05,1.0,20.0
+Android,Flutter + Git,0.05,1.0,20.0
+Git + MySQL,Spring,0.05,1.0,20.0
+Bootstrap + JavaScript,Laravel,0.05,1.0,20.0
+JavaScript + Laravel,Bootstrap,0.05,1.0,20.0
+Bootstrap,JavaScript + Laravel,0.05,1.0,20.0
+Android,Flutter + Kotlin,0.05,1.0,20.0
+React Native,Firebase + React,0.05,1.0,20.0
+Swift,iOS,0.05,1.0,20.0
+iOS,Swift,0.05,1.0,20.0
+React Native,Firebase + JavaScript,0.05,1.0,20.0
+CI/CD + MySQL,Spring,0.05,1.0,20.0
+Spring,CI/CD + MySQL,0.05,1.0,20.0
+CI/CD + REST API,Spring,0.05,1.0,20.0
+Firebase + JavaScript,React Native,0.05,1.0,20.0
+Laravel,Bootstrap + PHP,0.05,1.0,20.0
+Laravel,JavaScript + MySQL,0.05,1.0,20.0
+JavaScript + MySQL,Laravel,0.05,1.0,20.0
+Laravel,MySQL + PHP,0.05,1.0,20.0
+Docker + Networking,Cybersecurity,0.05,1.0,20.0
+MySQL + PHP,Laravel,0.05,1.0,20.0
+CSS + PHP,WordPress,0.05,1.0,20.0
+WordPress,CSS + PHP,0.05,1.0,20.0
+Cybersecurity,Docker + Networking,0.05,1.0,20.0
+React Native,Java + React,0.05,1.0,20.0
+MySQL + PHP,Bootstrap,0.05,1.0,20.0
+Django + Git,PostgreSQL,0.05,1.0,20.0
+Bootstrap,MySQL + PHP,0.05,1.0,20.0
+Firebase + React,React Native,0.05,1.0,20.0
+CI/CD + Git,Spring,0.05,1.0,20.0
+Spring,CI/CD + Git,0.05,1.0,20.0
+Git + PostgreSQL,Django,0.05,1.0,20.0
+Java + React,React Native,0.05,1.0,20.0
+Kotlin,Flutter + Git,0.05,1.0,20.0
+Firebase + Swift,iOS,0.05,1.0,20.0
+iOS,Firebase + Swift,0.05,1.0,20.0
+Swift,Firebase + iOS,0.05,1.0,20.0
+Kotlin + REST API,Flutter,0.05,1.0,20.0
+Flutter,Kotlin + REST API,0.05,1.0,20.0
+Kotlin,Flutter + REST API,0.05,1.0,20.0
+Flutter + Git,Kotlin,0.05,1.0,20.0
+Git + Kotlin,Flutter,0.05,1.0,20.0
+Bash + Networking,Nginx,0.05,1.0,20.0
+Firebase + iOS,Swift,0.05,1.0,20.0
+Nginx,Apache + R,0.05,1.0,20.0
+Nginx,Apache + Linux,0.05,1.0,20.0
+Apache + Networking,Nginx,0.05,1.0,20.0
+Networking + Python,Cybersecurity,0.05,1.0,20.0
+Cybersecurity,Networking + Python,0.05,1.0,20.0
+Swift,Git + iOS,0.05,1.0,20.0
+iOS,Git + Swift,0.05,1.0,20.0
+Git + Swift,iOS,0.05,1.0,20.0
+Git + Kotlin,Android,0.05,1.0,20.0
+Angular + CSS,TypeScript,0.05,1.0,20.0
+CSS + TypeScript,Angular,0.05,1.0,20.0
+TypeScript,Angular + HTML,0.05,1.0,20.0
+Apache + Python,Big Data,0.05,1.0,20.0
+Big Data,Apache + Machine Learning,0.05,1.0,20.0
+Apache + Linux,Nginx,0.05,1.0,20.0
+Big Data,Apache + SQL,0.05,1.0,20.0
+Linux + Python,Cybersecurity,0.05,1.0,20.0
+TypeScript,Angular + CSS,0.05,1.0,20.0
+Networking + Nginx,Bash,0.05,1.0,20.0
+Bash,Networking + Nginx,0.05,1.0,20.0
+Nginx,Bash + Networking,0.05,1.0,20.0
+Nginx,Bash + Linux,0.05,1.0,20.0
+Spring,Git + MySQL,0.05,1.0,20.0
+PostgreSQL,Git + Python,0.05,1.0,20.0
+Git + Python,PostgreSQL,0.05,1.0,20.0
+Bash,Linux + Nginx,0.05,1.0,20.0
+Cybersecurity,Linux + Python,0.05,1.0,20.0
+Bash + Linux,Nginx,0.05,1.0,20.0
+Git + iOS,Swift,0.05,1.0,20.0
+Apache + R,Nginx,0.05,1.0,20.0
+Bash + R,Nginx,0.05,1.0,20.0
+Nginx,Apache + Bash,0.05,1.0,20.0
+Nginx + R,Bash,0.05,1.0,20.0
+Bash,Nginx + R,0.05,1.0,20.0
+Nginx,Apache + Networking,0.05,1.0,20.0
+Nginx,Bash + R,0.05,1.0,20.0
+Linux + Nginx,Bash,0.05,1.0,20.0
+Angular + REST API,TypeScript,0.05,1.0,20.0
+REST API + TypeScript,Angular,0.05,1.0,20.0
+Angular,HTML + TypeScript,0.05,1.0,20.0
+Laravel,Bootstrap + JavaScript,0.05,1.0,20.0
+Bash,Apache + Networking,0.05,1.0,20.0
+Apache + Networking,Bash,0.05,1.0,20.0
+JavaScript + MySQL,Bootstrap,0.05,1.0,20.0
+Angular + HTML,TypeScript,0.05,1.0,20.0
+Angular,CSS + TypeScript,0.05,1.0,20.0
+Angular,REST API + TypeScript,0.05,1.0,20.0
+TypeScript,Angular + REST API,0.05,1.0,20.0
+Kotlin,Android + REST API,0.05,1.0,20.0
+Android,Kotlin + REST API,0.05,1.0,20.0
+Kotlin + REST API,Android,0.05,1.0,20.0
+Flutter,Android + Kotlin,0.05,1.0,20.0
+Android + REST API,Kotlin,0.05,1.0,20.0
+Kotlin,Android + Git,0.05,1.0,20.0
+Android,Git + Kotlin,0.05,1.0,20.0
+HTML + TypeScript,Angular,0.05,1.0,20.0
+Python + R,Cybersecurity,0.05,1.0,20.0
+Bash,Apache + R,0.05,1.0,20.0
+Apache + R,Bash,0.05,1.0,20.0
+Apache + SQL,Big Data,0.05,1.0,20.0
+Big Data,Apache + Python,0.05,1.0,20.0
+Cybersecurity,Python + R,0.05,1.0,20.0
+Bash,Apache + Nginx,0.05,1.0,20.0
+Apache + Nginx,Bash,0.05,1.0,20.0
+Laravel,Bootstrap + Java,0.05,1.0,20.0
+Apache + Bash,Nginx,0.05,1.0,20.0
+Apache + Machine Learning,Big Data,0.05,1.0,20.0
+Data Analysis,Machine Learning + Power BI,0.05,1.0,20.0
+HTML + PHP,WordPress,0.05,1.0,20.0
+Bootstrap + Java,Laravel,0.05,1.0,20.0
+Java + Laravel,Bootstrap,0.05,1.0,20.0
+Bash,Apache + Linux,0.05,1.0,20.0
+Apache + Linux,Bash,0.05,1.0,20.0
+Bootstrap,Java + Laravel,0.05,1.0,20.0
+Machine Learning + Power BI,Data Analysis,0.05,1.0,20.0
+Machine Learning + Scikit-learn,NLP,0.05,1.0,20.0
+NLP,Machine Learning + Scikit-learn,0.05,1.0,20.0
+Scikit-learn,Machine Learning + NLP,0.05,1.0,20.0
+Docker + MySQL,Spring,0.05,1.0,20.0
+REST API + React,React Native,0.05,1.0,20.0
+React Native,REST API + React,0.05,1.0,20.0
+Django + REST API,PostgreSQL,0.05,1.0,20.0
+Django,Git + PostgreSQL,0.05,1.0,20.0
+PostgreSQL,Django + Git,0.05,1.0,20.0
+Spring,Docker + MySQL,0.05,1.0,20.0
+Docker + Java,Spring,0.05,1.0,20.0
+Django,PostgreSQL + Python,0.05,1.0,20.0
+Git + Python,Django,0.05,1.0,20.0
+Django,Git + Python,0.05,1.0,20.0
+Spring,CI/CD + REST API,0.05,1.0,20.0
+Django,PostgreSQL + REST API,0.05,1.0,20.0
+NLP + TensorFlow,Scikit-learn,0.05,1.0,20.0
+Scikit-learn + TensorFlow,NLP,0.05,1.0,20.0
+PostgreSQL,Django + REST API,0.05,1.0,20.0
+Python + REST API,Django,0.05,1.0,20.0
+Django,Python + REST API,0.05,1.0,20.0
+Django + Python,PostgreSQL,0.05,1.0,20.0
+PostgreSQL + Python,Django,0.05,1.0,20.0
+NLP,Scikit-learn + TensorFlow,0.05,1.0,20.0
+Spring,Docker + Java,0.05,1.0,20.0
+Firebase + Java,React Native,0.05,1.0,20.0
+SQL + Scikit-learn,NLP,0.05,1.0,20.0
+NLP + SQL,Scikit-learn,0.05,1.0,20.0
+React Native,Firebase + Java,0.05,1.0,20.0
+PostgreSQL,Django,0.05,1.0,20.0
+Django,PostgreSQL,0.05,1.0,20.0
+TypeScript,Angular,0.05,1.0,20.0
+Angular,TypeScript,0.05,1.0,20.0
+Scikit-learn,NLP + Python,0.05,1.0,20.0
+NLP,Python + Scikit-learn,0.05,1.0,20.0
+Python + Scikit-learn,NLP,0.05,1.0,20.0
+Machine Learning + NLP,Scikit-learn,0.05,1.0,20.0
+Bootstrap,Laravel,0.05,1.0,20.0
+Laravel,Bootstrap,0.05,1.0,20.0
+Flutter,Kotlin,0.05,1.0,20.0
+Kotlin,Flutter,0.05,1.0,20.0
+Scikit-learn,NLP + SQL,0.05,1.0,20.0
+NLP,SQL + Scikit-learn,0.05,1.0,20.0
+Spring,MySQL + REST API,0.05,1.0,20.0
+Bash,Nginx,0.05,1.0,20.0
+MySQL + REST API,Spring,0.05,1.0,20.0
+Nginx,Bash,0.05,1.0,20.0
+Spring,CI/CD + Java,0.05,1.0,20.0
+CI/CD + Java,Spring,0.05,1.0,20.0
+NLP + Python,Scikit-learn,0.05,1.0,20.0
+Power BI + TensorFlow,Data Analysis,0.05,1.0,20.0
+Data Analysis,Power BI + TensorFlow,0.05,1.0,20.0
+Cybersecurity,Docker + R,0.05,1.0,20.0
+REST API + iOS,Swift,0.05,1.0,20.0
+Kotlin,Android,0.05,1.0,20.0
+Android,Kotlin,0.05,1.0,20.0
+REST API + Swift,iOS,0.05,1.0,20.0
+Flutter,Android,0.05,1.0,20.0
+Android,Flutter,0.05,1.0,20.0
+iOS,REST API + Swift,0.05,1.0,20.0
+Scikit-learn,NLP + TensorFlow,0.05,1.0,20.0
+Jira,Agile,0.05,1.0,20.0
+Agile,Jira,0.05,1.0,20.0
+Swift,REST API + iOS,0.05,1.0,20.0
+MongoDB + REST API,Express.js,0.05,1.0,20.0
+Python + REST API,PostgreSQL,0.05,1.0,20.0
+PostgreSQL,Python + REST API,0.05,1.0,20.0
+Docker + R,Cybersecurity,0.05,1.0,20.0
+Cybersecurity,Docker + Python,0.05,1.0,20.0
+NLP,Scikit-learn,0.05,1.0,20.0
+Flutter,Git + Kotlin,0.05,1.0,20.0
+Express.js,MongoDB + REST API,0.05,1.0,20.0
+Node.js + REST API,Express.js,0.05,1.0,20.0
+PostgreSQL,Django + Python,0.05,1.0,20.0
+PostgreSQL + REST API,Django,0.05,1.0,20.0
+Scikit-learn,NLP,0.05,1.0,20.0
+Express.js,Node.js + REST API,0.05,1.0,20.0
+Bash + Networking,R,0.05,1.0,10.0
+NLP,SQL + TensorFlow,0.05,1.0,10.0
+Nginx,Networking + R,0.05,1.0,10.0
+Java + MySQL,Bootstrap,0.05,0.5,10.0
+R,Networking + Nginx,0.05,0.5,10.0
+Express.js,JavaScript + Node.js,0.05,1.0,10.0
+NLP + Scikit-learn,TensorFlow,0.05,1.0,10.0
+R,Bash + Networking,0.05,0.5,10.0
+MySQL,Bootstrap,0.05,0.5,10.0
+Bash,Networking + R,0.05,1.0,10.0
+Bootstrap,MySQL,0.05,1.0,10.0
+Networking + R,Cybersecurity,0.05,0.5,10.0
+Networking + Nginx,R,0.05,1.0,10.0
+Networking + Python,R,0.05,1.0,10.0
+Nginx,Apache,0.05,1.0,10.0
+Bootstrap + Java,MySQL,0.05,1.0,10.0
+MySQL,Bootstrap + Java,0.05,0.5,10.0
+Bootstrap,Java + MySQL,0.05,1.0,10.0
+R,Networking + Python,0.05,0.5,10.0
+R,Cybersecurity,0.05,0.5,10.0
+Apache,Nginx,0.05,0.5,10.0
+TensorFlow,NLP + Scikit-learn,0.05,0.5,10.0
+Bootstrap + Java,PHP,0.05,1.0,10.0
+Java + PHP,Bootstrap,0.05,0.5,10.0
+R,Bash,0.05,0.5,10.0
+Java + React Native,Firebase,0.05,1.0,10.0
+Networking + R,Bash,0.05,0.5,10.0
+R,Cybersecurity + Linux,0.05,0.5,10.0
+Docker + JavaScript,MongoDB,0.1,1.0,10.0
+Cybersecurity,Networking + R,0.05,1.0,10.0
+Cybersecurity + Linux,R,0.05,1.0,10.0
+MongoDB,Docker + JavaScript,0.1,1.0,10.0
+Cybersecurity + Python,R,0.05,1.0,10.0
+Docker + Java,MySQL,0.05,1.0,10.0
+MySQL,Docker + Java,0.05,0.5,10.0
+TensorFlow,Python + Scikit-learn,0.05,0.5,10.0
+Python + Scikit-learn,TensorFlow,0.05,1.0,10.0
+Linux + R,Cybersecurity,0.05,0.5,10.0
+Scikit-learn,Python + TensorFlow,0.05,1.0,10.0
+Python + TensorFlow,Scikit-learn,0.05,0.5,10.0
+R,Cybersecurity + Python,0.05,0.5,10.0
+React,REST API + React Native,0.05,0.5,10.0
+Spring,Git + Java,0.05,1.0,10.0
+Git + MongoDB,Node.js,0.1,1.0,10.0
+Node.js,Express.js + JavaScript,0.05,0.5,10.0
+Git + Node.js,MongoDB,0.1,1.0,10.0
+Networking + R,Nginx,0.05,0.5,10.0
+Bash,R,0.05,1.0,10.0
+Bash + Nginx,R,0.05,1.0,10.0
+Cybersecurity,R,0.05,1.0,10.0
+Cybersecurity,Linux + R,0.05,1.0,10.0
+TensorFlow,NLP + SQL,0.05,0.5,10.0
+CSS + REST API,TypeScript,0.05,0.5,10.0
+TensorFlow,Data Analysis,0.05,0.5,10.0
+Cybersecurity + Networking,R,0.05,1.0,10.0
+R,Bash + Nginx,0.05,0.5,10.0
+REST API + React Native,React,0.05,1.0,10.0
+R,Cybersecurity + Networking,0.05,0.5,10.0
+Data Analysis,TensorFlow,0.05,1.0,10.0
+TypeScript,CSS + REST API,0.05,1.0,10.0
+MySQL,CI/CD + Spring,0.05,0.5,10.0
+CI/CD + Spring,MySQL,0.05,1.0,10.0
+Git + React Native,Firebase,0.05,1.0,10.0
+Kubernetes,CI/CD + Linux,0.1,1.0,10.0
+CI/CD + Linux,Kubernetes,0.1,1.0,10.0
+MySQL,CI/CD + REST API,0.05,0.5,10.0
+CI/CD + REST API,MySQL,0.05,1.0,10.0
+Kubernetes,CI/CD + Networking,0.05,0.5,10.0
+Firebase,Git + React Native,0.05,0.5,10.0
+Express.js + REST API,Node.js,0.05,1.0,10.0
+Node.js,Express.js + REST API,0.05,0.5,10.0
+Power BI + Python,Pandas,0.05,0.5,10.0
+Swift + iOS,Firebase,0.05,1.0,10.0
+React,Firebase + React Native,0.05,0.5,10.0
+CI/CD + Docker,Spring,0.05,0.5,10.0
+MySQL,CI/CD + Git,0.05,0.5,10.0
+CI/CD + Git,MySQL,0.05,1.0,10.0
+Spring,CI/CD + Docker,0.05,1.0,10.0
+Node.js,Express.js + MongoDB,0.05,0.5,10.0
+MongoDB,Express.js + Node.js,0.05,0.5,10.0
+React + React Native,Firebase,0.05,1.0,10.0
+Firebase + React Native,React,0.05,1.0,10.0
+Firebase,REST API + iOS,0.05,0.5,10.0
+iOS,Firebase + REST API,0.05,1.0,10.0
+Firebase,Swift + iOS,0.05,0.5,10.0
+PHP,CSS + WordPress,0.05,0.5,10.0
+CSS + REST API,Vue.js,0.05,0.5,10.0
+Cybersecurity,Docker + Linux,0.05,1.0,10.0
+Express.js,MongoDB + Node.js,0.05,1.0,10.0
+Docker + Linux,Cybersecurity,0.05,0.5,10.0
+Vue.js,CSS + REST API,0.05,1.0,10.0
+REST API + iOS,Firebase,0.05,1.0,10.0
+Firebase,REST API + Swift,0.05,0.5,10.0
+Express.js + REST API,MongoDB,0.05,1.0,10.0
+Swift,Firebase + REST API,0.05,1.0,10.0
+Firebase + REST API,Swift,0.05,0.5,10.0
+R,Cybersecurity + Docker,0.05,0.5,10.0
+Firebase,REST API + React Native,0.05,0.5,10.0
+React Native,Firebase + REST API,0.05,1.0,10.0
+Firebase,React + React Native,0.05,0.5,10.0
+Firebase,JavaScript + React Native,0.05,0.5,10.0
+JavaScript + React Native,Firebase,0.05,1.0,10.0
+MongoDB,Express.js + REST API,0.05,0.5,10.0
+React,Firebase + JavaScript,0.05,0.5,10.0
+Firebase + REST API,React Native,0.05,0.5,10.0
+REST API + React Native,Firebase,0.05,1.0,10.0
+Firebase,REST API + React,0.05,0.5,10.0
+REST API + React,Firebase,0.05,1.0,10.0
+Cybersecurity + Docker,R,0.05,1.0,10.0
+REST API + Swift,Firebase,0.05,1.0,10.0
+Git + iOS,Firebase,0.05,1.0,10.0
+CSS + JavaScript,Vue.js,0.05,0.5,10.0
+Vue.js,CSS + JavaScript,0.05,1.0,10.0
+PHP,Bootstrap + Java,0.05,0.5,10.0
+MongoDB,Git + Node.js,0.1,1.0,10.0
+Node.js,Git + MongoDB,0.1,1.0,10.0
+Git + Spring,MySQL,0.05,1.0,10.0
+CSS + JavaScript,WordPress,0.05,0.5,10.0
+WordPress,CSS + JavaScript,0.05,1.0,10.0
+CSS + WordPress,PHP,0.05,1.0,10.0
+Firebase + Git,iOS,0.05,0.5,10.0
+Firebase + REST API,iOS,0.05,0.5,10.0
+Firebase,Git + iOS,0.05,0.5,10.0
+React Native,Firebase + Git,0.05,1.0,10.0
+Bootstrap,Java + PHP,0.05,1.0,10.0
+Git + Swift,Firebase,0.05,1.0,10.0
+Firebase + Git,Swift,0.05,0.5,10.0
+Swift,Firebase + Git,0.05,1.0,10.0
+Firebase,Git + Swift,0.05,0.5,10.0
+Firebase + JavaScript,React,0.05,1.0,10.0
+Firebase + Java,React,0.05,1.0,10.0
+Java + React,Firebase,0.05,1.0,10.0
+Firebase,Java + React,0.05,0.5,10.0
+React,Firebase + Java,0.05,0.5,10.0
+iOS,Firebase + Git,0.05,1.0,10.0
+PHP,Bootstrap + MySQL,0.05,0.5,10.0
+Git + Java,Spring,0.05,0.5,10.0
+React Native,Git + Java,0.05,1.0,10.0
+Git + Java,React Native,0.05,0.5,10.0
+MySQL,Bootstrap + PHP,0.05,0.5,10.0
+Bootstrap + PHP,MySQL,0.05,1.0,10.0
+Bootstrap + MySQL,PHP,0.05,1.0,10.0
+PHP,Bootstrap + Laravel,0.05,0.5,10.0
+Firebase,Java + React Native,0.05,0.5,10.0
+CI/CD + Networking,Kubernetes,0.05,1.0,10.0
+Bootstrap + Laravel,PHP,0.05,1.0,10.0
+CI/CD + Java,MySQL,0.05,1.0,10.0
+Firebase + Git,React Native,0.05,0.5,10.0
+MySQL,Bootstrap + Laravel,0.05,0.5,10.0
+Bootstrap + Laravel,MySQL,0.05,1.0,10.0
+PHP,Bootstrap + JavaScript,0.05,0.5,10.0
+Bootstrap,JavaScript + PHP,0.05,1.0,10.0
+CSS + Java,Vue.js,0.05,0.5,10.0
+JavaScript + PHP,Bootstrap,0.05,0.5,10.0
+Bootstrap + JavaScript,PHP,0.05,1.0,10.0
+Vue.js,CSS + Java,0.05,1.0,10.0
+MySQL,Bootstrap + JavaScript,0.05,0.5,10.0
+Bootstrap + JavaScript,MySQL,0.05,1.0,10.0
+CSS + Java,WordPress,0.05,0.5,10.0
+WordPress,CSS + Java,0.05,1.0,10.0
+MySQL,CI/CD + Java,0.05,0.5,10.0
+MongoDB,Node.js,0.1,1.0,10.0
+Data Analysis,Machine Learning + TensorFlow,0.05,1.0,10.0
+Machine Learning + TensorFlow,Data Analysis,0.05,0.5,10.0
+Data Analysis + Machine Learning,TensorFlow,0.05,1.0,10.0
+Data Analysis + Power BI,TensorFlow,0.05,1.0,10.0
+Docker + MongoDB,Express.js,0.05,0.5,10.0
+Express.js,Docker + JavaScript,0.05,1.0,10.0
+Docker + JavaScript,Express.js,0.05,0.5,10.0
+Power BI + Python,Data Analysis,0.05,0.5,10.0
+TensorFlow,Data Analysis + Machine Learning,0.05,0.5,10.0
+Docker + REST API,Spring,0.05,0.5,10.0
+R,Docker + Python,0.05,0.5,10.0
+Docker + Python,R,0.05,1.0,10.0
+TensorFlow,Machine Learning + NLP,0.05,0.5,10.0
+Big Data + Machine Learning,Apache,0.05,1.0,10.0
+MySQL,Laravel,0.05,0.5,10.0
+Machine Learning + NLP,TensorFlow,0.05,1.0,10.0
+TensorFlow,Machine Learning + Power BI,0.05,0.5,10.0
+Machine Learning + Power BI,TensorFlow,0.05,1.0,10.0
+R,Linux + Python,0.05,0.5,10.0
+NLP,Machine Learning + TensorFlow,0.05,1.0,10.0
+Machine Learning + TensorFlow,NLP,0.05,0.5,10.0
+Linux + Python,R,0.05,1.0,10.0
+Nginx,Linux + R,0.05,1.0,10.0
+R,Linux + Nginx,0.05,0.5,10.0
+Linux + Nginx,R,0.05,1.0,10.0
+Linux + R,Nginx,0.05,0.5,10.0
+MongoDB,Node.js + React,0.05,0.5,10.0
+Node.js,MongoDB + React,0.05,0.5,10.0
+MongoDB + React,Node.js,0.05,1.0,10.0
+Laravel,MySQL,0.05,1.0,10.0
+JavaScript + WordPress,PHP,0.05,1.0,10.0
+JavaScript + PHP,WordPress,0.05,0.5,10.0
+WordPress,JavaScript + PHP,0.05,1.0,10.0
+PHP,JavaScript + WordPress,0.05,0.5,10.0
+PHP,WordPress,0.05,0.5,10.0
+Nginx,R,0.05,1.0,10.0
+Node.js,JavaScript + MongoDB,0.1,1.0,10.0
+JavaScript + MongoDB,Node.js,0.1,1.0,10.0
+JavaScript + Node.js,MongoDB,0.1,1.0,10.0
+PHP,JavaScript + Laravel,0.05,0.5,10.0
+Laravel,JavaScript + PHP,0.05,1.0,10.0
+JavaScript + PHP,Laravel,0.05,0.5,10.0
+MongoDB,JavaScript + Node.js,0.1,1.0,10.0
+JavaScript + Laravel,PHP,0.05,1.0,10.0
+MySQL,JavaScript + Laravel,0.05,0.5,10.0
+MySQL,Spring,0.05,0.5,10.0
+React,Java + React Native,0.05,0.5,10.0
+PHP,Laravel + MySQL,0.05,0.5,10.0
+MySQL,Laravel + PHP,0.05,0.5,10.0
+Laravel + PHP,MySQL,0.05,1.0,10.0
+JavaScript + React Native,React,0.05,1.0,10.0
+Laravel + MySQL,PHP,0.05,1.0,10.0
+React,JavaScript + React Native,0.05,0.5,10.0
+TensorFlow,NLP,0.05,0.5,10.0
+NLP,TensorFlow,0.05,1.0,10.0
+Spring,MySQL,0.05,1.0,10.0
+React Native,JavaScript + React,0.05,1.0,10.0
+JavaScript + React,React Native,0.05,0.5,10.0
+PHP,Laravel,0.05,0.5,10.0
+Laravel,PHP,0.05,1.0,10.0
+Node.js,MongoDB,0.1,1.0,10.0
+JavaScript + Laravel,MySQL,0.05,1.0,10.0
+Spring,Docker + REST API,0.05,1.0,10.0
+Express.js,Docker + Node.js,0.05,1.0,10.0
+MySQL,Docker + Spring,0.05,0.5,10.0
+Docker + Spring,MySQL,0.05,1.0,10.0
+Node.js,Docker + Express.js,0.05,0.5,10.0
+Docker + Express.js,Node.js,0.05,1.0,10.0
+Docker + Node.js,Express.js,0.05,0.5,10.0
+Express.js,Docker + MongoDB,0.05,1.0,10.0
+MongoDB,Docker + Express.js,0.05,0.5,10.0
+Docker + Express.js,MongoDB,0.05,1.0,10.0
+Express.js,Docker + REST API,0.05,1.0,10.0
+Docker + REST API,Express.js,0.05,0.5,10.0
+Node.js,Docker + JavaScript,0.1,1.0,10.0
+Docker + JavaScript,Node.js,0.1,1.0,10.0
+Node.js + React,MongoDB,0.05,1.0,10.0
+Node.js,Docker + MongoDB,0.1,1.0,10.0
+Docker + MongoDB,Node.js,0.1,1.0,10.0
+Docker + Node.js,MongoDB,0.1,1.0,10.0
+MongoDB,Docker + React,0.05,0.5,10.0
+Docker + React,MongoDB,0.05,1.0,10.0
+Bash,Apache,0.05,1.0,10.0
+SQL + TensorFlow,Scikit-learn,0.05,0.5,10.0
+SQL + Scikit-learn,TensorFlow,0.05,1.0,10.0
+Kubernetes,AWS,0.1,1.0,10.0
+AWS,Kubernetes,0.1,1.0,10.0
+TensorFlow,SQL + Scikit-learn,0.05,0.5,10.0
+Apache,Bash,0.05,0.5,10.0
+Apache,Big Data,0.05,0.5,10.0
+Scikit-learn,SQL + TensorFlow,0.05,1.0,10.0
+Big Data,Apache,0.05,1.0,10.0
+MongoDB,Docker + Node.js,0.1,1.0,10.0
+Machine Learning + Scikit-learn,TensorFlow,0.05,1.0,10.0
+Firebase,iOS,0.05,0.5,10.0
+iOS,Firebase,0.05,1.0,10.0
+Firebase,Swift,0.05,0.5,10.0
+Swift,Firebase,0.05,1.0,10.0
+React Native,Firebase,0.05,1.0,10.0
+Firebase,React Native,0.05,0.5,10.0
+Node.js,MongoDB + REST API,0.05,0.5,10.0
+MongoDB + REST API,Node.js,0.05,1.0,10.0
+Node.js + REST API,MongoDB,0.05,1.0,10.0
+Scikit-learn,Machine Learning + TensorFlow,0.05,1.0,10.0
+TensorFlow,Machine Learning + Scikit-learn,0.05,0.5,10.0
+Machine Learning + TensorFlow,Scikit-learn,0.05,0.5,10.0
+Node.js,Express.js,0.05,0.5,10.0
+PHP,Bootstrap,0.05,0.5,10.0
+Docker + React,Node.js,0.05,1.0,10.0
+TensorFlow,NLP + Python,0.05,0.5,10.0
+Express.js,MongoDB,0.05,1.0,10.0
+MongoDB,Express.js,0.05,0.5,10.0
+Express.js,Node.js,0.05,1.0,10.0
+SQL + TensorFlow,NLP,0.05,0.5,10.0
+NLP + SQL,TensorFlow,0.05,1.0,10.0
+MongoDB,Node.js + REST API,0.05,0.5,10.0
+MySQL,REST API + Spring,0.05,0.5,10.0
+REST API + Spring,MySQL,0.05,1.0,10.0
+NLP,Python + TensorFlow,0.05,1.0,10.0
+Python + TensorFlow,NLP,0.05,0.5,10.0
+NLP + Python,TensorFlow,0.05,1.0,10.0
+R,Docker + Networking,0.05,0.5,10.0
+Docker + Networking,R,0.05,1.0,10.0
+Node.js,Docker + React,0.05,0.5,10.0
+Bootstrap,PHP,0.05,1.0,10.0
+Bash + Nginx,Apache,0.05,1.0,10.0
+Apache,Big Data + Machine Learning,0.05,0.5,10.0
+Pandas,Power BI + Python,0.05,1.0,10.0
+HTML + Java,Vue.js,0.05,0.5,10.0
+HTML + JavaScript,Vue.js,0.05,0.5,10.0
+HTML + WordPress,PHP,0.05,1.0,10.0
+WordPress,HTML + JavaScript,0.05,1.0,10.0
+HTML + JavaScript,WordPress,0.05,0.5,10.0
+Apache,Bash + Linux,0.05,0.5,10.0
+WordPress,HTML + Java,0.05,1.0,10.0
+HTML + Java,WordPress,0.05,0.5,10.0
+Vue.js,HTML + Java,0.05,1.0,10.0
+Apache,Bash + Networking,0.05,0.5,10.0
+Bash + Networking,Apache,0.05,1.0,10.0
+JavaScript + MySQL,PHP,0.05,1.0,10.0
+HTML + REST API,Angular,0.05,0.5,10.0
+Bash + Linux,Apache,0.05,1.0,10.0
+TypeScript,HTML + REST API,0.05,1.0,10.0
+HTML + REST API,TypeScript,0.05,0.5,10.0
+Vue.js,HTML + JavaScript,0.05,1.0,10.0
+Java + MySQL,Laravel,0.05,0.5,10.0
+PHP,Java + Laravel,0.05,0.5,10.0
+Laravel,Java + PHP,0.05,1.0,10.0
+Java + PHP,Laravel,0.05,0.5,10.0
+Java + Laravel,PHP,0.05,1.0,10.0
+Laravel,Java + MySQL,0.05,1.0,10.0
+MySQL,Java + Laravel,0.05,0.5,10.0
+PHP,Java + WordPress,0.05,0.5,10.0
+Java + Laravel,MySQL,0.05,1.0,10.0
+Kubernetes + Networking,AWS,0.05,1.0,10.0
+Angular,HTML + REST API,0.05,1.0,10.0
+R,Bash + Linux,0.05,0.5,10.0
+Bash,Linux + R,0.05,1.0,10.0
+Linux + R,Bash,0.05,0.5,10.0
+Bash + Linux,R,0.05,1.0,10.0
+MySQL,Git + Spring,0.05,0.5,10.0
+R,Apache + Nginx,0.05,0.5,10.0
+Apache + Nginx,R,0.05,1.0,10.0
+Nginx + R,Apache,0.05,1.0,10.0
+Bash + R,Apache,0.05,1.0,10.0
+Apache + Bash,R,0.05,1.0,10.0
+Apache,Bash + Nginx,0.05,0.5,10.0
+R,Apache + Networking,0.05,0.5,10.0
+Apache + Networking,R,0.05,1.0,10.0
+Apache,Networking + Nginx,0.05,0.5,10.0
+Networking + Nginx,Apache,0.05,1.0,10.0
+Big Data + Python,Apache,0.05,1.0,10.0
+Apache + Linux,R,0.05,1.0,10.0
+Apache,Linux + Nginx,0.05,0.5,10.0
+Linux + Nginx,Apache,0.05,1.0,10.0
+React,Git + React Native,0.05,0.5,10.0
+React Native,Git + React,0.05,1.0,10.0
+Git + React,React Native,0.05,0.5,10.0
+Git + React Native,React,0.05,1.0,10.0
+R,Apache + Linux,0.05,0.5,10.0
+Angular,CSS + REST API,0.05,1.0,10.0
+CSS + REST API,Angular,0.05,0.5,10.0
+Apache,Big Data + SQL,0.05,0.5,10.0
+Big Data + SQL,Apache,0.05,1.0,10.0
+R,Apache + Bash,0.05,0.5,10.0
+Apache,Bash + R,0.05,0.5,10.0
+Apache,Big Data + Python,0.05,0.5,10.0
+Apache,Nginx + R,0.05,0.5,10.0
+Data Analysis,Python + TensorFlow,0.05,1.0,10.0
+Python + TensorFlow,Data Analysis,0.05,0.5,10.0
+Data Analysis + Python,TensorFlow,0.05,1.0,10.0
+TensorFlow,Data Analysis + Power BI,0.05,0.5,10.0
+Docker + Kubernetes,AWS,0.05,1.0,10.0
+AWS + Docker,Kubernetes,0.05,1.0,10.0
+AWS,CI/CD + Networking,0.05,0.5,10.0
+WordPress,Java + PHP,0.05,1.0,10.0
+Java + React Native,React,0.05,1.0,10.0
+CI/CD + Networking,AWS,0.05,1.0,10.0
+AWS,CI/CD + Linux,0.1,1.0,10.0
+CI/CD + Linux,AWS,0.1,1.0,10.0
+Kubernetes,AWS + CI/CD,0.1,1.0,10.0
+Kubernetes,AWS + Docker,0.05,0.5,10.0
+AWS,Docker + Kubernetes,0.05,0.5,10.0
+AWS + Networking,Kubernetes,0.05,1.0,10.0
+TensorFlow,Scikit-learn,0.05,0.5,10.0
+AWS,CI/CD + Kubernetes,0.1,1.0,10.0
+CI/CD + Kubernetes,AWS,0.1,1.0,10.0
+AWS + CI/CD,Kubernetes,0.1,1.0,10.0
+Java + WordPress,PHP,0.05,1.0,10.0
+Java + PHP,WordPress,0.05,0.5,10.0
+Spring,Java + MySQL,0.05,1.0,10.0
+MySQL,Java + Spring,0.05,0.5,10.0
+Java + Spring,MySQL,0.05,1.0,10.0
+Java + MySQL,Spring,0.05,0.5,10.0
+R,Nginx,0.05,0.5,10.0
+WordPress,PHP,0.05,1.0,10.0
+React,React Native,0.05,0.5,10.0
+React Native,React,0.05,1.0,10.0
+PHP,JavaScript + MySQL,0.05,0.5,10.0
+Scikit-learn,TensorFlow,0.05,1.0,10.0
+Kubernetes,AWS + Linux,0.1,1.0,10.0
+AWS,Kubernetes + Linux,0.1,1.0,10.0
+PHP,HTML + WordPress,0.05,0.5,10.0
+Vue.js,HTML + REST API,0.05,1.0,10.0
+HTML + REST API,Vue.js,0.05,0.5,10.0
+Kubernetes + Linux,AWS,0.1,1.0,10.0
+AWS + Linux,Kubernetes,0.1,1.0,10.0
+Kubernetes,AWS + Networking,0.05,0.5,10.0
+AWS,Kubernetes + Networking,0.05,0.5,10.0
+JavaScript + Node.js,Express.js,0.05,0.5,10.0
+Express.js,JavaScript + MongoDB,0.05,1.0,10.0
+MongoDB,Express.js + JavaScript,0.05,0.5,10.0
+Express.js + JavaScript,MongoDB,0.05,1.0,10.0
+JavaScript + MongoDB,Express.js,0.05,0.5,10.0
+Express.js + MongoDB,Node.js,0.05,1.0,10.0
+Data Analysis,Power BI + Python,0.05,1.0,10.0
+MongoDB + Node.js,Express.js,0.05,0.5,10.0
+Express.js + Git,MongoDB,0.05,1.0,10.0
+Git + MongoDB,Express.js,0.05,0.5,10.0
+Express.js,Git + Node.js,0.05,1.0,10.0
+Node.js,Express.js + Git,0.05,0.5,10.0
+Express.js + Git,Node.js,0.05,1.0,10.0
+Git + Node.js,Express.js,0.05,0.5,10.0
+Express.js + JavaScript,Node.js,0.05,1.0,10.0
+Data Analysis,SQL + TensorFlow,0.05,1.0,10.0
+TensorFlow,Data Analysis + SQL,0.05,0.5,10.0
+Data Analysis + SQL,TensorFlow,0.05,1.0,10.0
+SQL + TensorFlow,Data Analysis,0.05,0.5,10.0
+TensorFlow,Data Analysis + Python,0.05,0.5,10.0
+Express.js,Git + MongoDB,0.05,1.0,10.0
+MongoDB,Express.js + Git,0.05,0.5,10.0
+Express.js + Node.js,MongoDB,0.05,1.0,10.0
+Pandas + Python,Power BI,0.05,1.0,6.667
+Pandas + SQL,Power BI,0.05,1.0,6.667
+Nginx + R,Networking,0.05,1.0,6.667
+Python + R,Networking,0.05,1.0,6.667
+Data Analysis,Machine Learning,0.05,1.0,6.667
+Data Analysis,Power BI,0.05,1.0,6.667
+TypeScript,CSS,0.05,1.0,6.667
+Vue.js,CSS,0.05,1.0,6.667
+WordPress,CSS,0.05,1.0,6.667
+Cybersecurity,Networking,0.05,1.0,6.667
+Spring,Docker + Git,0.05,1.0,6.667
+Angular,CSS,0.05,1.0,6.667
+Bash,Networking,0.05,1.0,6.667
+Big Data,Machine Learning,0.05,1.0,6.667
+Angular,HTML,0.05,1.0,6.667
+Pandas,Power BI + SQL,0.05,1.0,6.667
+JavaScript + WordPress,CSS,0.05,1.0,6.667
+PHP + WordPress,CSS,0.05,1.0,6.667
+JavaScript + Vue.js,CSS,0.05,1.0,6.667
+Java + Vue.js,CSS,0.05,1.0,6.667
+Java + WordPress,CSS,0.05,1.0,6.667
+Kubernetes + Networking,CI/CD,0.05,1.0,6.667
+Java + Spring,CI/CD,0.05,1.0,6.667
+CSS + Vue.js,HTML,0.05,1.0,6.667
+Vue.js,CSS + HTML,0.05,1.0,6.667
+HTML + WordPress,CSS,0.05,1.0,6.667
+CSS + WordPress,HTML,0.05,1.0,6.667
+WordPress,CSS + HTML,0.05,1.0,6.667
+CSS + REST API,HTML,0.1,1.0,6.667
+HTML,CSS + REST API,0.1,0.667,6.667
+CSS,HTML + REST API,0.1,0.667,6.667
+HTML + TypeScript,CSS,0.05,1.0,6.667
+CSS + TypeScript,HTML,0.05,1.0,6.667
+TypeScript,CSS + HTML,0.05,1.0,6.667
+HTML + Vue.js,CSS,0.05,1.0,6.667
+CSS + JavaScript,HTML,0.1,1.0,6.667
+HTML,CSS + JavaScript,0.1,0.667,6.667
+CSS,HTML + JavaScript,0.1,0.667,6.667
+HTML + PHP,CSS,0.05,1.0,6.667
+CSS + PHP,HTML,0.05,1.0,6.667
+HTML + REST API,CSS,0.1,1.0,6.667
+HTML + Java,CSS,0.1,1.0,6.667
+CSS + Java,HTML,0.1,1.0,6.667
+HTML,CSS + Java,0.1,0.667,6.667
+CSS,HTML + Java,0.1,0.667,6.667
+HTML + JavaScript,CSS,0.1,1.0,6.667
+Cybersecurity + Linux,Networking,0.05,1.0,6.667
+Cybersecurity,Linux + Networking,0.05,1.0,6.667
+Cybersecurity + Docker,Networking,0.05,1.0,6.667
+REST API + TypeScript,CSS,0.05,1.0,6.667
+MySQL + Spring,CI/CD,0.05,1.0,6.667
+REST API + Spring,CI/CD,0.05,1.0,6.667
+MySQL + REST API,CI/CD,0.05,1.0,6.667
+Kubernetes + Linux,CI/CD,0.1,1.0,6.667
+CI/CD,Kubernetes + Linux,0.1,0.667,6.667
+Git + Spring,CI/CD,0.05,1.0,6.667
+Git + MySQL,CI/CD,0.05,1.0,6.667
+Docker + Spring,CI/CD,0.05,1.0,6.667
+Docker + Kubernetes,CI/CD,0.05,1.0,6.667
+Docker + MySQL,CI/CD,0.05,1.0,6.667
+MongoDB,Git + JavaScript,0.1,1.0,6.667
+Git + JavaScript,Node.js,0.1,0.667,6.667
+Docker + Java,CI/CD,0.05,1.0,6.667
+Big Data,Machine Learning + Python,0.05,1.0,6.667
+Big Data + SQL,Machine Learning,0.05,1.0,6.667
+Big Data,Machine Learning + SQL,0.05,1.0,6.667
+React Native,Git + JavaScript,0.05,1.0,6.667
+Node.js,Git + JavaScript,0.1,1.0,6.667
+Git + JavaScript,React,0.1,0.667,6.667
+React,Git + JavaScript,0.1,1.0,6.667
+Git + JavaScript,MongoDB,0.1,0.667,6.667
+REST API + Vue.js,CSS,0.05,1.0,6.667
+Data Analysis + Machine Learning,Power BI,0.05,1.0,6.667
+Data Analysis + Python,Machine Learning,0.05,1.0,6.667
+Data Analysis,Machine Learning + Python,0.05,1.0,6.667
+Data Analysis + SQL,Machine Learning,0.05,1.0,6.667
+Data Analysis,Machine Learning + SQL,0.05,1.0,6.667
+Data Analysis + Power BI,Machine Learning,0.05,1.0,6.667
+Cybersecurity + Python,Networking,0.05,1.0,6.667
+Cybersecurity + R,Networking,0.05,1.0,6.667
+Express.js,JavaScript + REST API,0.05,1.0,6.667
+Big Data + Python,Machine Learning,0.05,1.0,6.667
+Bash + R,Networking,0.05,1.0,6.667
+Bash + Nginx,Networking,0.05,1.0,6.667
+Bash + Linux,Networking,0.05,1.0,6.667
+Bash,Linux + Networking,0.05,1.0,6.667
+Apache + R,Networking,0.05,1.0,6.667
+Apache + Python,Machine Learning,0.05,1.0,6.667
+Apache + SQL,Machine Learning,0.05,1.0,6.667
+Apache + Nginx,Networking,0.05,1.0,6.667
+Angular + TypeScript,HTML,0.05,1.0,6.667
+Angular + TypeScript,CSS,0.05,1.0,6.667
+Apache + Linux,Networking,0.05,1.0,6.667
+Apache + Big Data,Machine Learning,0.05,1.0,6.667
+PHP + WordPress,HTML,0.05,1.0,6.667
+JavaScript + Vue.js,HTML,0.05,1.0,6.667
+Java + WordPress,HTML,0.05,1.0,6.667
+Java + Vue.js,HTML,0.05,1.0,6.667
+Apache + Bash,Networking,0.05,1.0,6.667
+Angular + REST API,HTML,0.05,1.0,6.667
+REST API + TypeScript,HTML,0.05,1.0,6.667
+REST API + Vue.js,HTML,0.05,1.0,6.667
+Angular + HTML,CSS,0.05,1.0,6.667
+Angular + CSS,HTML,0.05,1.0,6.667
+Angular,CSS + HTML,0.05,1.0,6.667
+Angular + REST API,CSS,0.05,1.0,6.667
+JavaScript + WordPress,HTML,0.05,1.0,6.667
+Agile + SQL,Power BI,0.05,1.0,6.667
+Agile,Power BI + SQL,0.05,1.0,6.667
+Agile + Jira,Power BI,0.05,1.0,6.667
+Express.js,Git + JavaScript,0.05,1.0,6.667
+Data Analysis + SQL,Power BI,0.05,1.0,6.667
+Data Analysis,Power BI + SQL,0.05,1.0,6.667
+React Native,Java + REST API,0.05,1.0,6.667
+AWS + Networking,CI/CD,0.05,1.0,6.667
+AWS + Linux,CI/CD,0.1,1.0,6.667
+CI/CD,AWS + Linux,0.1,0.667,6.667
+AWS + Docker,CI/CD,0.05,1.0,6.667
+AWS + Kubernetes,CI/CD,0.1,1.0,6.667
+CI/CD,AWS + Kubernetes,0.1,0.667,6.667
+NLP,Machine Learning,0.05,1.0,6.667
+Pandas,Power BI,0.05,1.0,6.667
+R,Networking,0.1,1.0,6.667
+Networking,R,0.1,0.667,6.667
+Spring,Java + REST API,0.05,1.0,6.667
+Vue.js,Java + REST API,0.05,1.0,6.667
+R,Linux + Networking,0.1,1.0,6.667
+Networking,Linux + R,0.1,0.667,6.667
+Linux + Nginx,Networking,0.05,1.0,6.667
+Nginx,Linux + Networking,0.05,1.0,6.667
+Jira + SQL,Power BI,0.05,1.0,6.667
+Jira,Power BI + SQL,0.05,1.0,6.667
+React Native,JavaScript + REST API,0.05,1.0,6.667
+Vue.js,JavaScript + REST API,0.05,1.0,6.667
+Nginx,Networking,0.05,1.0,6.667
+Scikit-learn,Machine Learning,0.05,1.0,6.667
+TensorFlow,Machine Learning,0.1,1.0,6.667
+Machine Learning,TensorFlow,0.1,0.667,6.667
+Data Analysis + TensorFlow,Power BI,0.05,1.0,6.667
+Data Analysis + TensorFlow,Machine Learning,0.05,1.0,6.667
+Data Analysis + Python,Power BI,0.05,1.0,6.667
+Express.js,Docker + Git,0.05,1.0,6.667
+SQL + Scikit-learn,Machine Learning,0.05,1.0,6.667
+Python + Scikit-learn,Machine Learning,0.05,1.0,6.667
+Jira,Power BI,0.05,1.0,6.667
+WordPress,HTML,0.05,1.0,6.667
+Power BI + TensorFlow,Machine Learning,0.05,1.0,6.667
+NLP + TensorFlow,Machine Learning,0.05,1.0,6.667
+NLP + Python,Machine Learning,0.05,1.0,6.667
+NLP,Machine Learning + Python,0.05,1.0,6.667
+NLP + SQL,Machine Learning,0.05,1.0,6.667
+NLP,Machine Learning + SQL,0.05,1.0,6.667
+NLP + Scikit-learn,Machine Learning,0.05,1.0,6.667
+Linux + Python,Networking,0.05,1.0,6.667
+Linux + R,Networking,0.1,1.0,6.667
+Linux + Networking,R,0.1,0.667,6.667
+TypeScript,HTML,0.05,1.0,6.667
+Vue.js,HTML,0.05,1.0,6.667
+Scikit-learn + TensorFlow,Machine Learning,0.05,1.0,6.667
+Scikit-learn,Machine Learning + SQL,0.05,1.0,6.667
+SQL + TensorFlow,Machine Learning,0.1,1.0,6.667
+Machine Learning + SQL,TensorFlow,0.1,0.667,6.667
+TensorFlow,Machine Learning + SQL,0.1,1.0,6.667
+Machine Learning,SQL + TensorFlow,0.1,0.667,6.667
+Scikit-learn,Machine Learning + Python,0.05,1.0,6.667
+Python + TensorFlow,Machine Learning,0.1,1.0,6.667
+Machine Learning + Python,TensorFlow,0.1,0.667,6.667
+TensorFlow,Machine Learning + Python,0.1,1.0,6.667
+Machine Learning,Python + TensorFlow,0.1,0.667,6.667
+Spring,CI/CD,0.05,1.0,6.667
+HTML,CSS,0.15,1.0,6.667
+CSS,HTML,0.15,1.0,6.667
+CI/CD,Kubernetes,0.1,0.667,6.667
+Kubernetes,CI/CD,0.1,1.0,6.667
+Docker + Python,Networking,0.05,1.0,6.667
+Docker + R,Networking,0.05,1.0,6.667
+Docker + Git,Node.js,0.1,0.667,6.667
+Node.js,Docker + Git,0.1,1.0,6.667
+Docker + Git,MongoDB,0.1,0.667,6.667
+MongoDB,Docker + Git,0.1,1.0,6.667
+Agile,Power BI,0.05,1.0,6.667
+AWS,CI/CD,0.1,1.0,6.667
+CI/CD,AWS,0.1,0.667,6.667
+React,Docker + JavaScript,0.05,0.5,5.0
+Bash,Linux,0.05,1.0,5.0
+AWS,Linux,0.1,1.0,5.0
+Docker + JavaScript,React,0.05,0.5,5.0
+NLP,Python + SQL,0.05,1.0,5.0
+Apache,R,0.05,0.5,5.0
+R,Apache,0.05,0.5,5.0
+Kubernetes,Docker + Linux,0.05,0.5,5.0
+Docker + Kubernetes,Linux,0.05,1.0,5.0
+Docker + Linux,Kubernetes,0.05,0.5,5.0
+Firebase,React,0.05,0.5,5.0
+CI/CD + Docker,Kubernetes,0.05,0.5,5.0
+PHP,MySQL,0.05,0.5,5.0
+Linux,R,0.1,0.5,5.0
+Bootstrap,Java + JavaScript,0.05,1.0,5.0
+React,Git + Node.js,0.05,0.5,5.0
+React,MongoDB,0.05,0.5,5.0
+MongoDB,React,0.05,0.5,5.0
+Bash + Networking,Linux,0.05,1.0,5.0
+Bash + Nginx,Linux,0.05,1.0,5.0
+Bash + R,Linux,0.05,1.0,5.0
+Networking + R,Apache,0.05,0.5,5.0
+Apache,Networking + R,0.05,0.5,5.0
+Git + Node.js,React,0.05,0.5,5.0
+Git + React,Node.js,0.05,0.5,5.0
+Git + React,MongoDB,0.05,0.5,5.0
+Git + MongoDB,React,0.05,0.5,5.0
+Node.js,Git + React,0.05,0.5,5.0
+JavaScript + Node.js,React,0.05,0.5,5.0
+JavaScript + React,Node.js,0.05,0.5,5.0
+Node.js,JavaScript + React,0.05,0.5,5.0
+React,JavaScript + Node.js,0.05,0.5,5.0
+MySQL,Java + PHP,0.05,0.5,5.0
+MySQL,Docker + REST API,0.05,0.5,5.0
+Node.js,Docker + REST API,0.05,0.5,5.0
+Machine Learning,Python + SQL,0.15,1.0,5.0
+Docker + REST API,Node.js,0.05,0.5,5.0
+Docker + Node.js,React,0.05,0.5,5.0
+React,Docker + Node.js,0.05,0.5,5.0
+React,Docker + MongoDB,0.05,0.5,5.0
+R,Docker + Linux,0.05,0.5,5.0
+Linux + R,Apache,0.05,0.5,5.0
+Apache,Linux + R,0.05,0.5,5.0
+Apache + R,Linux,0.05,1.0,5.0
+React,Git + MongoDB,0.05,0.5,5.0
+MongoDB,Git + React,0.05,0.5,5.0
+CI/CD + Docker,MySQL,0.05,0.5,5.0
+MySQL,CI/CD + Docker,0.05,0.5,5.0
+CI/CD + Kubernetes,Linux,0.1,1.0,5.0
+Linux,CI/CD + Kubernetes,0.1,0.5,5.0
+React,Firebase + REST API,0.05,0.5,5.0
+Kubernetes,CI/CD + Docker,0.05,0.5,5.0
+CI/CD + Networking,Linux,0.05,1.0,5.0
+Firebase,JavaScript + React,0.05,0.5,5.0
+Firebase + REST API,React,0.05,0.5,5.0
+CSS + JavaScript,PHP,0.05,0.5,5.0
+PHP,CSS + JavaScript,0.05,0.5,5.0
+Data Analysis,Python + SQL,0.05,1.0,5.0
+Docker + REST API,MySQL,0.05,0.5,5.0
+Cybersecurity + R,Linux,0.05,1.0,5.0
+React,Firebase + Git,0.05,0.5,5.0
+Java + MySQL,PHP,0.05,0.5,5.0
+Java + PHP,MySQL,0.05,0.5,5.0
+AWS + CI/CD,Linux,0.1,1.0,5.0
+Linux,AWS + CI/CD,0.1,0.5,5.0
+PHP,Java + MySQL,0.05,0.5,5.0
+Vue.js,Java + JavaScript,0.05,1.0,5.0
+WordPress,Java + JavaScript,0.05,1.0,5.0
+Linux,Kubernetes,0.1,0.5,5.0
+Kubernetes,Linux,0.1,1.0,5.0
+Python + SQL,Machine Learning,0.15,0.75,5.0
+Apache + Networking,Linux,0.05,1.0,5.0
+HTML + JavaScript,PHP,0.05,0.5,5.0
+PHP,HTML + JavaScript,0.05,0.5,5.0
+Networking,Linux,0.15,1.0,5.0
+Linux,Networking,0.15,0.75,5.0
+Nginx,Linux,0.05,1.0,5.0
+R,Linux,0.1,1.0,5.0
+HTML + Java,PHP,0.05,0.5,5.0
+PHP,HTML + Java,0.05,0.5,5.0
+CSS + Java,PHP,0.05,0.5,5.0
+PHP,CSS + Java,0.05,0.5,5.0
+Apache + Nginx,Linux,0.05,1.0,5.0
+Apache + Bash,Linux,0.05,1.0,5.0
+Firebase + Git,React,0.05,0.5,5.0
+Git + React,Firebase,0.05,0.5,5.0
+Firebase,Git + React,0.05,0.5,5.0
+Git + Java,Firebase,0.05,0.5,5.0
+Docker + Linux,AWS,0.05,0.5,5.0
+AWS,Docker + Linux,0.05,0.5,5.0
+Cybersecurity + Networking,Linux,0.05,1.0,5.0
+Cybersecurity + Python,Linux,0.05,1.0,5.0
+JavaScript + React,Firebase,0.05,0.5,5.0
+Firebase,Git + Java,0.05,0.5,5.0
+Cybersecurity + Docker,Linux,0.05,1.0,5.0
+PHP,Java + JavaScript,0.1,1.0,5.0
+AWS + Kubernetes,Linux,0.1,1.0,5.0
+Linux,AWS + Kubernetes,0.1,0.5,5.0
+AWS + Networking,Linux,0.05,1.0,5.0
+Node.js,React,0.05,0.5,5.0
+React,Node.js,0.05,0.5,5.0
+Laravel,Java + JavaScript,0.05,1.0,5.0
+Java + JavaScript,PHP,0.1,0.5,5.0
+CI/CD + Docker,AWS,0.05,0.5,5.0
+AWS,CI/CD + Docker,0.05,0.5,5.0
+React Native,Java + JavaScript,0.05,1.0,5.0
+AWS + Docker,Linux,0.05,1.0,5.0
+TensorFlow,Python + SQL,0.1,1.0,5.0
+Power BI + Python,TensorFlow,0.05,0.5,5.0
+Scikit-learn,Python + SQL,0.05,1.0,5.0
+Pandas,Python + SQL,0.05,1.0,5.0
+Cybersecurity,Linux,0.05,1.0,5.0
+Big Data,Python + SQL,0.05,1.0,5.0
+TensorFlow,Power BI + Python,0.05,0.5,5.0
+Python + SQL,TensorFlow,0.1,0.5,5.0
+MySQL,PHP,0.05,0.5,5.0
+Nginx + R,Linux,0.05,1.0,5.0
+Python + R,Linux,0.05,1.0,5.0
+React,Git + Java,0.05,0.5,5.0
+Git + Java,MySQL,0.05,0.5,5.0
+MySQL,Git + Java,0.05,0.5,5.0
+Git + Java,React,0.05,0.5,5.0
+Kubernetes + Networking,Linux,0.05,1.0,5.0
+Networking + Nginx,Linux,0.05,1.0,5.0
+Networking + Python,Linux,0.05,1.0,5.0
+Networking + R,Linux,0.1,1.0,5.0
+Linux,Networking + R,0.1,0.5,5.0
+MongoDB + Node.js,React,0.05,0.5,5.0
+Docker + REST API,MongoDB,0.05,0.5,5.0
+MongoDB,Docker + REST API,0.05,0.5,5.0
+Docker + MongoDB,React,0.05,0.5,5.0
+Docker + Networking,Linux,0.05,1.0,5.0
+Docker + Python,Linux,0.05,1.0,5.0
+JavaScript + MongoDB,React,0.05,0.5,5.0
+React,JavaScript + MongoDB,0.05,0.5,5.0
+MongoDB,JavaScript + React,0.05,0.5,5.0
+JavaScript + PHP,MySQL,0.05,0.5,5.0
+MySQL,JavaScript + PHP,0.05,0.5,5.0
+React,Firebase,0.05,0.5,5.0
+Docker + R,Linux,0.05,1.0,5.0
+Docker + Linux,R,0.05,0.5,5.0
+JavaScript + React,MongoDB,0.05,0.5,5.0
+React,MongoDB + Node.js,0.05,0.5,5.0
+Linux,AWS,0.1,0.5,5.0
+Power BI + Python,SQL,0.1,1.0,4.0
+Bootstrap,Java,0.05,1.0,4.0
+Express.js,Docker,0.05,1.0,4.0
+Data Analysis,SQL,0.05,1.0,4.0
+NLP + TensorFlow,SQL,0.05,1.0,4.0
+Pandas + Power BI,SQL,0.05,1.0,4.0
+Pandas + Python,SQL,0.05,1.0,4.0
+REST API + React,Java,0.05,1.0,4.0
+REST API + React Native,Java,0.05,1.0,4.0
+REST API + Spring,Java,0.05,1.0,4.0
+REST API + Vue.js,Java,0.05,1.0,4.0
+Agile,SQL,0.05,1.0,4.0
+React + React Native,Java,0.05,1.0,4.0
+MongoDB + REST API,Docker,0.05,1.0,4.0
+Linux + Python,Docker,0.05,1.0,4.0
+Machine Learning + NLP,SQL,0.05,1.0,4.0
+Machine Learning + Power BI,SQL,0.05,1.0,4.0
+Jira + Power BI,SQL,0.05,1.0,4.0
+Git + React Native,Java,0.05,1.0,4.0
+Git + Spring,Java,0.05,1.0,4.0
+Big Data + Python,SQL,0.05,1.0,4.0
+Power BI + TensorFlow,SQL,0.05,1.0,4.0
+Big Data,SQL,0.05,1.0,4.0
+Python + TensorFlow,SQL,0.1,1.0,4.0
+SQL,Python + TensorFlow,0.1,0.4,4.0
+Python + Scikit-learn,SQL,0.05,1.0,4.0
+Cybersecurity,Docker,0.05,1.0,4.0
+JavaScript + MySQL,Java,0.05,1.0,4.0
+JavaScript + PHP,Java,0.1,1.0,4.0
+Java,JavaScript + PHP,0.1,0.4,4.0
+JavaScript + React Native,Java,0.05,1.0,4.0
+Cybersecurity + Linux,Docker,0.05,1.0,4.0
+Cybersecurity + Networking,Docker,0.05,1.0,4.0
+Cybersecurity + Python,Docker,0.05,1.0,4.0
+Cybersecurity + R,Docker,0.05,1.0,4.0
+Java,CSS + JavaScript,0.1,0.4,4.0
+CSS + PHP,Java,0.05,1.0,4.0
+Pandas,SQL,0.05,1.0,4.0
+Power BI,SQL,0.15,1.0,4.0
+SQL,Power BI,0.15,0.6,4.0
+HTML + PHP,Java,0.05,1.0,4.0
+HTML + Vue.js,Java,0.05,1.0,4.0
+Apache + Big Data,SQL,0.05,1.0,4.0
+HTML + WordPress,Java,0.05,1.0,4.0
+React Native,Java,0.05,1.0,4.0
+Spring,Java,0.05,1.0,4.0
+Vue.js,Java,0.05,1.0,4.0
+WordPress,Java,0.05,1.0,4.0
+Machine Learning + Python,SQL,0.15,1.0,4.0
+Firebase + JavaScript,Java,0.05,1.0,4.0
+CSS + Vue.js,Java,0.05,1.0,4.0
+CSS + WordPress,Java,0.05,1.0,4.0
+Agile + Jira,SQL,0.05,1.0,4.0
+Agile + Power BI,SQL,0.05,1.0,4.0
+JavaScript + Vue.js,Java,0.05,1.0,4.0
+SQL,TensorFlow,0.1,0.4,4.0
+TensorFlow,SQL,0.1,1.0,4.0
+Laravel + MySQL,Java,0.05,1.0,4.0
+Laravel + PHP,Java,0.05,1.0,4.0
+MySQL + PHP,Java,0.05,1.0,4.0
+MySQL + REST API,Java,0.05,1.0,4.0
+MySQL + Spring,Java,0.05,1.0,4.0
+PHP + WordPress,Java,0.05,1.0,4.0
+Scikit-learn,SQL,0.05,1.0,4.0
+Express.js + Git,Docker,0.05,1.0,4.0
+Express.js + JavaScript,Docker,0.05,1.0,4.0
+Data Analysis + Power BI,SQL,0.05,1.0,4.0
+Data Analysis + Python,SQL,0.05,1.0,4.0
+Data Analysis + TensorFlow,SQL,0.05,1.0,4.0
+Data Analysis + Machine Learning,SQL,0.05,1.0,4.0
+Docker,Git + Node.js,0.1,0.4,4.0
+MySQL + REST API,Docker,0.05,1.0,4.0
+JavaScript + Laravel,Java,0.05,1.0,4.0
+Jira,SQL,0.05,1.0,4.0
+Firebase + React,Java,0.05,1.0,4.0
+Firebase + React Native,Java,0.05,1.0,4.0
+CSS + JavaScript,Java,0.1,1.0,4.0
+CI/CD + REST API,Java,0.05,1.0,4.0
+CI/CD + Spring,Java,0.05,1.0,4.0
+Java,PHP,0.1,0.4,4.0
+PHP,Java,0.1,1.0,4.0
+CI/CD + MySQL,Docker,0.05,1.0,4.0
+CI/CD + REST API,Docker,0.05,1.0,4.0
+Laravel,Java,0.05,1.0,4.0
+MySQL,Java,0.1,1.0,4.0
+Java,MySQL,0.1,0.4,4.0
+Apache + Python,SQL,0.05,1.0,4.0
+HTML + JavaScript,Java,0.1,1.0,4.0
+Java,HTML + JavaScript,0.1,0.4,4.0
+MongoDB + React,Docker,0.05,1.0,4.0
+Express.js + MongoDB,Docker,0.05,1.0,4.0
+Express.js + Node.js,Docker,0.05,1.0,4.0
+Express.js + REST API,Docker,0.05,1.0,4.0
+MongoDB + Node.js,Docker,0.1,1.0,4.0
+Docker,MongoDB + Node.js,0.1,0.4,4.0
+Networking + Python,Docker,0.05,1.0,4.0
+Node.js + REST API,Docker,0.05,1.0,4.0
+Git + MySQL,Docker,0.05,1.0,4.0
+Git + Node.js,Docker,0.1,1.0,4.0
+Node.js + React,Docker,0.05,1.0,4.0
+Python + R,Docker,0.05,1.0,4.0
+REST API + Spring,Docker,0.05,1.0,4.0
+MySQL + Spring,Docker,0.05,1.0,4.0
+SQL,Machine Learning + TensorFlow,0.1,0.4,4.0
+SQL,Machine Learning + Python,0.15,0.6,4.0
+Machine Learning + Scikit-learn,SQL,0.05,1.0,4.0
+Machine Learning + TensorFlow,SQL,0.1,1.0,4.0
+JavaScript + WordPress,Java,0.05,1.0,4.0
+Apache + Machine Learning,SQL,0.05,1.0,4.0
+SQL,Machine Learning,0.15,0.6,4.0
+Machine Learning,SQL,0.15,1.0,4.0
+NLP,SQL,0.05,1.0,4.0
+Bootstrap + PHP,Java,0.05,1.0,4.0
+Big Data + Machine Learning,SQL,0.05,1.0,4.0
+Bootstrap + JavaScript,Java,0.05,1.0,4.0
+Bootstrap + Laravel,Java,0.05,1.0,4.0
+Bootstrap + MySQL,Java,0.05,1.0,4.0
+CI/CD + MySQL,Java,0.05,1.0,4.0
+CI/CD + Spring,Docker,0.05,1.0,4.0
+CI/CD + Git,Java,0.05,1.0,4.0
+CI/CD + Git,Docker,0.05,1.0,4.0
+CI/CD + Java,Docker,0.05,1.0,4.0
+Git + MySQL,Java,0.05,1.0,4.0
+Docker,Node.js,0.1,0.4,4.0
+Git + MongoDB,Docker,0.1,1.0,4.0
+Docker,Git + MongoDB,0.1,0.4,4.0
+Docker,JavaScript + Node.js,0.1,0.4,4.0
+Git + Spring,Docker,0.05,1.0,4.0
+Docker + MySQL,Java,0.05,1.0,4.0
+Docker + Spring,Java,0.05,1.0,4.0
+Java + Spring,Docker,0.05,1.0,4.0
+Node.js,Docker,0.1,1.0,4.0
+MongoDB,Docker,0.1,1.0,4.0
+Docker,MongoDB,0.1,0.4,4.0
+JavaScript + MongoDB,Docker,0.1,1.0,4.0
+Docker,JavaScript + MongoDB,0.1,0.4,4.0
+JavaScript + Node.js,Docker,0.1,1.0,4.0
+NLP + Python,SQL,0.05,1.0,4.0
+SQL,Power BI + Python,0.1,0.4,4.0
+NLP + Scikit-learn,SQL,0.05,1.0,4.0
+Spring,Docker,0.05,1.0,4.0
+Scikit-learn + TensorFlow,SQL,0.05,1.0,4.0
+NLP + Scikit-learn,Python,0.05,1.0,3.333
+NLP + TensorFlow,Python,0.05,1.0,3.333
+Docker + React,JavaScript,0.05,1.0,3.333
+Docker + MongoDB,JavaScript,0.1,1.0,3.333
+Docker + Node.js,JavaScript,0.1,1.0,3.333
+React,Docker + Git,0.05,0.5,3.333
+MySQL,CI/CD,0.05,0.5,3.333
+SQL + TensorFlow,Python,0.1,1.0,3.333
+Power BI + TensorFlow,Python,0.05,1.0,3.333
+Data Analysis,Python,0.05,1.0,3.333
+Cybersecurity,Python,0.05,1.0,3.333
+PHP,CSS,0.05,0.5,3.333
+Python + TensorFlow,Power BI,0.05,0.5,3.333
+Scikit-learn + TensorFlow,Python,0.05,1.0,3.333
+Linux,CI/CD,0.1,0.5,3.333
+CI/CD,Linux,0.1,0.667,3.333
+Bootstrap + PHP,JavaScript,0.05,1.0,3.333
+Java + MySQL,CI/CD,0.05,0.5,3.333
+Git + MongoDB,JavaScript,0.1,1.0,3.333
+Git + Node.js,JavaScript,0.1,1.0,3.333
+Git + React Native,JavaScript,0.05,1.0,3.333
+Machine Learning + NLP,Python,0.05,1.0,3.333
+Git + React,JavaScript,0.1,1.0,3.333
+Bootstrap + Java,JavaScript,0.05,1.0,3.333
+NLP + SQL,Python,0.05,1.0,3.333
+SQL + Scikit-learn,Python,0.05,1.0,3.333
+TensorFlow,Power BI + SQL,0.05,0.5,3.333
+SQL + TensorFlow,Power BI,0.05,0.5,3.333
+Bootstrap + Laravel,JavaScript,0.05,1.0,3.333
+Bootstrap + MySQL,JavaScript,0.05,1.0,3.333
+Git + Java,CI/CD,0.05,0.5,3.333
+Flutter,Git + REST API,0.05,1.0,3.333
+Kubernetes,Linux + Networking,0.05,0.5,3.333
+Kubernetes + Linux,Networking,0.05,0.5,3.333
+Machine Learning + Power BI,Python,0.05,1.0,3.333
+Power BI + Python,Machine Learning,0.05,0.5,3.333
+CSS + WordPress,JavaScript,0.05,1.0,3.333
+CSS + Vue.js,JavaScript,0.05,1.0,3.333
+Firebase,Java + REST API,0.05,0.5,3.333
+CI/CD + Kubernetes,Networking,0.05,0.5,3.333
+CSS + Java,JavaScript,0.1,1.0,3.333
+Java + JavaScript,HTML,0.1,0.5,3.333
+Apache + Big Data,Python,0.05,1.0,3.333
+iOS,Git + REST API,0.05,1.0,3.333
+Apache,Machine Learning + SQL,0.05,0.5,3.333
+Apache + SQL,Python,0.05,1.0,3.333
+Apache,Machine Learning + Python,0.05,0.5,3.333
+Swift,Git + REST API,0.05,1.0,3.333
+Apache + Machine Learning,Python,0.05,1.0,3.333
+HTML + Java,JavaScript,0.1,1.0,3.333
+Git + PostgreSQL,Python,0.05,1.0,3.333
+PostgreSQL,Git + REST API,0.05,1.0,3.333
+Machine Learning,Python,0.15,1.0,3.333
+Big Data + Machine Learning,Python,0.05,1.0,3.333
+Python,Machine Learning,0.15,0.5,3.333
+React + React Native,JavaScript,0.05,1.0,3.333
+NLP,Python,0.05,1.0,3.333
+REST API + Vue.js,JavaScript,0.05,1.0,3.333
+Big Data + SQL,Python,0.05,1.0,3.333
+Kotlin,Git + REST API,0.05,1.0,3.333
+Kubernetes,Networking,0.05,0.5,3.333
+Firebase + Java,JavaScript,0.05,1.0,3.333
+CSS + PHP,JavaScript,0.05,1.0,3.333
+JavaScript + PHP,CSS,0.05,0.5,3.333
+Machine Learning + SQL,Python,0.15,1.0,3.333
+Firebase + React Native,JavaScript,0.05,1.0,3.333
+Firebase + React,JavaScript,0.05,1.0,3.333
+CI/CD + Linux,Networking,0.05,0.5,3.333
+Laravel,JavaScript,0.05,1.0,3.333
+MongoDB,JavaScript,0.1,1.0,3.333
+Machine Learning + TensorFlow,Power BI,0.05,0.5,3.333
+Docker + REST API,CI/CD,0.05,0.5,3.333
+Docker + Linux,CI/CD,0.05,0.5,3.333
+React Native,Git + REST API,0.05,1.0,3.333
+HTML + WordPress,JavaScript,0.05,1.0,3.333
+Spring,Git + REST API,0.05,1.0,3.333
+Docker + Networking,Python,0.05,1.0,3.333
+Cybersecurity + Linux,Python,0.05,1.0,3.333
+Cybersecurity + R,Python,0.05,1.0,3.333
+Cybersecurity + Networking,Python,0.05,1.0,3.333
+Java + Vue.js,JavaScript,0.05,1.0,3.333
+Java + React Native,JavaScript,0.05,1.0,3.333
+Java + React,JavaScript,0.05,1.0,3.333
+Java + Laravel,JavaScript,0.05,1.0,3.333
+Express.js + MongoDB,JavaScript,0.05,1.0,3.333
+Express.js + Node.js,JavaScript,0.05,1.0,3.333
+Express.js + REST API,JavaScript,0.05,1.0,3.333
+Express.js,Git + REST API,0.05,1.0,3.333
+Data Analysis + Machine Learning,Python,0.05,1.0,3.333
+Data Analysis + SQL,Python,0.05,1.0,3.333
+Express.js + Git,JavaScript,0.05,1.0,3.333
+Data Analysis + TensorFlow,Python,0.05,1.0,3.333
+PHP,CSS + HTML,0.05,0.5,3.333
+Java + JavaScript,CSS,0.1,0.5,3.333
+TensorFlow,Power BI,0.05,0.5,3.333
+REST API + React,JavaScript,0.05,1.0,3.333
+REST API + React Native,JavaScript,0.05,1.0,3.333
+React,JavaScript + REST API,0.05,0.5,3.333
+AWS + Kubernetes,Networking,0.05,0.5,3.333
+AWS + Linux,Networking,0.05,0.5,3.333
+Java + PHP,JavaScript,0.1,1.0,3.333
+Firebase,Git + REST API,0.1,1.0,3.333
+Java + PHP,CSS,0.05,0.5,3.333
+CSS,Java + JavaScript,0.1,0.667,3.333
+PostgreSQL,Python,0.05,1.0,3.333
+Firebase,Git + JavaScript,0.05,0.5,3.333
+Cybersecurity + Docker,Python,0.05,1.0,3.333
+Firebase,JavaScript + REST API,0.05,0.5,3.333
+Scikit-learn,Python,0.05,1.0,3.333
+TensorFlow,Python,0.1,1.0,3.333
+Pandas,Python,0.05,1.0,3.333
+Apache,Linux + Networking,0.05,0.5,3.333
+HTML,Java + JavaScript,0.1,0.667,3.333
+HTML + Vue.js,JavaScript,0.05,1.0,3.333
+HTML + PHP,JavaScript,0.05,1.0,3.333
+Java + PHP,HTML,0.05,0.5,3.333
+JavaScript + PHP,HTML,0.05,0.5,3.333
+Android,Git + REST API,0.05,1.0,3.333
+WordPress,JavaScript,0.05,1.0,3.333
+Vue.js,JavaScript,0.05,1.0,3.333
+React Native,JavaScript,0.05,1.0,3.333
+React,JavaScript,0.1,1.0,3.333
+PHP,JavaScript,0.1,1.0,3.333
+Node.js,JavaScript,0.1,1.0,3.333
+Big Data,Python,0.05,1.0,3.333
+Apache,Machine Learning,0.05,0.5,3.333
+Apache,Networking,0.05,0.5,3.333
+Express.js,JavaScript,0.05,1.0,3.333
+Python + SQL,Power BI,0.1,0.5,3.333
+Power BI,Python + SQL,0.1,0.667,3.333
+AWS,Networking,0.05,0.5,3.333
+PostgreSQL + REST API,Python,0.05,1.0,3.333
+Pandas + SQL,Python,0.05,1.0,3.333
+Pandas + Power BI,Python,0.05,1.0,3.333
+Laravel + MySQL,JavaScript,0.05,1.0,3.333
+Laravel + PHP,JavaScript,0.05,1.0,3.333
+MongoDB + Node.js,JavaScript,0.1,1.0,3.333
+MongoDB + REST API,JavaScript,0.05,1.0,3.333
+MongoDB + React,JavaScript,0.05,1.0,3.333
+PHP + WordPress,JavaScript,0.05,1.0,3.333
+MySQL + PHP,JavaScript,0.05,1.0,3.333
+PHP,HTML,0.05,0.5,3.333
+Docker + Linux,Networking,0.05,0.5,3.333
+MySQL,Docker + Git,0.05,0.5,3.333
+Django,Python,0.05,1.0,3.333
+Bootstrap,JavaScript,0.05,1.0,3.333
+React,Java + REST API,0.05,0.5,3.333
+MongoDB,JavaScript + REST API,0.05,0.5,3.333
+Node.js + REST API,JavaScript,0.05,1.0,3.333
+Node.js,JavaScript + REST API,0.05,0.5,3.333
+MySQL,Java + REST API,0.05,0.5,3.333
+AWS,Linux + Networking,0.05,0.5,3.333
+AWS + CI/CD,Networking,0.05,0.5,3.333
+Data Analysis + Power BI,Python,0.05,1.0,3.333
+Docker + Express.js,JavaScript,0.05,1.0,3.333
+Django + REST API,Python,0.05,1.0,3.333
+Django + Git,Python,0.05,1.0,3.333
+Django,Git + REST API,0.05,1.0,3.333
+Docker + R,Python,0.05,1.0,3.333
+Django + PostgreSQL,Python,0.05,1.0,3.333
+Python,Machine Learning + SQL,0.15,0.5,3.333
+Node.js + React,JavaScript,0.05,1.0,3.333
+Machine Learning + Scikit-learn,Python,0.05,1.0,3.333
+Machine Learning + TensorFlow,Python,0.1,1.0,3.333
+Java + WordPress,JavaScript,0.05,1.0,3.333
+Docker + Java,Git,0.05,1.0,2.857
+Docker + REST API,Git,0.1,1.0,2.857
+Docker + Spring,Git,0.05,1.0,2.857
+JavaScript + Node.js,Git,0.1,1.0,2.857
+JavaScript + React,Git,0.1,1.0,2.857
+Docker + JavaScript,Git,0.1,1.0,2.857
+Docker + MongoDB,Git,0.1,1.0,2.857
+JavaScript + MongoDB,Git,0.1,1.0,2.857
+JavaScript + React Native,Git,0.05,1.0,2.857
+Flutter + REST API,Git,0.05,1.0,2.857
+Flutter + Kotlin,Git,0.05,1.0,2.857
+CI/CD + MySQL,Git,0.05,1.0,2.857
+CI/CD + Java,Git,0.05,1.0,2.857
+Java + React Native,Git,0.05,1.0,2.857
+Java + Spring,Git,0.05,1.0,2.857
+Docker + React,Git,0.05,1.0,2.857
+CI/CD + REST API,Git,0.05,1.0,2.857
+REST API + React,Git,0.05,1.0,2.857
+MongoDB + REST API,Git,0.05,1.0,2.857
+MySQL + REST API,Git,0.05,1.0,2.857
+MySQL + Spring,Git,0.05,1.0,2.857
+REST API + Swift,Git,0.05,1.0,2.857
+REST API + iOS,Git,0.05,1.0,2.857
+Spring,Git,0.05,1.0,2.857
+React Native,Git,0.05,1.0,2.857
+Node.js,Git,0.1,1.0,2.857
+iOS,Git,0.05,1.0,2.857
+Swift,Git,0.05,1.0,2.857
+Django + Python,Git,0.05,1.0,2.857
+Docker + Node.js,Git,0.1,1.0,2.857
+Express.js + MongoDB,Git,0.05,1.0,2.857
+REST API + Spring,Git,0.05,1.0,2.857
+Swift + iOS,Git,0.05,1.0,2.857
+Firebase + Swift,Git,0.05,1.0,2.857
+Firebase + iOS,Git,0.05,1.0,2.857
+React + React Native,Git,0.05,1.0,2.857
+Android + Kotlin,Git,0.05,1.0,2.857
+Java + React,Git,0.05,1.0,2.857
+REST API + React Native,Git,0.05,1.0,2.857
+PostgreSQL + REST API,Git,0.05,1.0,2.857
+MongoDB + React,Git,0.05,1.0,2.857
+Node.js + REST API,Git,0.05,1.0,2.857
+PostgreSQL + Python,Git,0.05,1.0,2.857
+MongoDB + Node.js,Git,0.1,1.0,2.857
+Kotlin + REST API,Git,0.05,1.0,2.857
+Node.js + React,Git,0.05,1.0,2.857
+Python + REST API,Git,0.05,1.0,2.857
+CI/CD + Spring,Git,0.05,1.0,2.857
+Android + REST API,Git,0.05,1.0,2.857
+Firebase + React Native,Git,0.05,1.0,2.857
+Firebase + REST API,Git,0.1,1.0,2.857
+Firebase + JavaScript,Git,0.05,1.0,2.857
+Express.js + JavaScript,Git,0.05,1.0,2.857
+Express.js + Node.js,Git,0.05,1.0,2.857
+Express.js + REST API,Git,0.05,1.0,2.857
+Android,Git,0.05,1.0,2.857
+Django,Git,0.05,1.0,2.857
+PostgreSQL,Git,0.05,1.0,2.857
+React,Git,0.1,1.0,2.857
+Firebase,Git,0.1,1.0,2.857
+Express.js,Git,0.05,1.0,2.857
+Kotlin,Git,0.05,1.0,2.857
+Flutter,Git,0.05,1.0,2.857
+Firebase + Java,Git,0.05,1.0,2.857
+Firebase + React,Git,0.05,1.0,2.857
+MongoDB,Git,0.1,1.0,2.857
+Django + PostgreSQL,Git,0.05,1.0,2.857
+Android + Flutter,Git,0.05,1.0,2.857
+Docker + Express.js,Git,0.05,1.0,2.857
+Django + REST API,Git,0.05,1.0,2.857
+Docker + MySQL,Git,0.05,1.0,2.857
+JavaScript,Java,0.2,0.667,2.667
+Java,JavaScript,0.2,0.8,2.667
+Java,CSS,0.1,0.4,2.667
+Docker,Git + JavaScript,0.1,0.4,2.667
+CSS,Java,0.1,0.667,2.667
+Git + JavaScript,Docker,0.1,0.667,2.667
+Docker,CI/CD,0.1,0.4,2.667
+CI/CD,Docker,0.1,0.667,2.667
+JavaScript + REST API,Java,0.1,0.667,2.667
+Java,CSS + HTML,0.1,0.4,2.667
+Java,JavaScript + REST API,0.1,0.4,2.667
+CSS + HTML,Java,0.1,0.667,2.667
+Python,SQL,0.2,0.667,2.667
+SQL,Python,0.2,0.8,2.667
+Java,HTML,0.1,0.4,2.667
+HTML,Java,0.1,0.667,2.667
+Apache,Linux,0.05,0.5,2.5
+Firebase,REST API,0.1,1.0,2.5
+Android,REST API,0.05,1.0,2.5
+PostgreSQL + Python,REST API,0.05,1.0,2.5
+MySQL,Java + JavaScript,0.05,0.5,2.5
+React,Java + JavaScript,0.05,0.5,2.5
+Java + React,REST API,0.05,1.0,2.5
+Java + Vue.js,REST API,0.05,1.0,2.5
+Java + Spring,REST API,0.05,1.0,2.5
+Java + React Native,REST API,0.05,1.0,2.5
+Angular + HTML,REST API,0.05,1.0,2.5
+Spring,REST API,0.05,1.0,2.5
+Swift,REST API,0.05,1.0,2.5
+TypeScript,REST API,0.05,1.0,2.5
+Vue.js,REST API,0.05,1.0,2.5
+iOS,REST API,0.05,1.0,2.5
+HTML + Vue.js,REST API,0.05,1.0,2.5
+Angular + CSS,REST API,0.05,1.0,2.5
+React Native,REST API,0.05,1.0,2.5
+JavaScript + React Native,REST API,0.05,1.0,2.5
+PostgreSQL,REST API,0.05,1.0,2.5
+Firebase,Java + JavaScript,0.05,0.5,2.5
+Kotlin,REST API,0.05,1.0,2.5
+Firebase + iOS,REST API,0.05,1.0,2.5
+CI/CD + Java,REST API,0.05,1.0,2.5
+CI/CD + MySQL,REST API,0.05,1.0,2.5
+Git + PostgreSQL,REST API,0.05,1.0,2.5
+Apache,Python + SQL,0.05,0.5,2.5
+Git + Python,REST API,0.05,1.0,2.5
+JavaScript + Vue.js,REST API,0.05,1.0,2.5
+Git + Kotlin,REST API,0.05,1.0,2.5
+CI/CD + Git,REST API,0.05,1.0,2.5
+Git + iOS,REST API,0.05,1.0,2.5
+Git + MySQL,REST API,0.05,1.0,2.5
+HTML + TypeScript,REST API,0.05,1.0,2.5
+Git + React Native,REST API,0.05,1.0,2.5
+Git + Spring,REST API,0.05,1.0,2.5
+Git + Swift,REST API,0.05,1.0,2.5
+Android + Flutter,REST API,0.05,1.0,2.5
+Android + Git,REST API,0.05,1.0,2.5
+Android + Kotlin,REST API,0.05,1.0,2.5
+Angular + TypeScript,REST API,0.05,1.0,2.5
+Docker + MySQL,REST API,0.05,1.0,2.5
+Docker + Express.js,REST API,0.05,1.0,2.5
+Swift + iOS,REST API,0.05,1.0,2.5
+Flutter,REST API,0.05,1.0,2.5
+Docker + Spring,REST API,0.05,1.0,2.5
+Django + Git,REST API,0.05,1.0,2.5
+Django + PostgreSQL,REST API,0.05,1.0,2.5
+CSS + TypeScript,REST API,0.05,1.0,2.5
+Firebase + Git,REST API,0.1,1.0,2.5
+Django + Python,REST API,0.05,1.0,2.5
+Express.js,REST API,0.05,1.0,2.5
+React + React Native,REST API,0.05,1.0,2.5
+Docker + Java,REST API,0.05,1.0,2.5
+Angular,REST API,0.05,1.0,2.5
+Django,REST API,0.05,1.0,2.5
+MySQL + Spring,REST API,0.05,1.0,2.5
+CSS + Vue.js,REST API,0.05,1.0,2.5
+Express.js + Node.js,REST API,0.05,1.0,2.5
+Express.js + Git,REST API,0.05,1.0,2.5
+Express.js + JavaScript,REST API,0.05,1.0,2.5
+Flutter + Kotlin,REST API,0.05,1.0,2.5
+CI/CD + Docker,Linux,0.05,0.5,2.5
+Firebase + Java,REST API,0.05,1.0,2.5
+Firebase + Swift,REST API,0.05,1.0,2.5
+Firebase + React Native,REST API,0.05,1.0,2.5
+Git + Java,REST API,0.1,1.0,2.5
+Firebase + React,REST API,0.05,1.0,2.5
+CI/CD + Spring,REST API,0.05,1.0,2.5
+Express.js + MongoDB,REST API,0.05,1.0,2.5
+Flutter + Git,REST API,0.05,1.0,2.5
+Firebase + JavaScript,REST API,0.05,1.0,2.5
+Java + REST API,JavaScript,0.1,0.667,2.222
+CSS + HTML,JavaScript,0.1,0.667,2.222
+Power BI,Python,0.1,0.667,2.222
+Power BI + SQL,Python,0.1,0.667,2.222
+CSS,JavaScript,0.1,0.667,2.222
+HTML,JavaScript,0.1,0.667,2.222
+Docker + Git,JavaScript,0.1,0.667,2.222
+REST API,Git,0.3,0.75,2.143
+Git,REST API,0.3,0.857,2.143
+React,Docker,0.05,0.5,2.0
+JavaScript + React,Docker,0.05,0.5,2.0
+Git + React,Docker,0.05,0.5,2.0
+Docker + REST API,Java,0.05,0.5,2.0
+AWS + Linux,Docker,0.05,0.5,2.0
+AWS + Kubernetes,Docker,0.05,0.5,2.0
+AWS + CI/CD,Docker,0.05,0.5,2.0
+JavaScript + React,Java,0.05,0.5,2.0
+Apache,SQL,0.05,0.5,2.0
+Firebase,Java,0.05,0.5,2.0
+AWS,Docker,0.05,0.5,2.0
+MySQL,Docker,0.05,0.5,2.0
+Linux,Docker,0.1,0.5,2.0
+R,Docker,0.05,0.5,2.0
+Docker,Linux,0.1,0.4,2.0
+Kubernetes,Docker,0.05,0.5,2.0
+Kubernetes + Linux,Docker,0.05,0.5,2.0
+CSS + REST API,Java,0.05,0.5,2.0
+CI/CD + Kubernetes,Docker,0.05,0.5,2.0
+CI/CD + Linux,Docker,0.05,0.5,2.0
+Git + React,Java,0.05,0.5,2.0
+React,Java,0.05,0.5,2.0
+HTML + REST API,Java,0.05,0.5,2.0
+CI/CD + Docker,Java,0.05,0.5,2.0
+Linux + R,Docker,0.05,0.5,2.0
+Firebase + REST API,Java,0.05,0.5,2.0
+Firebase + Git,Java,0.05,0.5,2.0
+Networking + R,Docker,0.05,0.5,2.0
+Git + Java,Docker,0.05,0.5,2.0
+Java + MySQL,Docker,0.05,0.5,2.0
+Java + REST API,Git,0.1,0.667,1.905
+JavaScript + REST API,Git,0.1,0.667,1.905
+Docker,Git,0.15,0.6,1.714
+Git,Docker,0.15,0.429,1.714
+CSS,REST API,0.1,0.667,1.667
+Networking + R,Python,0.05,0.5,1.667
+Java + MySQL,JavaScript,0.05,0.5,1.667
+Apache,Python,0.05,0.5,1.667
+HTML,REST API,0.1,0.667,1.667
+R,Python,0.05,0.5,1.667
+CSS + HTML,REST API,0.1,0.667,1.667
+Firebase + REST API,JavaScript,0.05,0.5,1.667
+Docker + Git,REST API,0.1,0.667,1.667
+Docker + REST API,JavaScript,0.05,0.5,1.667
+Firebase,JavaScript,0.05,0.5,1.667
+Docker + Linux,Python,0.05,0.5,1.667
+Node.js,Git + REST API,0.05,0.5,1.667
+MySQL,Git + REST API,0.05,0.5,1.667
+CSS + REST API,JavaScript,0.05,0.5,1.667
+MySQL,JavaScript,0.05,0.5,1.667
+Linux + R,Python,0.05,0.5,1.667
+React,Git + REST API,0.05,0.5,1.667
+HTML + REST API,JavaScript,0.05,0.5,1.667
+Git + JavaScript,REST API,0.1,0.667,1.667
+MongoDB,Git + REST API,0.05,0.5,1.667
+Git + Java,JavaScript,0.05,0.5,1.667
+Firebase + Git,JavaScript,0.05,0.5,1.667
+Java,REST API,0.15,0.6,1.5
+JavaScript,Git,0.15,0.5,1.429
+MySQL,Git,0.05,0.5,1.429
+Java + MySQL,Git,0.05,0.5,1.429
+CI/CD + Docker,Git,0.05,0.5,1.429
+Git,JavaScript,0.15,0.429,1.429
+Docker,JavaScript,0.1,0.4,1.333
+Docker,Git + REST API,0.1,0.4,1.333
+Java,Git + REST API,0.1,0.4,1.333
+React,REST API,0.05,0.5,1.25
+JavaScript + React,REST API,0.05,0.5,1.25
+JavaScript + Node.js,REST API,0.05,0.5,1.25
+Java + MySQL,REST API,0.05,0.5,1.25
+JavaScript + MongoDB,REST API,0.05,0.5,1.25
+Java + JavaScript,REST API,0.1,0.5,1.25
+Node.js,REST API,0.05,0.5,1.25
+CSS + JavaScript,REST API,0.05,0.5,1.25
+JavaScript,REST API,0.15,0.5,1.25
+CSS + Java,REST API,0.05,0.5,1.25
+MongoDB,REST API,0.05,0.5,1.25
+Git + React,REST API,0.05,0.5,1.25
+MySQL,REST API,0.05,0.5,1.25
+Git + MongoDB,REST API,0.05,0.5,1.25
+HTML + JavaScript,REST API,0.05,0.5,1.25
+HTML + Java,REST API,0.05,0.5,1.25
+Git + Node.js,REST API,0.05,0.5,1.25
+CI/CD + Docker,REST API,0.05,0.5,1.25
+Docker + MongoDB,REST API,0.05,0.5,1.25
+MongoDB + Node.js,REST API,0.05,0.5,1.25
+Docker + Node.js,REST API,0.05,0.5,1.25
+Docker + JavaScript,REST API,0.05,0.5,1.25

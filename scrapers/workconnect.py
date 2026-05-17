@@ -10,6 +10,7 @@ to Selenium with a headless Chrome driver.
 
 import logging
 
+from pathlib import Path
 from config.settings import MAX_PAGES_PER_SITE, PORTALS, REQUEST_DELAY_MIN
 from scrapers.base_scraper import BaseScraper
 
@@ -22,17 +23,26 @@ SEARCH_URL = PORTALS[PORTAL_KEY]["search_url"]
 
 def _get_selenium_driver():
     """
-    Lazily import and initialise a headless Chrome driver.
-    Only called if the static fetch doesn't find any job cards.
-    Requires: pip install selenium webdriver-manager
+    Initialise a headless Chrome driver.
+
+    Priority order:
+      1. chromedriver on PATH (installed manually — recommended)
+      2. webdriver-manager auto-download (requires internet access to CDN)
+
+    To install manually (no CDN needed):
+      1. Check your Chrome version: chrome://settings/help
+      2. Download matching chromedriver from:
+         https://googlechromelabs.github.io/chrome-for-testing/
+      3. Extract chromedriver.exe and place it in your project folder OR
+         add its containing folder to your system PATH.
     """
     from selenium import webdriver
     from selenium.webdriver.chrome.options import Options
     from selenium.webdriver.chrome.service import Service
-    from webdriver_manager.chrome import ChromeDriverManager
+    import shutil
 
     options = Options()
-    options.add_argument("--headless=new")          # headless mode
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--window-size=1280,900")
@@ -42,6 +52,23 @@ def _get_selenium_driver():
         "Chrome/122.0.0.0 Safari/537.36"
     )
 
+    # Try PATH first (works without internet)
+    chromedriver_path = shutil.which("chromedriver")
+    if chromedriver_path:
+        logger.info(f"[{PORTAL_KEY}] Found chromedriver on PATH: {chromedriver_path}")
+        service = Service(chromedriver_path)
+        return webdriver.Chrome(service=service, options=options)
+
+    # Also check project root (user may have dropped it there)
+    local_driver = Path(__file__).resolve().parent.parent / "chromedriver.exe"
+    if local_driver.exists():
+        logger.info(f"[{PORTAL_KEY}] Found chromedriver in project root: {local_driver}")
+        service = Service(str(local_driver))
+        return webdriver.Chrome(service=service, options=options)
+
+    # Fall back to webdriver-manager (needs internet/CDN access)
+    logger.info(f"[{PORTAL_KEY}] chromedriver not on PATH — trying webdriver-manager...")
+    from webdriver_manager.chrome import ChromeDriverManager
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
