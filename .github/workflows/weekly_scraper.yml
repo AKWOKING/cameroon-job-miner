@@ -2,9 +2,9 @@ name: Weekly Job Miner
 
 on:
   schedule:
-    # Every Monday at 03:00 UTC (low-traffic, polite)
+    # Every Monday at 03:00 UTC
     - cron: "0 3 * * 1"
-  workflow_dispatch:   # allow manual trigger from GitHub UI
+  workflow_dispatch:   # manual trigger from GitHub UI
 
 jobs:
   scrape-and-analyse:
@@ -29,9 +29,10 @@ jobs:
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      # ── 4. Restore persisted database from previous run ───────────────────────
+      # ── 4. Restore persisted database (skips gracefully on first run) ─────────
       - name: Restore database cache
         uses: actions/cache@v4
+        continue-on-error: true          # first run has no cache — that's fine
         with:
           path: data/jobs.db
           key: jobs-db-${{ github.run_id }}
@@ -49,9 +50,10 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
 
-      # ── 7. Upload exports as artifacts ────────────────────────────────────────
+      # ── 7. Upload exports as downloadable artifacts ───────────────────────────
       - name: Upload data exports
         uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: job-data-exports-${{ github.run_number }}
           path: |
@@ -60,13 +62,15 @@ jobs:
             pipeline.log
           retention-days: 30
 
-      # ── 8. Persist updated database ───────────────────────────────────────────
+      # ── 8. Save updated database for next run ─────────────────────────────────
       - name: Save updated database
         uses: actions/cache/save@v4
+        continue-on-error: true          # don't fail the whole job if cache save fails
         if: always()
         with:
           path: data/jobs.db
           key: jobs-db-${{ github.run_id }}
+
 
       # ── 9. Commit updated DB to repo (optional — uncomment to enable) ─────────
       # - name: Commit updated database
