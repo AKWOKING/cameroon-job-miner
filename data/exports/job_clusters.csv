@@ -1,21 +1,21 @@
 ﻿raw_id,title,cluster_id,archetype
-1,Développeur Full Stack React/Node.js,2,DevOps / Cloud Engineer
-2,Ingénieur DevOps,3,DevOps / Cloud Engineer
-3,Développeur Mobile Android/iOS,5,Mobile Developer
-4,Data Scientist,1,Data Scientist / ML
-5,Développeur Backend Python/Django,5,Mobile Developer
-6,Administrateur Système Linux,0,Data Analyst
-7,Développeur Web PHP/Laravel,4,Frontend Developer
-8,Chef de Projet IT Agile,1,Data Scientist / ML
-9,Développeur Frontend Vue.js,4,Frontend Developer
-10,Ingénieur Sécurité Informatique,0,Data Analyst
-11,Développeur React Native,5,Mobile Developer
-12,Analyste de Données,1,Data Scientist / ML
-13,Développeur Java Spring Boot,5,Mobile Developer
-14,Développeur WordPress,4,Frontend Developer
-15,Ingénieur Machine Learning,1,Data Scientist / ML
-16,Développeur Node.js/Express,2,DevOps / Cloud Engineer
-17,Responsable Infrastructure IT,3,DevOps / Cloud Engineer
-18,Développeur Angular TypeScript,4,Frontend Developer
-19,Ingénieur Data / Big Data,1,Data Scientist / ML
-20,Développeur iOS Swift,5,Mobile Developer
+1,Développeur Full Stack React/Node.js,4,DevOps / Cloud Engineer
+2,Ingénieur DevOps,0,DevOps / Cloud Engineer
+3,Développeur Mobile Android/iOS,1,Mobile Developer
+4,Data Scientist,3,Data Scientist / ML
+5,Développeur Backend Python/Django,1,Mobile Developer
+6,Administrateur Système Linux,5,Data Analyst
+7,Développeur Web PHP/Laravel,2,Frontend Developer
+8,Chef de Projet IT Agile,3,Data Scientist / ML
+9,Développeur Frontend Vue.js,2,Frontend Developer
+10,Ingénieur Sécurité Informatique,5,Data Analyst
+11,Développeur React Native,1,Mobile Developer
+12,Analyste de Données,3,Data Scientist / ML
+13,Développeur Java Spring Boot,1,Mobile Developer
+14,Développeur WordPress,2,Frontend Developer
+15,Ingénieur Machine Learning,3,Data Scientist / ML
+16,Développeur Node.js/Express,4,DevOps / Cloud Engineer
+17,Responsable Infrastructure IT,0,DevOps / Cloud Engineer
+18,Développeur Angular TypeScript,2,Frontend Developer
+19,Ingénieur Data / Big Data,3,Data Scientist / ML
+20,Développeur iOS Swift,1,Mobile Developer
