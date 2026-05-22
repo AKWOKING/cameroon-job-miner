@@ -129,11 +129,25 @@ def load_taxonomy() -> dict:
 # We only accept it when clear R-language context words are present.
 SINGLE_CHAR_SKILLS = {"r"}
 
+# Skills that need context checks despite being longer than 1 char.
+# "scala" matches "scalable", "fiscale", "locale", "commerciale" as a substring.
+CONTEXT_GUARDED_SKILLS = {"scala"}
+
 R_CONTEXT = re.compile(
     r'(r\s+language|langage\s+r|programmation\s+r|r\s+programming|'
     r'rstudio|r\s+studio|tidyverse|ggplot2?|r\s+markdown|'
     r'r\s*[,/]\s*python|python\s*[,/]\s*r(?!\w)|'
     r'sas|spss|stata|statistical\s+computing|analyse\s+statistique)',
+    re.IGNORECASE,
+)
+
+# Scala context: must appear near JVM/Spark/Akka ecosystem words.
+# Prevents matching "scalable", "fiscale", "locale", "commerciale" etc.
+SCALA_CONTEXT = re.compile(
+    r'(scala\s+language|scala(?!\w)|'
+    r'apache\s+spark|akka|play\s+framework|sbt|'
+    r'functional\s+programming|programmation\s+fonctionnelle|'
+    r'jvm|hadoop\s+scala|spark\s+scala)',
     re.IGNORECASE,
 )
 
@@ -162,6 +176,12 @@ def extract_skills(text: str, taxonomy: dict) -> list:
         # Single-char skills need explicit context
         if alias_len == 1 and alias in SINGLE_CHAR_SKILLS:
             if alias == "r" and R_CONTEXT.search(text):
+                found.add(taxonomy[alias])
+            continue
+
+        # Multi-char skills that need context guards (substring too broad)
+        if alias in CONTEXT_GUARDED_SKILLS:
+            if alias == "scala" and SCALA_CONTEXT.search(text):
                 found.add(taxonomy[alias])
             continue
 

@@ -185,13 +185,15 @@ ARCHETYPE_RULES = [
     # Specific stacks — require 2+ signals
     ("Mobile Developer",        ["Android", "iOS", "Flutter", "React Native", "Kotlin", "Swift", "Ionic"]),
     ("Data Scientist / ML",     ["Machine Learning", "TensorFlow", "PyTorch", "Scikit-learn", "NLP", "Deep Learning", "Computer Vision"]),
-    ("Data Analyst",            ["Power BI", "Tableau", "Data Analysis", "Pandas", "Big Data", "R"]),
-    ("DevOps / Cloud Engineer", ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "CI/CD", "Terraform", "Ansible"]),
-    ("Security Engineer",       ["Cybersecurity", "Networking", "Linux", "Bash"]),
-    ("Backend Developer",       ["Django", "Flask", "Spring", "Laravel", "Node.js", "FastAPI", "NestJS", "Express.js"]),
+    ("Data Analyst",            ["Power BI", "Tableau", "Data Analysis", "Pandas", "Big Data", "R", "SAS"]),
+    ("DevOps / Cloud Engineer", ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "CI/CD", "Terraform", "Ansible", "Cloud Computing"]),
+    ("Security Engineer",       ["Cybersecurity", "VPN", "Active Directory", "Firewall"]),
+    ("Systems Administrator",   ["Linux", "Networking", "Bash", "Nginx", "Apache", "TCP/IP", "Monitoring", "Virtualisation", "Active Directory"]),
+    ("IT Support / Sysadmin",   ["Support Technique", "Networking", "TCP/IP", "Monitoring", "Active Directory", "VPN"]),
+    ("Backend Developer",       ["Django", "Flask", "Spring", "Laravel", "Node.js", "FastAPI", "NestJS", "Express.js", "API"]),
     ("Frontend Developer",      ["React", "Vue.js", "Angular", "HTML", "CSS", "Next.js", "Bootstrap", "jQuery"]),
     ("Full-Stack Developer",    ["JavaScript", "TypeScript", "SQL", "REST API", "Git", "PHP"]),
-    ("Systems Administrator",   ["Linux", "Networking", "Bash", "Nginx", "Apache"]),
+    ("Enterprise/ERP Consultant", ["SAP/ERP", "CRM", "DB2", "Oracle", "COBOL"]),
 ]
 
 

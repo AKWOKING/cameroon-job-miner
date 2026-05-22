@@ -101,3 +101,21 @@ Figma,figma;design figma,Design
 Adobe XD,adobe xd;xd,Design
 Photoshop,photoshop;adobe photoshop,Design
 UI/UX,ui/ux;ux design;ui design;expérience utilisateur;interface utilisateur,Design
+DB2,db2;IBM DB2;DB2 Z/OS;IMS/DB2,Databases
+COBOL,cobol;COBOL programming,Programming Languages
+FORTRAN,fortran,Programming Languages
+JCL,jcl;Job Control Language,Programming Languages
+VSAM,vsam,Databases
+TCP/IP,tcp/ip;tcp ip;TCP-IP;protocole TCP,Networking
+SAS,sas;SAS programming;SAS analytics,Data & AI
+ASSEMBLEUR,assembleur;assembly;assembly language,Programming Languages
+Support Technique,support technique;technical support;support informatique;helpdesk;help desk;service desk,Methodologies
+API,api;API development;développement API,APIs & Integration
+CRM,crm;salesforce;customer relationship;gestion relation client,Methodologies
+SAP/ERP,sap;odoo;sage;oracle erp;dynamics 365;microsoft dynamics;erp sap;erp odoo;erp sage;logiciel erp;systeme erp,Methodologies
+Cloud Computing,cloud computing;cloud;informatique en nuage,DevOps & Cloud
+VPN,vpn;réseau privé virtuel,Networking
+Active Directory,active directory;LDAP;annuaire LDAP,Networking
+Virtualisation,virtualisation;vmware;hyper-v;proxmox,DevOps & Cloud
+Backup,backup;sauvegarde;plan de reprise;PRA;PCA,DevOps & Cloud
+Monitoring,monitoring;supervision;nagios;zabbix;grafana;prometheus,DevOps & Cloud
