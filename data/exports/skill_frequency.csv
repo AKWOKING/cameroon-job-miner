@@ -1,0 +1,75 @@
+﻿skill,count,pct
+R,71,40.1
+Java,39,22.0
+JavaScript,32,18.1
+Git,30,16.9
+CSS,27,15.3
+SQL,24,13.6
+Agile,24,13.6
+HTML,23,13.0
+Docker,20,11.3
+Python,20,11.3
+Networking,19,10.7
+MySQL,17,9.6
+Linux,16,9.0
+Scala,16,9.0
+CI/CD,13,7.3
+Oracle,12,6.8
+REST API,11,6.2
+MongoDB,10,5.6
+React,10,5.6
+PostgreSQL,10,5.6
+Azure,10,5.6
+jQuery,9,5.1
+Redis,8,4.5
+Node.js,7,4.0
+Jira,7,4.0
+Spring,7,4.0
+UI/UX,7,4.0
+AWS,6,3.4
+Bash,6,3.4
+Bootstrap,6,3.4
+Angular,6,3.4
+Photoshop,6,3.4
+TypeScript,5,2.8
+TDD,5,2.8
+Android,4,2.3
+Django,4,2.3
+Apache,4,2.3
+Laravel,4,2.3
+Big Data,4,2.3
+Swift,4,2.3
+iOS,4,2.3
+Kubernetes,3,1.7
+Machine Learning,3,1.7
+Power BI,3,1.7
+PHP,3,1.7
+WordPress,3,1.7
+Ruby on Rails,3,1.7
+Go,3,1.7
+Kotlin,2,1.1
+Data Analysis,2,1.1
+TensorFlow,2,1.1
+Vue.js,2,1.1
+Firebase,2,1.1
+UML,2,1.1
+Ruby,2,1.1
+Microservices,2,1.1
+C#,2,1.1
+Flutter,1,0.6
+Nginx,1,0.6
+Cybersecurity,1,0.6
+React Native,1,0.6
+Pandas,1,0.6
+NLP,1,0.6
+Scikit-learn,1,0.6
+Express.js,1,0.6
+Next.js,1,0.6
+Elasticsearch,1,0.6
+Flask,1,0.6
+OAuth,1,0.6
+GraphQL,1,0.6
+MariaDB,1,0.6
+Symfony,1,0.6
+Cassandra,1,0.6
+ASP.NET,1,0.6
