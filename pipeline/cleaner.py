@@ -123,29 +123,61 @@ def load_taxonomy() -> dict:
     return mapping
 
 
+# ── Single-character skills — require extra context before matching ────────────
+# "r" (the R language) appears as a suffix in every French job title:
+# développeur, administrateur, directeur, ingénieur, etc.
+# We only accept it when clear R-language context words are present.
+SINGLE_CHAR_SKILLS = {"r"}
+
+R_CONTEXT = re.compile(
+    r'(r\s+language|langage\s+r|programmation\s+r|r\s+programming|'
+    r'rstudio|r\s+studio|tidyverse|ggplot2?|r\s+markdown|'
+    r'r\s*[,/]\s*python|python\s*[,/]\s*r(?!\w)|'
+    r'sas|spss|stata|statistical\s+computing|analyse\s+statistique)',
+    re.IGNORECASE,
+)
+
+
 # ── Skill extraction ───────────────────────────────────────────────────────────
 def extract_skills(text: str, taxonomy: dict) -> list:
     """
     Given combined text (skills_raw + description), return a sorted list
     of unique canonical skill names found via case-insensitive keyword matching.
-    Uses word-boundary matching to avoid false positives (e.g. 'R' in 'React').
+
+    Special handling:
+    - Aliases > 3 chars : plain substring match (long = unambiguous)
+    - Aliases 2-3 chars : strict word-boundary match (covers French accents)
+    - Single-char 'r'   : only matched when R-language context words present,
+                          preventing false positives from French suffixes like
+                          developpeur, administrateur, directeur, etc.
     """
     if not text:
         return []
     text_lower = text.lower()
     found = set()
 
-    # Sort aliases by length descending — match longer phrases first
     for alias in sorted(taxonomy.keys(), key=len, reverse=True):
-        # Use word boundaries for short aliases (≤ 3 chars) to reduce noise
-        if len(alias) <= 3:
-            pattern = r'(?<![a-z0-9])' + re.escape(alias) + r'(?![a-z0-9])'
+        alias_len = len(alias)
+
+        # Single-char skills need explicit context
+        if alias_len == 1 and alias in SINGLE_CHAR_SKILLS:
+            if alias == "r" and R_CONTEXT.search(text):
+                found.add(taxonomy[alias])
+            continue
+
+        if alias_len <= 3:
+            # Word boundary including French accented characters
+            pattern = (r'(?<![a-zàâäéèêëïîôöùûüç̀-ͯ0-9])'
+                       + re.escape(alias)
+                       + r'(?![a-zàâäéèêëïîôöùûüç̀-ͯ0-9])')
         else:
             pattern = re.escape(alias)
+
         if re.search(pattern, text_lower):
             found.add(taxonomy[alias])
 
     return sorted(found)
+
 
 
 # ── Main cleaning pipeline ─────────────────────────────────────────────────────
@@ -171,9 +203,17 @@ def run_cleaning():
         count = conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
         logger.info(f"After seeding: {count} jobs")
 
-    # Load all raw jobs
-    df = pd.read_sql("SELECT * FROM jobs", conn)
-    logger.info(f"Loaded {len(df)} raw records")
+    # Load real scraped jobs only — exclude demo seed records.
+    # Demo jobs are identified by their URL pattern (demo.example.com).
+    # This ensures the analysis reflects real Cameroonian job market data.
+    df = pd.read_sql(
+        "SELECT * FROM jobs WHERE url NOT LIKE '%demo.example.com%'", conn
+    )
+    real_count = len(df)
+    total_count = conn.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
+    if total_count > real_count:
+        logger.info(f"Excluded {total_count - real_count} demo seed records")
+    logger.info(f"Loaded {real_count} real scraped records")
 
     # ── Clean & enrich each row ────────────────────────────────────────────────
     records = []
@@ -206,6 +246,10 @@ def run_cleaning():
 
     clean_df = pd.DataFrame(records)
     logger.info(f"Cleaned {len(clean_df)} records")
+    if clean_df.empty:
+        logger.warning("No real scraped jobs found. Run run_scrapers.py first.")
+        conn.close()
+        return pd.DataFrame(), pd.DataFrame()
     logger.info(f"Skills extracted — avg per job: {clean_df['skill_count'].mean():.1f}")
 
     # ── Save to jobs_clean table ───────────────────────────────────────────────

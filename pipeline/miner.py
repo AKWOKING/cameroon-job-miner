@@ -178,18 +178,56 @@ def _choose_k(X: np.ndarray) -> int:
     return list(k_range)[elbow_i]
 
 
-# Role archetype inference rules (applied in order; first match wins)
+# Role archetype inference rules (applied in order; first match wins).
+# Rules are ordered from most specific to most general.
+# Each rule requires 2+ matching skills to fire, preventing single-skill mislabelling.
 ARCHETYPE_RULES = [
-    ("Mobile Developer",        ["Android", "iOS", "Flutter", "React Native", "Kotlin", "Swift"]),
-    ("Data Scientist / ML",     ["Machine Learning", "TensorFlow", "PyTorch", "Scikit-learn", "NLP", "Deep Learning"]),
-    ("Data Analyst",            ["Power BI", "Tableau", "Data Analysis", "Pandas", "R", "Big Data"]),
-    ("DevOps / Cloud Engineer", ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "CI/CD", "Terraform"]),
-    ("Backend Developer",       ["Django", "Flask", "Spring", "Laravel", "Node.js", "FastAPI", "NestJS"]),
-    ("Frontend Developer",      ["React", "Vue.js", "Angular", "HTML", "CSS", "Next.js"]),
-    ("Full-Stack Developer",    ["JavaScript", "TypeScript", "SQL", "REST API", "Git"]),
-    ("Security Engineer",       ["Cybersecurity", "Networking", "Linux"]),
+    # Specific stacks — require 2+ signals
+    ("Mobile Developer",        ["Android", "iOS", "Flutter", "React Native", "Kotlin", "Swift", "Ionic"]),
+    ("Data Scientist / ML",     ["Machine Learning", "TensorFlow", "PyTorch", "Scikit-learn", "NLP", "Deep Learning", "Computer Vision"]),
+    ("Data Analyst",            ["Power BI", "Tableau", "Data Analysis", "Pandas", "Big Data", "R"]),
+    ("DevOps / Cloud Engineer", ["Docker", "Kubernetes", "AWS", "Azure", "GCP", "CI/CD", "Terraform", "Ansible"]),
+    ("Security Engineer",       ["Cybersecurity", "Networking", "Linux", "Bash"]),
+    ("Backend Developer",       ["Django", "Flask", "Spring", "Laravel", "Node.js", "FastAPI", "NestJS", "Express.js"]),
+    ("Frontend Developer",      ["React", "Vue.js", "Angular", "HTML", "CSS", "Next.js", "Bootstrap", "jQuery"]),
+    ("Full-Stack Developer",    ["JavaScript", "TypeScript", "SQL", "REST API", "Git", "PHP"]),
     ("Systems Administrator",   ["Linux", "Networking", "Bash", "Nginx", "Apache"]),
 ]
+
+
+def _infer_archetype_scored(top_skills: list) -> str:
+    """
+    Score-based archetype inference: count how many keywords from each
+    archetype appear in top_skills. Pick the archetype with the highest
+    count (minimum 2 matches required to avoid single-skill mislabelling).
+    Falls back to 'General IT' if no archetype scores >= 2.
+    """
+    skill_set = set(top_skills)
+    scores = {}
+    for archetype, keywords in ARCHETYPE_RULES:
+        score = len(skill_set & set(keywords))
+        if score > 0:
+            scores[archetype] = score
+    if not scores:
+        return "General IT"
+    best = max(scores, key=scores.get)
+    # Require at least 2 matching signals for a confident label
+    if scores[best] >= 2:
+        return best
+    # Only 1 signal — use it but only if it's a highly specific skill
+    specific_singles = {
+        "Machine Learning": "Data Scientist / ML",
+        "Kubernetes": "DevOps / Cloud Engineer",
+        "Flutter": "Mobile Developer",
+        "React Native": "Mobile Developer",
+        "Cybersecurity": "Security Engineer",
+        "Power BI": "Data Analyst",
+        "Tableau": "Data Analyst",
+    }
+    for skill in top_skills:
+        if skill in specific_singles:
+            return specific_singles[skill]
+    return "General IT"
 
 
 def _build_cluster_profiles(
@@ -229,11 +267,7 @@ def _build_cluster_profiles(
 
 
 def _infer_archetype(top_skills: list) -> str:
-    skill_set = set(top_skills)
-    for archetype, keywords in ARCHETYPE_RULES:
-        if skill_set & set(keywords):
-            return archetype
-    return "General IT"
+    return _infer_archetype_scored(top_skills)
 
 
 # ── Main ───────────────────────────────────────────────────────────────────────

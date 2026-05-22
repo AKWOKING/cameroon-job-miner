@@ -1,135 +1,21 @@
 ﻿raw_id,title,cluster_id,archetype
 1,Développeur Full Stack React/Node.js,2,DevOps / Cloud Engineer
-2,Ingénieur DevOps,0,DevOps / Cloud Engineer
-3,Développeur Mobile Android/iOS,0,DevOps / Cloud Engineer
-4,Data Scientist,0,DevOps / Cloud Engineer
-5,Développeur Backend Python/Django,0,DevOps / Cloud Engineer
-6,Administrateur Système Linux,1,Data Analyst
-7,Développeur Web PHP/Laravel,3,Frontend Developer
-8,Chef de Projet IT Agile,0,DevOps / Cloud Engineer
-9,Développeur Frontend Vue.js,3,Frontend Developer
-10,Ingénieur Sécurité Informatique,1,Data Analyst
-11,Développeur React Native,3,Frontend Developer
-12,Analyste de Données,0,DevOps / Cloud Engineer
-13,Développeur Java Spring Boot,0,DevOps / Cloud Engineer
-14,Développeur WordPress,3,Frontend Developer
-15,Ingénieur Machine Learning,0,DevOps / Cloud Engineer
+2,Ingénieur DevOps,3,DevOps / Cloud Engineer
+3,Développeur Mobile Android/iOS,5,Mobile Developer
+4,Data Scientist,1,Data Scientist / ML
+5,Développeur Backend Python/Django,5,Mobile Developer
+6,Administrateur Système Linux,0,Data Analyst
+7,Développeur Web PHP/Laravel,4,Frontend Developer
+8,Chef de Projet IT Agile,1,Data Scientist / ML
+9,Développeur Frontend Vue.js,4,Frontend Developer
+10,Ingénieur Sécurité Informatique,0,Data Analyst
+11,Développeur React Native,5,Mobile Developer
+12,Analyste de Données,1,Data Scientist / ML
+13,Développeur Java Spring Boot,5,Mobile Developer
+14,Développeur WordPress,4,Frontend Developer
+15,Ingénieur Machine Learning,1,Data Scientist / ML
 16,Développeur Node.js/Express,2,DevOps / Cloud Engineer
-17,Responsable Infrastructure IT,0,DevOps / Cloud Engineer
-18,Développeur Angular TypeScript,3,Frontend Developer
-19,Ingénieur Data / Big Data,0,DevOps / Cloud Engineer
-20,Développeur iOS Swift,0,DevOps / Cloud Engineer
-21,Développeur Backend - Douala / Yaoundé,2,DevOps / Cloud Engineer
-22,Agent Support IT - Douala / Yaoundé,1,Data Analyst
-23,Country IT Manager / Responsable IT Pays - Douala - Yaoundé,1,Data Analyst
-24,Stagiaire Testeur(euse) Logiciel Informatique - Douala,1,Data Analyst
-25,Traducteur Informaticien - Yaoundé,1,Data Analyst
-26,Développeur - Yaoundé,1,Data Analyst
-27,Stagiaire en Administration Système et Réseau - Yaoundé,1,Data Analyst
-28,Chef de Mission / Architecte Solution LMS - Yaoundé,4,Data Analyst
-29,DBA IMS/DB2 Z/OS(H/F),1,Data Analyst
-30,Ingénieur Système Z/OS Middleware (H/F),1,Data Analyst
-31,Lead Développeur Java JEE (H/F),4,Data Analyst
-34,Ingénieur Réseau Système et Sécurité - Yaoundé,1,Data Analyst
-36,"Responsable Relation Membres, SAV et Recouvrement - Douala",1,Data Analyst
-38,Comptable - Douala Yaoundé Bafoussam Maroua Garoua,1,Data Analyst
-39,Stagiaire Développeur(euse) Web JAVA EE - Douala,1,Data Analyst
-41,Assistante de Direction - Yaoundé,1,Data Analyst
-42,Stagiaire en Génie Logiciel - Yaoundé,3,Frontend Developer
-43,Chargé(e) du SAV et Recouvrement - Douala,1,Data Analyst
-46,Senior Developer / Chef de Projet IT - Douala,4,Data Analyst
-51,Commercial(e) - Douala,1,Data Analyst
-52,Développeur Full Stack / Oracle APEX - Douala,4,Data Analyst
-53,Commercial de Terrain (H/F) - Yaoundé,1,Data Analyst
-54,Business Developer Junior - Télétravail,1,Data Analyst
-57,Développeur Full Stack (H/F) - Yaoundé,2,DevOps / Cloud Engineer
-58,Bilingual Customer Advisor / Business Developer,1,Data Analyst
-59,Backend Engineer (Flask) - Douala (possibilité de Télétravail),0,DevOps / Cloud Engineer
-60,"Expert Contenus Numériques et Expérience Utilisateur - Nkolfoulou, Centre, Cameroon",1,Data Analyst
-61,Infographe - Douala,1,Data Analyst
-63,Affilié Marketing - Yaoundé,1,Data Analyst
-64,Stagiaire IA et Process Automation - Yaoundé,1,Data Analyst
-69,Développeur Front-end Middle - Douala,3,Frontend Developer
-71,Infographe - Yaoundé,1,Data Analyst
-72,Travail à Distance – Enregistrements Audio (sans Expérience) - International,1,Data Analyst
-73,Assistante de Direction (H/F) - Douala,1,Data Analyst
-74,Spécialiste en Statistique et Econométrie - Yaoundé,1,Data Analyst
-76,Stagiaire Commercial et Communication - Douala,1,Data Analyst
-77,Agent de Recouvrement - Douala,1,Data Analyst
-78,Stagiaire Technicien Réseaux et Systèmes - Yaoundé,1,Data Analyst
-79,Stage Pratique d’Insertion Socio-Professionnelle - Yaoundé,1,Data Analyst
-80,Administrateur Système/Réseau/Base de Données - Yaoundé,1,Data Analyst
-82,Stage Technicien en Electricité - Yaoundé,1,Data Analyst
-83,Electricien (Electricité D´équipements) - Yaoundé,1,Data Analyst
-84,Consultant Technico-fonctionnel Oracle EBS - Paris,1,Data Analyst
-85,Superviseur d´Entrepôt - International,1,Data Analyst
-87,Community Manager - Yaoundé,1,Data Analyst
-89,Stagiaire Développeur / Intégrateur WordPress - Yaoundé,3,Frontend Developer
-91,Web Designer (H/F) - Yaoundé,3,Frontend Developer
-93,Secrétaire Administrative - Yaoundé,1,Data Analyst
-95,Développeur( Sénior) JAVA/ERP - Yaoundé,0,DevOps / Cloud Engineer
-97,Commercial Freelance / Apporteur D’Affaires - Tout le Cameroun,1,Data Analyst
-99,Designer Graphique - Douala,1,Data Analyst
-100,Community Manager - Yaoundé,1,Data Analyst
-103,Consultant SAP Senior (H/F),1,Data Analyst
-104,Cloud Microservices Architect (M/F),0,DevOps / Cloud Engineer
-105,Z/OS System Engineer Senior Storage(H/F),1,Data Analyst
-106,Consultant SAP ABAP (H/F),1,Data Analyst
-107,Consultant SAP FI-CO/PS (H/F),1,Data Analyst
-108,ANGULAR Developer (M/F),3,Frontend Developer
-109,DOTNET Developer (M/F),0,DevOps / Cloud Engineer
-110,IOS Developer (M/F),0,DevOps / Cloud Engineer
-111,JAVASCRIPT Developer (M/F),3,Frontend Developer
-112,LARAVEL Developer (M/F),3,Frontend Developer
-113,NODE.JS Developer (M/F),2,DevOps / Cloud Engineer
-114,OBJECTIVE-C Developer (M/F),3,Frontend Developer
-115,PHP Developer (M/F),2,DevOps / Cloud Engineer
-116,PYTHON Developer (M/F),0,DevOps / Cloud Engineer
-117,QA Tester (M/F),0,DevOps / Cloud Engineer
-118,REACT Developer (M/F),3,Frontend Developer
-119,RUBY ON RAILS Developer (M/F),2,DevOps / Cloud Engineer
-120,SWIFT Developer (M/F),0,DevOps / Cloud Engineer
-122,Test Automation Engineer (M/F),5,DevOps / Cloud Engineer
-123,UX / UI Designer (M/F),3,Frontend Developer
-124,AWS Cloud Architect (M/F),0,DevOps / Cloud Engineer
-125,AWS Solutions Architect (M/F),0,DevOps / Cloud Engineer
-126,AZURE Solutions Architect (M/F),0,DevOps / Cloud Engineer
-127,Cloud Architect (M/F),0,DevOps / Cloud Engineer
-128,Cloud Computing and Virtualization Engineer (M/F),0,DevOps / Cloud Engineer
-129,Cloud Engineer (M/F),0,DevOps / Cloud Engineer
-130,Cloud System Integrator (M/F),0,DevOps / Cloud Engineer
-131,GENESYS Architect (M/F),0,DevOps / Cloud Engineer
-132,Network Architect (M/F),0,DevOps / Cloud Engineer
-134,Consultant SAP MM/SD/EWM/PP/QM/CAR (H/F),1,Data Analyst
-135,DevOps Engineer (M/F),5,DevOps / Cloud Engineer
-136,JAVA Developer (M/F),4,Data Analyst
-137,JAVA JEE Developer (M/F),4,Data Analyst
-138,KOTLIN Developer (M/F),0,DevOps / Cloud Engineer
-139,Cloud System Administrator (M/F),0,DevOps / Cloud Engineer
-140,Cyber Security Engineer (M/F),0,DevOps / Cloud Engineer
-141,DATASTAGE Architect (M/F),0,DevOps / Cloud Engineer
-142,Infographe Junior et Stagiaire Infographiste - Yaoundé,1,Data Analyst
-143,"Chargé(e) de Marketing Digital - Yaoundé, Tradex éléveur",1,Data Analyst
-144,Caissier Pharmacie - Yaoundé,1,Data Analyst
-145,Consultant(e) Achat Junior - Yaoundé,1,Data Analyst
-147,Commercial H/F - Douala,1,Data Analyst
-148,"Expert Infrastructure, Déploiement et Sécurité - Yaoundé",1,Data Analyst
-149,Gestionnaire Polyvalent Logistique,1,Data Analyst
-150,Spécialiste en Économie de l’Éducation - Yaoundé,1,Data Analyst
-151,Expert Technique LMS / Développeur Full stack - Yaoundé,2,DevOps / Cloud Engineer
-152,Assistant(e) Exécutif(ve) - Douala,1,Data Analyst
-153,Senior IT Manager - Yaoundé,0,DevOps / Cloud Engineer
-155,Gestionnaire Opérationnel Livraison,1,Data Analyst
-158,Assistant Directeur Financier - Douala,1,Data Analyst
-159,"Stagiaire en Vidéosurveillance, Contrôle D´Accès, Intrusion, Incendie - Yaoundé",1,Data Analyst
-160,Magasinier - Douala,1,Data Analyst
-161,Informaticien Développeur Application - Yaoundé,4,Data Analyst
-162,Agent du Liaison - Courier et Transmission - Douala,1,Data Analyst
-163,Expert TIC - Yaoundé,1,Data Analyst
-164,Affréteur Junior - Yaoundé,1,Data Analyst
-167,Développeur Sénior - Chantilly,1,Data Analyst
-169,Administrateur LMS / Intégrateur Moodle - Yaoundé,1,Data Analyst
-173,Ingénieur Halieute ou Technicien Piscicole Experimenté - Douala,1,Data Analyst
-175,Stagiaire en Économie Mathématique - Dschang,1,Data Analyst
-177,Marketing Chargé d’Annonces (H/F) - Yaoundé,1,Data Analyst
-178,Gestionnaire Immobilier (H/F) - Yaoundé,1,Data Analyst
+17,Responsable Infrastructure IT,3,DevOps / Cloud Engineer
+18,Développeur Angular TypeScript,4,Frontend Developer
+19,Ingénieur Data / Big Data,1,Data Scientist / ML
+20,Développeur iOS Swift,5,Mobile Developer

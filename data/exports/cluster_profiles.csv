@@ -1,7 +1,7 @@
 ﻿cluster_id,archetype,size,top_skills,pct_of_total
-1,Data Analyst,69,"R, Networking, Linux, Java, Photoshop",51.5
-0,DevOps / Cloud Engineer,33,"Agile, Python, SQL, Docker, Git, Scala, Java, Azure, AWS, CI/CD",24.6
-3,Frontend Developer,15,"CSS, Java, JavaScript, HTML, Git, jQuery, UI/UX, Angular, Bootstrap, React",11.2
-2,DevOps / Cloud Engineer,8,"MongoDB, JavaScript, Git, Node.js, Docker, Java, CSS, MySQL, PostgreSQL, React",6.0
-4,Data Analyst,7,"HTML, JavaScript, Java, Agile, CSS, Oracle, SQL, MySQL, R, CI/CD",5.2
-5,DevOps / Cloud Engineer,2,"Oracle, Python, JavaScript, Java, Git, CI/CD, Bash, Linux, Apache, Docker",1.5
+1,Data Scientist / ML,5,"SQL, Python, Power BI, Machine Learning, TensorFlow, Pandas, Scikit-learn, Apache, Big Data, NLP",25.0
+5,Mobile Developer,5,"REST API, Git, Java, Firebase, React, React Native, Docker, MySQL, Swift, Spring",25.0
+4,Frontend Developer,4,"CSS, HTML, Java, JavaScript, PHP, REST API, Angular, TypeScript, WordPress, MySQL",20.0
+0,Data Analyst,2,"R, Linux, Networking, Docker, Apache, Python, Cybersecurity, Bash, Nginx",10.0
+3,DevOps / Cloud Engineer,2,"AWS, Kubernetes, Linux, CI/CD, Networking, Docker",10.0
+2,DevOps / Cloud Engineer,2,"Node.js, JavaScript, MongoDB, Docker, Git, React, REST API, Express.js",10.0
