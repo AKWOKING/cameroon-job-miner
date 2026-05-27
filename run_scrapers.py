@@ -32,6 +32,7 @@ from scrapers import (
     ExpertiniCmScraper,
     TalentCmScraper,
     WorkConnectScraper,
+    NewJobsCmScraper,
 )
 
 # ── Logging setup ──────────────────────────────────────────────────────────────
@@ -52,6 +53,7 @@ SCRAPER_MAP = {
     "talent_cm":    TalentCmScraper,
     "expertini_cm": ExpertiniCmScraper,
     "workconnect":  WorkConnectScraper,
+    "newjobscm":    NewJobsCmScraper,
 }
 
 

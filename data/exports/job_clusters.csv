@@ -1,104 +1,110 @@
 ﻿raw_id,title,cluster_id,archetype
-21,Développeur Backend - Douala / Yaoundé,1,Full-Stack Developer
-22,Agent Support IT - Douala / Yaoundé,0,IT Support / Sysadmin
-23,Country IT Manager / Responsable IT Pays - Douala - Yaoundé,0,IT Support / Sysadmin
-24,Stagiaire Testeur(euse) Logiciel Informatique - Douala,0,IT Support / Sysadmin
-26,Développeur - Yaoundé,0,IT Support / Sysadmin
-27,Stagiaire en Administration Système et Réseau - Yaoundé,0,IT Support / Sysadmin
+21,Développeur Backend - Douala / Yaoundé,3,Full-Stack Developer
+22,Agent Support IT - Douala / Yaoundé,1,Systems Administrator
+23,Country IT Manager / Responsable IT Pays - Douala - Yaoundé,1,Systems Administrator
+24,Stagiaire Testeur(euse) Logiciel Informatique - Douala,1,Systems Administrator
+26,Développeur - Yaoundé,1,Systems Administrator
+27,Stagiaire en Administration Système et Réseau - Yaoundé,1,Systems Administrator
 28,Chef de Mission / Architecte Solution LMS - Yaoundé,2,Frontend Developer
-29,DBA IMS/DB2 Z/OS(H/F),0,IT Support / Sysadmin
-30,Ingénieur Système Z/OS Middleware (H/F),0,IT Support / Sysadmin
+29,DBA IMS/DB2 Z/OS(H/F),1,Systems Administrator
+30,Ingénieur Système Z/OS Middleware (H/F),1,Systems Administrator
 31,Lead Développeur Java JEE (H/F),2,Frontend Developer
-34,Ingénieur Réseau Système et Sécurité - Yaoundé,0,IT Support / Sysadmin
-36,"Responsable Relation Membres, SAV et Recouvrement - Douala",0,IT Support / Sysadmin
-39,Stagiaire Développeur(euse) Web JAVA EE - Douala,0,IT Support / Sysadmin
+34,Ingénieur Réseau Système et Sécurité - Yaoundé,1,Systems Administrator
+36,"Responsable Relation Membres, SAV et Recouvrement - Douala",1,Systems Administrator
+39,Stagiaire Développeur(euse) Web JAVA EE - Douala,1,Systems Administrator
 42,Stagiaire en Génie Logiciel - Yaoundé,2,Frontend Developer
-44,"Téléconseillère - Yaoundé,Tradex Éleveur",0,IT Support / Sysadmin
+44,"Téléconseillère - Yaoundé,Tradex Éleveur",1,Systems Administrator
 46,Senior Developer / Chef de Projet IT - Douala,2,Frontend Developer
-47,Commercial B2B - Télétravail,0,IT Support / Sysadmin
-49,Caissière - Douala,0,IT Support / Sysadmin
-51,Commercial(e) - Douala,0,IT Support / Sysadmin
+47,Commercial B2B - Télétravail,1,Systems Administrator
+49,Caissière - Douala,1,Systems Administrator
+51,Commercial(e) - Douala,1,Systems Administrator
 52,Développeur Full Stack / Oracle APEX - Douala,2,Frontend Developer
-54,Business Developer Junior - Télétravail,0,IT Support / Sysadmin
-57,Développeur Full Stack (H/F) - Yaoundé,1,Full-Stack Developer
-59,Backend Engineer (Flask) - Douala (possibilité de Télétravail),4,DevOps / Cloud Engineer
-60,"Expert Contenus Numériques et Expérience Utilisateur - Nkolfoulou, Centre, Cameroon",0,IT Support / Sysadmin
-61,Infographe - Douala,0,IT Support / Sysadmin
-62,Comptable (H/F) – Fondation Sophia et Musée RAMSCB - Yaoundé et Edea,0,IT Support / Sysadmin
-63,Affilié Marketing - Yaoundé,0,IT Support / Sysadmin
-65,Stagiaire en Gestion de Projets - Yaoundé,0,IT Support / Sysadmin
-66,Commercial IT / Chargé de Développement Commercial - Douala,0,IT Support / Sysadmin
+54,Business Developer Junior - Télétravail,1,Systems Administrator
+57,Développeur Full Stack (H/F) - Yaoundé,2,Frontend Developer
+59,Backend Engineer (Flask) - Douala (possibilité de Télétravail),0,DevOps / Cloud Engineer
+60,"Expert Contenus Numériques et Expérience Utilisateur - Nkolfoulou, Centre, Cameroon",1,Systems Administrator
+61,Infographe - Douala,1,Systems Administrator
+62,Comptable (H/F) – Fondation Sophia et Musée RAMSCB - Yaoundé et Edea,1,Systems Administrator
+63,Affilié Marketing - Yaoundé,1,Systems Administrator
+65,Stagiaire en Gestion de Projets - Yaoundé,1,Systems Administrator
+66,Commercial IT / Chargé de Développement Commercial - Douala,1,Systems Administrator
 69,Développeur Front-end Middle - Douala,2,Frontend Developer
-71,Infographe - Yaoundé,0,IT Support / Sysadmin
-74,Spécialiste en Statistique et Econométrie - Yaoundé,0,IT Support / Sysadmin
-75,"Expert en Ingénierie Pédagogique et Formation - Nkolfoulou, Centre, Cameroon",0,IT Support / Sysadmin
-76,Stagiaire Commercial et Communication - Douala,0,IT Support / Sysadmin
-78,Stagiaire Technicien Réseaux et Systèmes - Yaoundé,0,IT Support / Sysadmin
-79,Stage Pratique d’Insertion Socio-Professionnelle - Yaoundé,0,IT Support / Sysadmin
-80,Administrateur Système/Réseau/Base de Données - Yaoundé,0,IT Support / Sysadmin
-84,Consultant Technico-fonctionnel Oracle EBS - Paris,0,IT Support / Sysadmin
-85,Superviseur d´Entrepôt - International,0,IT Support / Sysadmin
-87,Community Manager - Yaoundé,0,IT Support / Sysadmin
-88,Chargé(e) de Marketing et Vente - Yaoundé,0,IT Support / Sysadmin
+71,Infographe - Yaoundé,1,Systems Administrator
+74,Spécialiste en Statistique et Econométrie - Yaoundé,1,Systems Administrator
+75,"Expert en Ingénierie Pédagogique et Formation - Nkolfoulou, Centre, Cameroon",1,Systems Administrator
+76,Stagiaire Commercial et Communication - Douala,1,Systems Administrator
+78,Stagiaire Technicien Réseaux et Systèmes - Yaoundé,1,Systems Administrator
+79,Stage Pratique d’Insertion Socio-Professionnelle - Yaoundé,1,Systems Administrator
+80,Administrateur Système/Réseau/Base de Données - Yaoundé,1,Systems Administrator
+84,Consultant Technico-fonctionnel Oracle EBS - Paris,1,Systems Administrator
+85,Superviseur d´Entrepôt - International,1,Systems Administrator
+87,Community Manager - Yaoundé,1,Systems Administrator
+88,Chargé(e) de Marketing et Vente - Yaoundé,1,Systems Administrator
 89,Stagiaire Développeur / Intégrateur WordPress - Yaoundé,2,Frontend Developer
-91,Web Designer (H/F) - Yaoundé,0,IT Support / Sysadmin
-93,Secrétaire Administrative - Yaoundé,0,IT Support / Sysadmin
-95,Développeur( Sénior) JAVA/ERP - Yaoundé,3,DevOps / Cloud Engineer
-97,Commercial Freelance / Apporteur D’Affaires - Tout le Cameroun,0,IT Support / Sysadmin
-99,Designer Graphique - Douala,0,IT Support / Sysadmin
-100,Community Manager - Yaoundé,0,IT Support / Sysadmin
-103,Consultant SAP Senior (H/F),0,IT Support / Sysadmin
-104,Cloud Microservices Architect (M/F),4,DevOps / Cloud Engineer
-105,Z/OS System Engineer Senior Storage(H/F),0,IT Support / Sysadmin
-106,Consultant SAP ABAP (H/F),0,IT Support / Sysadmin
-107,Consultant SAP FI-CO/PS (H/F),0,IT Support / Sysadmin
+91,Web Designer (H/F) - Yaoundé,1,Systems Administrator
+93,Secrétaire Administrative - Yaoundé,1,Systems Administrator
+95,Développeur( Sénior) JAVA/ERP - Yaoundé,3,Full-Stack Developer
+97,Commercial Freelance / Apporteur D’Affaires - Tout le Cameroun,1,Systems Administrator
+99,Designer Graphique - Douala,1,Systems Administrator
+100,Community Manager - Yaoundé,1,Systems Administrator
+103,Consultant SAP Senior (H/F),1,Systems Administrator
+104,Cloud Microservices Architect (M/F),0,DevOps / Cloud Engineer
+105,Z/OS System Engineer Senior Storage(H/F),1,Systems Administrator
+106,Consultant SAP ABAP (H/F),1,Systems Administrator
+107,Consultant SAP FI-CO/PS (H/F),1,Systems Administrator
 108,ANGULAR Developer (M/F),2,Frontend Developer
-109,DOTNET Developer (M/F),2,Frontend Developer
-110,IOS Developer (M/F),0,IT Support / Sysadmin
+109,DOTNET Developer (M/F),0,DevOps / Cloud Engineer
+110,IOS Developer (M/F),1,Systems Administrator
 111,JAVASCRIPT Developer (M/F),2,Frontend Developer
 112,LARAVEL Developer (M/F),2,Frontend Developer
-113,NODE.JS Developer (M/F),1,Full-Stack Developer
+113,NODE.JS Developer (M/F),3,Full-Stack Developer
 114,OBJECTIVE-C Developer (M/F),2,Frontend Developer
-115,PHP Developer (M/F),2,Frontend Developer
-116,PYTHON Developer (M/F),2,Frontend Developer
-117,QA Tester (M/F),0,IT Support / Sysadmin
+115,PHP Developer (M/F),3,Full-Stack Developer
+116,PYTHON Developer (M/F),0,DevOps / Cloud Engineer
+117,QA Tester (M/F),0,DevOps / Cloud Engineer
 118,REACT Developer (M/F),2,Frontend Developer
-119,RUBY ON RAILS Developer (M/F),1,Full-Stack Developer
-120,SWIFT Developer (M/F),0,IT Support / Sysadmin
-122,Test Automation Engineer (M/F),2,Frontend Developer
+119,RUBY ON RAILS Developer (M/F),2,Frontend Developer
+120,SWIFT Developer (M/F),1,Systems Administrator
+122,Test Automation Engineer (M/F),3,Full-Stack Developer
 123,UX / UI Designer (M/F),2,Frontend Developer
-124,AWS Cloud Architect (M/F),4,DevOps / Cloud Engineer
-125,AWS Solutions Architect (M/F),4,DevOps / Cloud Engineer
-126,AZURE Solutions Architect (M/F),4,DevOps / Cloud Engineer
-127,Cloud Architect (M/F),4,DevOps / Cloud Engineer
-128,Cloud Computing and Virtualization Engineer (M/F),4,DevOps / Cloud Engineer
-129,Cloud Engineer (M/F),4,DevOps / Cloud Engineer
-130,Cloud System Integrator (M/F),0,IT Support / Sysadmin
-131,GENESYS Architect (M/F),4,DevOps / Cloud Engineer
-132,Network Architect (M/F),0,IT Support / Sysadmin
-133,Consultant SAP EHS (H/F),0,IT Support / Sysadmin
-134,Consultant SAP MM/SD/EWM/PP/QM/CAR (H/F),0,IT Support / Sysadmin
-135,DevOps Engineer (M/F),4,DevOps / Cloud Engineer
-136,JAVA Developer (M/F),3,DevOps / Cloud Engineer
-137,JAVA JEE Developer (M/F),3,DevOps / Cloud Engineer
-138,KOTLIN Developer (M/F),4,DevOps / Cloud Engineer
-139,Cloud System Administrator (M/F),4,DevOps / Cloud Engineer
-140,Cyber Security Engineer (M/F),0,IT Support / Sysadmin
-141,DATASTAGE Architect (M/F),0,IT Support / Sysadmin
-142,Infographe Junior et Stagiaire Infographiste - Yaoundé,0,IT Support / Sysadmin
-143,"Chargé(e) de Marketing Digital - Yaoundé, Tradex éléveur",0,IT Support / Sysadmin
-145,Consultant(e) Achat Junior - Yaoundé,0,IT Support / Sysadmin
-146,Responsable Commercial Vente Pneu (H/F) - Yaoundé,0,IT Support / Sysadmin
-148,"Expert Infrastructure, Déploiement et Sécurité - Yaoundé",0,IT Support / Sysadmin
-151,Expert Technique LMS / Développeur Full stack - Yaoundé,1,Full-Stack Developer
-152,Assistant(e) Exécutif(ve) - Douala,0,IT Support / Sysadmin
-154,Commercial (H/F) - Douala,0,IT Support / Sysadmin
-155,Gestionnaire Opérationnel Livraison,0,IT Support / Sysadmin
-158,Assistant Directeur Financier - Douala,0,IT Support / Sysadmin
+124,AWS Cloud Architect (M/F),0,DevOps / Cloud Engineer
+125,AWS Solutions Architect (M/F),0,DevOps / Cloud Engineer
+126,AZURE Solutions Architect (M/F),0,DevOps / Cloud Engineer
+127,Cloud Architect (M/F),0,DevOps / Cloud Engineer
+128,Cloud Computing and Virtualization Engineer (M/F),0,DevOps / Cloud Engineer
+129,Cloud Engineer (M/F),0,DevOps / Cloud Engineer
+130,Cloud System Integrator (M/F),1,Systems Administrator
+131,GENESYS Architect (M/F),0,DevOps / Cloud Engineer
+132,Network Architect (M/F),1,Systems Administrator
+133,Consultant SAP EHS (H/F),1,Systems Administrator
+134,Consultant SAP MM/SD/EWM/PP/QM/CAR (H/F),1,Systems Administrator
+135,DevOps Engineer (M/F),3,Full-Stack Developer
+136,JAVA Developer (M/F),2,Frontend Developer
+137,JAVA JEE Developer (M/F),2,Frontend Developer
+138,KOTLIN Developer (M/F),0,DevOps / Cloud Engineer
+139,Cloud System Administrator (M/F),0,DevOps / Cloud Engineer
+140,Cyber Security Engineer (M/F),1,Systems Administrator
+141,DATASTAGE Architect (M/F),1,Systems Administrator
+142,Infographe Junior et Stagiaire Infographiste - Yaoundé,1,Systems Administrator
+143,"Chargé(e) de Marketing Digital - Yaoundé, Tradex éléveur",1,Systems Administrator
+145,Consultant(e) Achat Junior - Yaoundé,1,Systems Administrator
+146,Responsable Commercial Vente Pneu (H/F) - Yaoundé,1,Systems Administrator
+148,"Expert Infrastructure, Déploiement et Sécurité - Yaoundé",1,Systems Administrator
+151,Expert Technique LMS / Développeur Full stack - Yaoundé,3,Full-Stack Developer
+152,Assistant(e) Exécutif(ve) - Douala,1,Systems Administrator
+154,Commercial (H/F) - Douala,1,Systems Administrator
+155,Gestionnaire Opérationnel Livraison,1,Systems Administrator
+158,Assistant Directeur Financier - Douala,1,Systems Administrator
 161,Informaticien Développeur Application - Yaoundé,2,Frontend Developer
-163,Expert TIC - Yaoundé,0,IT Support / Sysadmin
-166,Directeur Trésorerie et DAF (Directeur Administratif et Financier) - Douala et Yaoundé,0,IT Support / Sysadmin
-167,Développeur Sénior - Chantilly,0,IT Support / Sysadmin
-169,Administrateur LMS / Intégrateur Moodle - Yaoundé,0,IT Support / Sysadmin
-170,Stagiaire Ressources Humaines (H/F) - Yaoundé,0,IT Support / Sysadmin
-173,Ingénieur Halieute ou Technicien Piscicole Experimenté - Douala,0,IT Support / Sysadmin
+163,Expert TIC - Yaoundé,0,DevOps / Cloud Engineer
+166,Directeur Trésorerie et DAF (Directeur Administratif et Financier) - Douala et Yaoundé,1,Systems Administrator
+167,Développeur Sénior - Chantilly,1,Systems Administrator
+169,Administrateur LMS / Intégrateur Moodle - Yaoundé,0,DevOps / Cloud Engineer
+170,Stagiaire Ressources Humaines (H/F) - Yaoundé,1,Systems Administrator
+173,Ingénieur Halieute ou Technicien Piscicole Experimenté - Douala,1,Systems Administrator
+599,Stage Professionnel - Yaoundé et Douala,1,Systems Administrator
+603,Ambassadeur du Développement Web et de l’Innovation Digitale - Douala,2,Frontend Developer
+605,Assistant Pédagogique et E-learning LMS Moodle - Douala,1,Systems Administrator
+606,Assistant de Direction Bénévole Stagiaire - Yaoundé,1,Systems Administrator
+607,Junior Embedded Developer (Traineeship Program) - Bangangté,1,Systems Administrator
+617,Contrôleur de Gestion - Douala,1,Systems Administrator

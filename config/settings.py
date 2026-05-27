@@ -73,6 +73,12 @@ PORTALS = {
         "search_url": "https://www.workconnectjob.com/jobs",
         "enabled": True,
     },
+    "newjobscm": {
+        "name": "NewJobs Cameroon",
+        "base_url": "https://newjobscameroon.com",
+        "search_url": "https://newjobscameroon.com/jobs/",
+        "enabled": True,
+    },
 }
 
 # ── Logging ────────────────────────────────────────────────────────────────────
