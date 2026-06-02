@@ -513,10 +513,7 @@ This automated system provides continuous data collection for longitudinal analy
 2. **Geographic Coverage:**  
    Portfolio limited to Douala and Yaoundé; overlooks tech activity in Bamenda or Bafoussam
 
-3. **Time Sensitivity:**  
-   Static dataset from May-June 2026; dynamic market changes may affect trends
-
-4. **Skill Granularity:**  
+3. **Skill Granularity:**  
    Broad skill categories (e.g., "Cloud Computing") may mask specific platform requirements
 
 ### 10.2 Future Work
