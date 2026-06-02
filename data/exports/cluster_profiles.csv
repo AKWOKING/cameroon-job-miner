@@ -1,5 +1,6 @@
 ﻿cluster_id,archetype,size,top_skills,pct_of_total
-1,Systems Administrator,67,"SAP/ERP, Networking, Monitoring, CRM, Java, TCP/IP, Support Technique, Photoshop, Agile, Linux",61.5
-2,Frontend Developer,19,"JavaScript, Java, CSS, HTML, Git, jQuery, MySQL, Agile, Oracle, Angular",17.4
-0,DevOps / Cloud Engineer,16,"Cloud Computing, Agile, API, Python, Docker, Azure, SQL, AWS, Linux, CSS",14.7
-3,Full-Stack Developer,7,"Git, Java, JavaScript, API, PostgreSQL, SQL, MySQL, MongoDB, Agile, Docker",6.4
+4,IT Support / Sysadmin,58,"SAP/ERP, Monitoring, CRM, Java, Photoshop, Support Technique, Agile, UI/UX",48.3
+3,Frontend Developer,21,"JavaScript, Java, CSS, HTML, Git, MySQL, jQuery, SQL, Agile, PostgreSQL",17.5
+0,IT Support / Sysadmin,17,"Networking, TCP/IP, Linux, VPN, Monitoring, SAP/ERP, CRM, Java, Active Directory, Support Technique",14.2
+1,DevOps / Cloud Engineer,16,"Cloud Computing, SQL, Python, API, Agile, Docker, Azure, AWS, Linux, Bash",13.3
+2,DevOps / Cloud Engineer,8,"Git, Java, Agile, JavaScript, CI/CD, Docker, API, Oracle, SQL, Azure",6.7
