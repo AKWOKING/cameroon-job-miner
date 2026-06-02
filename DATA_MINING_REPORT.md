@@ -490,6 +490,17 @@ Java's strong presence as the #1 skill (14.1%) reveals Cameroon's heavy reliance
 
 87% of tech jobs are in Douala (economic hub) and Yaoundé (government capital), indicating a geographically constrained tech job market that may limit talent distribution.
 
+### 9.5 Longitudinal Analysis Capability
+
+The project now includes a **GitHub Actions workflow** (`.github/workflows/weekly_scraper.yml`) that runs every Monday at 03:00 UTC to automatically:
+- Scrape job listings from all active portals
+- Process and clean the data through the NLP pipeline
+- Update the SQLite database with new entries
+- Commit updated data back to the repository
+- Generate timestamped CSV exports for historical analysis
+
+This automated system provides continuous data collection for longitudinal analysis, addressing the future work item mentioned in the original report about tracking real-time skill demand changes.
+
 ---
 
 ## 10. Limitations & Future Work
@@ -510,8 +521,8 @@ Java's strong presence as the #1 skill (14.1%) reveals Cameroon's heavy reliance
 
 ### 10.2 Future Work
 
-1. **Longitudinal Analysis:**  
-   Implement weekly scraping to track real-time skill demand changes
+1. **Enhanced Longitudinal Analysis:**  
+   Leverage the weekly GitHub Actions workflow to perform trend analysis on skill demand over time
 
 2. **Cluster Validation:**  
    Conduct interviews with cluster-joined professionals to refine archetypes
