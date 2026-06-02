@@ -19,3 +19,5 @@ Thumbs.db
 
 # NOTE: data/jobs.db is intentionally NOT ignored
 # It is committed to the repo so GitHub Actions always has real data
+
+Check newjobs · PY

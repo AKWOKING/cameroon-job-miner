@@ -12,7 +12,7 @@ The site structure:
   - wpjb-column-location: location icon + text + job type (<small>)
   - wpjb-column-date wpjb-last: date posted (format: "Aug, 30<br />")
 
-Pagination: Uses standard WordPress pagination with ?page=N in URL
+Pagination: Uses WordPress standard /page/N/ format (e.g., /page/2/, /page/3/)
 """
 
 import logging
@@ -36,9 +36,10 @@ class NewJobsCmScraper(BaseScraper):
     def scrape(self) -> List[dict]:
         jobs = []
 
-        # newjobscameroon.com pagination appears to be 1-indexed with ?page=N
+        # WordPress standard pagination: /page/N/
         for page in range(1, MAX_PAGES_PER_SITE + 1):
-            url = SEARCH_URL if page == 1 else f"{SEARCH_URL}?page={page}"
+            # Page 1 is the base URL, subsequent pages use /page/N/
+            url = SEARCH_URL if page == 1 else f"https://newjobscameroon.com/page/{page}/"
             logger.info(f"[{PORTAL_KEY}] Scraping page {page} -> {url}")
 
             soup = self.get(url)
