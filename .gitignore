@@ -21,3 +21,10 @@ Thumbs.db
 # It is committed to the repo so GitHub Actions always has real data
 
 Check newjobs · PY
+DATA_MINING_REPORT.md
+DATA_MINING_REPORT.docx
+debug_*.html
+test.docx
+~$*.docx
+
+Check newjobs · PY
