@@ -1,14 +1,14 @@
 ﻿skill,count,pct
-Java,38,13.6
+Java,38,13.5
 JavaScript,30,10.7
 Agile,26,9.3
 CSS,26,9.3
-Git,24,8.6
-HTML,22,7.9
-SAP/ERP,22,7.9
+Git,24,8.5
+HTML,22,7.8
+SAP/ERP,22,7.8
 SQL,21,7.5
 API,20,7.1
-Networking,17,6.1
+Networking,17,6.0
 Docker,16,5.7
 MySQL,16,5.7
 Monitoring,16,5.7
@@ -22,10 +22,10 @@ PostgreSQL,10,3.6
 CRM,10,3.6
 React,9,3.2
 jQuery,9,3.2
-MongoDB,8,2.9
-Redis,8,2.9
-Support Technique,8,2.9
-UI/UX,8,2.9
+MongoDB,8,2.8
+Redis,8,2.8
+Support Technique,8,2.8
+UI/UX,8,2.8
 TCP/IP,7,2.5
 Spring,7,2.5
 Photoshop,7,2.5
