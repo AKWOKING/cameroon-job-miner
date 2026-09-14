@@ -1,24 +1,24 @@
 ﻿raw_id,title,cluster_id,archetype
-21,Développeur Backend - Douala / Yaoundé,2,DevOps / Cloud Engineer
+21,Développeur Backend - Douala / Yaoundé,2,Full-Stack Developer
 22,Agent Support IT - Douala / Yaoundé,4,IT Support / Sysadmin
 23,Country IT Manager / Responsable IT Pays - Douala - Yaoundé,4,IT Support / Sysadmin
 24,Stagiaire Testeur(euse) Logiciel Informatique - Douala,4,IT Support / Sysadmin
 26,Développeur - Yaoundé,4,IT Support / Sysadmin
 27,Stagiaire en Administration Système et Réseau - Yaoundé,0,IT Support / Sysadmin
-28,Chef de Mission / Architecte Solution LMS - Yaoundé,3,Frontend Developer
+28,Chef de Mission / Architecte Solution LMS - Yaoundé,2,Full-Stack Developer
 29,DBA IMS/DB2 Z/OS(H/F),4,IT Support / Sysadmin
 30,Ingénieur Système Z/OS Middleware (H/F),0,IT Support / Sysadmin
-31,Lead Développeur Java JEE (H/F),3,Frontend Developer
+31,Lead Développeur Java JEE (H/F),2,Full-Stack Developer
 34,Ingénieur Réseau Système et Sécurité - Yaoundé,0,IT Support / Sysadmin
 36,"Responsable Relation Membres, SAV et Recouvrement - Douala",4,IT Support / Sysadmin
 39,Stagiaire Développeur(euse) Web JAVA EE - Douala,4,IT Support / Sysadmin
 42,Stagiaire en Génie Logiciel - Yaoundé,3,Frontend Developer
 44,"Téléconseillère - Yaoundé,Tradex Éleveur",4,IT Support / Sysadmin
-46,Senior Developer / Chef de Projet IT - Douala,3,Frontend Developer
+46,Senior Developer / Chef de Projet IT - Douala,2,Full-Stack Developer
 47,Commercial B2B - Télétravail,4,IT Support / Sysadmin
 49,Caissière - Douala,4,IT Support / Sysadmin
 51,Commercial(e) - Douala,4,IT Support / Sysadmin
-52,Développeur Full Stack / Oracle APEX - Douala,3,Frontend Developer
+52,Développeur Full Stack / Oracle APEX - Douala,2,Full-Stack Developer
 54,Business Developer Junior - Télétravail,0,IT Support / Sysadmin
 57,Développeur Full Stack (H/F) - Yaoundé,3,Frontend Developer
 59,Backend Engineer (Flask) - Douala (possibilité de Télétravail),1,DevOps / Cloud Engineer
@@ -43,7 +43,7 @@
 89,Stagiaire Développeur / Intégrateur WordPress - Yaoundé,3,Frontend Developer
 91,Web Designer (H/F) - Yaoundé,4,IT Support / Sysadmin
 93,Secrétaire Administrative - Yaoundé,4,IT Support / Sysadmin
-95,Développeur( Sénior) JAVA/ERP - Yaoundé,2,DevOps / Cloud Engineer
+95,Développeur( Sénior) JAVA/ERP - Yaoundé,2,Full-Stack Developer
 97,Commercial Freelance / Apporteur D’Affaires - Tout le Cameroun,0,IT Support / Sysadmin
 99,Designer Graphique - Douala,0,IT Support / Sysadmin
 100,Community Manager - Yaoundé,0,IT Support / Sysadmin
@@ -55,7 +55,7 @@
 108,ANGULAR Developer (M/F),3,Frontend Developer
 109,DOTNET Developer (M/F),1,DevOps / Cloud Engineer
 110,IOS Developer (M/F),4,IT Support / Sysadmin
-111,JAVASCRIPT Developer (M/F),3,Frontend Developer
+111,JAVASCRIPT Developer (M/F),2,Full-Stack Developer
 112,LARAVEL Developer (M/F),3,Frontend Developer
 113,NODE.JS Developer (M/F),3,Frontend Developer
 114,OBJECTIVE-C Developer (M/F),3,Frontend Developer
@@ -65,7 +65,7 @@
 118,REACT Developer (M/F),3,Frontend Developer
 119,RUBY ON RAILS Developer (M/F),3,Frontend Developer
 120,SWIFT Developer (M/F),4,IT Support / Sysadmin
-122,Test Automation Engineer (M/F),2,DevOps / Cloud Engineer
+122,Test Automation Engineer (M/F),2,Full-Stack Developer
 123,UX / UI Designer (M/F),3,Frontend Developer
 124,AWS Cloud Architect (M/F),1,DevOps / Cloud Engineer
 125,AWS Solutions Architect (M/F),1,DevOps / Cloud Engineer
@@ -78,13 +78,13 @@
 132,Network Architect (M/F),4,IT Support / Sysadmin
 133,Consultant SAP EHS (H/F),4,IT Support / Sysadmin
 134,Consultant SAP MM/SD/EWM/PP/QM/CAR (H/F),4,IT Support / Sysadmin
-135,DevOps Engineer (M/F),2,DevOps / Cloud Engineer
-136,JAVA Developer (M/F),2,DevOps / Cloud Engineer
-137,JAVA JEE Developer (M/F),2,DevOps / Cloud Engineer
-138,KOTLIN Developer (M/F),2,DevOps / Cloud Engineer
+135,DevOps Engineer (M/F),2,Full-Stack Developer
+136,JAVA Developer (M/F),2,Full-Stack Developer
+137,JAVA JEE Developer (M/F),2,Full-Stack Developer
+138,KOTLIN Developer (M/F),2,Full-Stack Developer
 139,Cloud System Administrator (M/F),1,DevOps / Cloud Engineer
 140,Cyber Security Engineer (M/F),4,IT Support / Sysadmin
-141,DATASTAGE Architect (M/F),1,DevOps / Cloud Engineer
+141,DATASTAGE Architect (M/F),4,IT Support / Sysadmin
 142,Infographe Junior et Stagiaire Infographiste - Yaoundé,4,IT Support / Sysadmin
 143,"Chargé(e) de Marketing Digital - Yaoundé, Tradex éléveur",0,IT Support / Sysadmin
 145,Consultant(e) Achat Junior - Yaoundé,4,IT Support / Sysadmin
@@ -96,7 +96,7 @@
 155,Gestionnaire Opérationnel Livraison,4,IT Support / Sysadmin
 158,Assistant Directeur Financier - Douala,0,IT Support / Sysadmin
 161,Informaticien Développeur Application - Yaoundé,3,Frontend Developer
-163,Expert TIC - Yaoundé,1,DevOps / Cloud Engineer
+163,Expert TIC - Yaoundé,4,IT Support / Sysadmin
 166,Directeur Trésorerie et DAF (Directeur Administratif et Financier) - Douala et Yaoundé,4,IT Support / Sysadmin
 167,Développeur Sénior - Chantilly,4,IT Support / Sysadmin
 169,Administrateur LMS / Intégrateur Moodle - Yaoundé,1,DevOps / Cloud Engineer
@@ -109,7 +109,7 @@
 607,Junior Embedded Developer (Traineeship Program) - Bangangté,4,IT Support / Sysadmin
 617,Contrôleur de Gestion - Douala,4,IT Support / Sysadmin
 905,Stagiaire Pro UX/UI Designer et Graphic Designer - Douala ou Yaoundé,4,IT Support / Sysadmin
-906,Software Engineer - Yaoundé,2,DevOps / Cloud Engineer
+906,Software Engineer - Yaoundé,2,Full-Stack Developer
 907,Responsable Technique (CTO / Lead Developer) - Yaoundé,4,IT Support / Sysadmin
 908,Responsable Commercial et Partenariats - Yaoundé,0,IT Support / Sysadmin
 909,Responsable Commercial(e) - Garoua,4,IT Support / Sysadmin
@@ -117,5 +117,5 @@
 911,Comptable Junior - Yaoundé,4,IT Support / Sysadmin
 1264,Ingénieur Sécurité des Systèmes d’Information - Douala,4,IT Support / Sysadmin
 1265,Chef de Projet Informatique - Yaoundé,4,IT Support / Sysadmin
-1276,Développeur Oracle APEX Junior - Douala,3,Frontend Developer
+1276,Développeur Oracle APEX Junior - Douala,2,Full-Stack Developer
 1295,"Chargé(e) Marketing - Douala, Yaoundé, Bertoua",4,IT Support / Sysadmin
