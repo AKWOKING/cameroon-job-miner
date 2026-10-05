@@ -34,11 +34,11 @@ MySQL,CSS + SQL,0.058,0.438,5.25
 Oracle,CI/CD,0.05,0.462,5.035
 CI/CD,Oracle,0.05,0.545,5.035
 JavaScript + jQuery,MySQL,0.05,0.667,5.0
-Docker,Agile + Git,0.067,0.5,5.0
+Agile + Git,Docker,0.067,0.667,5.0
 jQuery,MySQL,0.05,0.667,5.0
 Docker + JavaScript,Git,0.058,1.0,5.0
 Docker + PostgreSQL,Git,0.05,1.0,5.0
-Agile + Git,Docker,0.067,0.667,5.0
+Docker,Agile + Git,0.067,0.5,5.0
 JavaScript + React,Git,0.058,1.0,5.0
 Java + jQuery,MySQL,0.05,0.667,5.0
 Java + PostgreSQL,MySQL,0.05,0.667,5.0
@@ -77,15 +77,15 @@ CSS,HTML,0.175,0.808,4.406
 HTML,CSS,0.175,0.955,4.406
 SQL,Oracle,0.083,0.476,4.396
 Oracle,SQL,0.083,0.769,4.396
-Java + Oracle,MySQL,0.058,0.583,4.375
 MySQL,Java + Oracle,0.058,0.438,4.375
+Java + Oracle,MySQL,0.058,0.583,4.375
 CSS + SQL,HTML,0.067,0.8,4.364
 CSS,HTML + JavaScript,0.142,0.654,4.359
 HTML + Java,CSS,0.142,0.944,4.359
 CSS,HTML + Java,0.142,0.654,4.359
 HTML + JavaScript,CSS,0.142,0.944,4.359
-Oracle,Java + MySQL,0.058,0.538,4.308
 Java + MySQL,Oracle,0.058,0.467,4.308
+Oracle,Java + MySQL,0.058,0.538,4.308
 CSS + Git,MySQL,0.067,0.571,4.286
 Java + Oracle,SQL,0.075,0.75,4.286
 MongoDB,Git + Java,0.05,0.75,4.286
@@ -110,8 +110,8 @@ CI/CD,Docker,0.05,0.545,4.091
 CI/CD,Agile + Java,0.05,0.545,4.091
 Oracle,Agile + Java,0.058,0.538,4.038
 API + Java,MySQL,0.058,0.538,4.038
-Oracle,MySQL,0.058,0.538,4.038
 MySQL,Oracle,0.058,0.438,4.038
+Oracle,MySQL,0.058,0.538,4.038
 MySQL,API + Java,0.058,0.438,4.038
 Agile + Java,Oracle,0.058,0.438,4.038
 JavaScript + Oracle,SQL,0.058,0.7,4.0
@@ -150,16 +150,16 @@ HTML + Oracle,CSS,0.05,0.857,3.956
 JavaScript + MongoDB,CSS,0.05,0.857,3.956
 Java + React,CSS,0.05,0.857,3.956
 JavaScript + React,CSS,0.05,0.857,3.956
-MySQL,Git + JavaScript,0.083,0.625,3.947
 Git + JavaScript,MySQL,0.083,0.526,3.947
-MySQL,Git + Java,0.092,0.688,3.929
+MySQL,Git + JavaScript,0.083,0.625,3.947
 Git + Java,MySQL,0.092,0.524,3.929
-CSS,JavaScript + MySQL,0.092,0.423,3.905
+MySQL,Git + Java,0.092,0.688,3.929
 JavaScript + MySQL,CSS,0.092,0.846,3.905
-Java + PostgreSQL,Git,0.058,0.778,3.889
-CI/CD + Java,Git,0.058,0.778,3.889
-JavaScript + jQuery,Git,0.058,0.778,3.889
+CSS,JavaScript + MySQL,0.092,0.423,3.905
 Java + jQuery,Git,0.058,0.778,3.889
+CI/CD + Java,Git,0.058,0.778,3.889
+Java + PostgreSQL,Git,0.058,0.778,3.889
+JavaScript + jQuery,Git,0.058,0.778,3.889
 jQuery,Git,0.058,0.778,3.889
 React,Git,0.058,0.778,3.889
 Git,JavaScript + MySQL,0.083,0.417,3.846
@@ -180,8 +180,8 @@ MySQL,Agile + Java,0.067,0.5,3.75
 Agile + Java,MySQL,0.067,0.5,3.75
 PostgreSQL,Agile,0.067,0.8,3.692
 Docker + Git,Agile,0.067,0.8,3.692
-Java + MySQL,Git,0.092,0.733,3.667
 Git,Java + MySQL,0.092,0.458,3.667
+Java + MySQL,Git,0.092,0.733,3.667
 CSS + MySQL,JavaScript,0.092,0.917,3.667
 CI/CD,Git + Java,0.058,0.636,3.636
 jQuery,HTML,0.05,0.667,3.636
@@ -197,8 +197,8 @@ JavaScript,Git + Java,0.158,0.633,3.619
 Java + PostgreSQL,Agile,0.058,0.778,3.59
 Oracle,HTML + JavaScript,0.058,0.538,3.59
 Oracle,HTML + Java,0.058,0.538,3.59
-SQL,MySQL,0.083,0.476,3.571
 MySQL,SQL,0.083,0.625,3.571
+SQL,MySQL,0.083,0.476,3.571
 Java + PostgreSQL,JavaScript,0.067,0.889,3.556
 HTML + MySQL,JavaScript,0.067,0.889,3.556
 Agile + CSS,JavaScript,0.067,0.889,3.556
@@ -212,8 +212,8 @@ Java + MongoDB,JavaScript,0.058,0.875,3.5
 MongoDB,JavaScript,0.058,0.875,3.5
 JavaScript,Java + MySQL,0.108,0.433,3.467
 Java + MySQL,JavaScript,0.108,0.867,3.467
-CSS,MySQL,0.1,0.462,3.462
 MySQL,CSS,0.1,0.75,3.462
+CSS,MySQL,0.1,0.462,3.462
 API + Java,Git,0.075,0.692,3.462
 Git + PostgreSQL,Agile,0.05,0.75,3.462
 Java + MongoDB,CSS,0.05,0.75,3.462
@@ -232,22 +232,22 @@ Git + JavaScript,CSS,0.117,0.737,3.401
 CSS,Git + JavaScript,0.117,0.538,3.401
 CSS,Java + JavaScript,0.183,0.846,3.385
 Java + JavaScript,CSS,0.183,0.733,3.385
-CSS,Java + MySQL,0.092,0.423,3.385
 Java + MySQL,CSS,0.092,0.733,3.385
+CSS,Java + MySQL,0.092,0.423,3.385
 CSS,JavaScript,0.183,0.846,3.385
 JavaScript,CSS,0.183,0.733,3.385
 Git + MySQL,CSS,0.067,0.727,3.357
 JavaScript + MySQL,HTML,0.067,0.615,3.357
 JavaScript + SQL,CSS,0.067,0.727,3.357
+MySQL,HTML + JavaScript,0.067,0.5,3.333
 HTML + JavaScript,MySQL,0.067,0.444,3.333
 Java + Oracle,JavaScript,0.083,0.833,3.333
-MySQL,HTML + JavaScript,0.067,0.5,3.333
 CSS + MySQL,SQL,0.058,0.583,3.333
 HTML + Java,MySQL,0.067,0.444,3.333
 MySQL,HTML + Java,0.067,0.5,3.333
 CSS + MySQL,Git,0.067,0.667,3.333
-Docker,Agile + Java,0.058,0.438,3.281
 Agile + Java,Docker,0.058,0.438,3.281
+Docker,Agile + Java,0.058,0.438,3.281
 PostgreSQL,CSS + JavaScript,0.05,0.6,3.273
 HTML,Java + JavaScript,0.15,0.818,3.273
 PostgreSQL,CSS + Java,0.05,0.6,3.273
@@ -255,8 +255,8 @@ Agile + SQL,API,0.05,0.545,3.273
 Java + JavaScript,HTML,0.15,0.6,3.273
 HTML,JavaScript,0.15,0.818,3.273
 JavaScript,HTML,0.15,0.6,3.273
-MySQL,Java + JavaScript,0.108,0.812,3.25
 Java + JavaScript,MySQL,0.108,0.433,3.25
+MySQL,Java + JavaScript,0.108,0.812,3.25
 JavaScript,MySQL,0.108,0.433,3.25
 MySQL,JavaScript,0.108,0.812,3.25
 JavaScript,CSS + HTML,0.142,0.567,3.238
@@ -264,8 +264,8 @@ CSS + HTML,JavaScript,0.142,0.81,3.238
 MySQL + SQL,CSS,0.058,0.7,3.231
 JavaScript + Oracle,CSS,0.058,0.7,3.231
 Docker + Java,Agile,0.058,0.7,3.231
-Git + Java,Docker,0.075,0.429,3.214
 Docker,Git + Java,0.075,0.562,3.214
+Git + Java,Docker,0.075,0.429,3.214
 CSS + SQL,JavaScript,0.067,0.8,3.2
 PostgreSQL,JavaScript,0.067,0.8,3.2
 PostgreSQL,Java + JavaScript,0.067,0.8,3.2
@@ -283,7 +283,7 @@ Git,Java + JavaScript,0.158,0.792,3.167
 CSS + jQuery,Java,0.067,1.0,3.158
 Java,Git + JavaScript,0.158,0.5,3.158
 Docker + JavaScript,Java,0.058,1.0,3.158
-Git + HTML,Java,0.083,1.0,3.158
+Docker + SQL,Java,0.05,1.0,3.158
 JavaScript,Java,0.25,1.0,3.158
 CSS + JavaScript,Java,0.183,1.0,3.158
 CSS + MongoDB,Java,0.05,1.0,3.158
@@ -296,7 +296,7 @@ Git + Oracle,Java,0.05,1.0,3.158
 Git + MongoDB,Java,0.05,1.0,3.158
 Git + JavaScript,Java,0.158,1.0,3.158
 Git + MySQL,Java,0.092,1.0,3.158
-Docker + SQL,Java,0.05,1.0,3.158
+Git + HTML,Java,0.083,1.0,3.158
 API + Git,Java,0.075,1.0,3.158
 MySQL + PostgreSQL,Java,0.05,1.0,3.158
 Java,CSS + JavaScript,0.183,0.579,3.158
@@ -316,22 +316,22 @@ HTML + jQuery,Java,0.05,1.0,3.158
 Spring,Java,0.058,1.0,3.158
 Git + React,Java,0.058,1.0,3.158
 CI/CD + Oracle,Java,0.05,1.0,3.158
-JavaScript + MySQL,Java,0.108,1.0,3.158
+JavaScript + MongoDB,Java,0.058,1.0,3.158
 JavaScript + Node.js,Java,0.05,1.0,3.158
-MySQL + jQuery,Java,0.05,1.0,3.158
-MySQL + Oracle,Java,0.058,1.0,3.158
-JavaScript + jQuery,Java,0.075,1.0,3.158
 JavaScript + React,Java,0.058,1.0,3.158
-Agile + Oracle,Java,0.058,1.0,3.158
+MySQL + jQuery,Java,0.05,1.0,3.158
+JavaScript + jQuery,Java,0.075,1.0,3.158
+MySQL + Oracle,Java,0.058,1.0,3.158
 Agile + MySQL,Java,0.067,1.0,3.158
+Agile + JavaScript,Java,0.1,1.0,3.158
 JavaScript + Oracle,Java,0.083,1.0,3.158
 JavaScript + PostgreSQL,Java,0.067,1.0,3.158
-JavaScript + MongoDB,Java,0.058,1.0,3.158
+JavaScript + MySQL,Java,0.108,1.0,3.158
+Agile + Oracle,Java,0.058,1.0,3.158
 JavaScript + Python,Java,0.058,1.0,3.158
 JavaScript + SQL,Java,0.092,1.0,3.158
-Agile + JavaScript,Java,0.1,1.0,3.158
-Git,Docker,0.083,0.417,3.125
 Docker,Git,0.083,0.625,3.125
+Git,Docker,0.083,0.417,3.125
 Git + MySQL,SQL,0.05,0.545,3.117
 React,Java + JavaScript,0.058,0.778,3.111
 API + Git,JavaScript,0.058,0.778,3.111
@@ -344,33 +344,33 @@ Java + PostgreSQL,CSS,0.05,0.667,3.077
 API + Java,JavaScript,0.083,0.769,3.077
 Agile + JavaScript,CSS,0.067,0.667,3.077
 Git + Java,CSS,0.117,0.667,3.077
-Oracle,Java + JavaScript,0.083,0.769,3.077
-React,CSS,0.05,0.667,3.077
 JavaScript + MySQL,SQL,0.058,0.538,3.077
+React,CSS,0.05,0.667,3.077
+Oracle,Java + JavaScript,0.083,0.769,3.077
 Oracle,JavaScript,0.083,0.769,3.077
-HTML,MySQL,0.075,0.409,3.068
 MySQL,HTML,0.075,0.562,3.068
-Agile + Java,JavaScript,0.1,0.75,3.0
-API,MySQL,0.067,0.4,3.0
-MySQL + SQL,Git,0.05,0.6,3.0
+HTML,MySQL,0.075,0.409,3.068
+JavaScript,Agile + Java,0.1,0.4,3.0
+MySQL,API,0.067,0.5,3.0
 Git + PostgreSQL,JavaScript,0.05,0.75,3.0
+MySQL + SQL,Git,0.05,0.6,3.0
 Agile + MySQL,JavaScript,0.05,0.75,3.0
 Agile + PostgreSQL,JavaScript,0.05,0.75,3.0
-JavaScript,Agile + Java,0.1,0.4,3.0
+Agile + Java,JavaScript,0.1,0.75,3.0
 HTML + SQL,JavaScript,0.05,0.75,3.0
+Agile + Git,API,0.05,0.5,3.0
 API,Agile + Java,0.067,0.4,3.0
 Agile + Java,API,0.067,0.5,3.0
-Java + SQL,Docker,0.05,0.4,3.0
-Agile + Git,API,0.05,0.5,3.0
 API + Agile,Git,0.05,0.6,3.0
-MySQL,API,0.067,0.5,3.0
+Java + SQL,Docker,0.05,0.4,3.0
+API,MySQL,0.067,0.4,3.0
 JavaScript + SQL,HTML,0.05,0.545,2.975
 MySQL,Java,0.125,0.938,2.961
 Oracle,CSS + Java,0.058,0.538,2.937
 Oracle,HTML,0.058,0.538,2.937
+Oracle,CSS + JavaScript,0.058,0.538,2.937
 CI/CD,Agile,0.058,0.636,2.937
 Azure,Agile,0.058,0.636,2.937
-Oracle,CSS + JavaScript,0.058,0.538,2.937
 Java + SQL,JavaScript,0.092,0.733,2.933
 Agile + JavaScript,Git,0.058,0.583,2.917
 Oracle,Java,0.1,0.923,2.915
@@ -380,60 +380,60 @@ Docker,Agile,0.083,0.625,2.885
 Git + JavaScript,HTML,0.083,0.526,2.871
 HTML,Git + JavaScript,0.083,0.455,2.871
 SQL,API,0.083,0.476,2.857
-MySQL,CSS + HTML,0.067,0.5,2.857
 API,SQL,0.083,0.5,2.857
-Agile + JavaScript,SQL,0.05,0.5,2.857
 Agile + Java,SQL,0.067,0.5,2.857
-Oracle + SQL,Java,0.075,0.9,2.842
+Agile + JavaScript,SQL,0.05,0.5,2.857
+MySQL,CSS + HTML,0.067,0.5,2.857
 PostgreSQL,Java,0.075,0.9,2.842
-Docker + Git,Java,0.075,0.9,2.842
 MySQL + SQL,Java,0.075,0.9,2.842
+Docker + Git,Java,0.075,0.9,2.842
+Oracle + SQL,Java,0.075,0.9,2.842
 API + Java,Agile,0.067,0.615,2.84
 Agile + Java,Git,0.075,0.562,2.812
-HTML + MySQL,Java,0.067,0.889,2.807
-Agile + HTML,Java,0.067,0.889,2.807
 Agile + CSS,Java,0.067,0.889,2.807
-Docker + Git,JavaScript,0.058,0.7,2.8
-Oracle + SQL,JavaScript,0.058,0.7,2.8
-MySQL + SQL,JavaScript,0.058,0.7,2.8
+Agile + HTML,Java,0.067,0.889,2.807
+HTML + MySQL,Java,0.067,0.889,2.807
 Java + MySQL,API,0.058,0.467,2.8
+Oracle + SQL,JavaScript,0.058,0.7,2.8
 Docker + Java,JavaScript,0.058,0.7,2.8
+Docker + Git,JavaScript,0.058,0.7,2.8
+MySQL + SQL,JavaScript,0.058,0.7,2.8
 HTML + Java,Git,0.083,0.556,2.778
 Git,HTML + JavaScript,0.083,0.417,2.778
 HTML + JavaScript,Git,0.083,0.556,2.778
 Git,HTML + Java,0.083,0.417,2.778
-PostgreSQL,CSS,0.05,0.6,2.769
 JavaScript + Oracle,Agile,0.05,0.6,2.769
-API + SQL,Agile,0.05,0.6,2.769
+PostgreSQL,CSS,0.05,0.6,2.769
 Oracle + SQL,CSS,0.05,0.6,2.769
-Docker,Git + JavaScript,0.058,0.438,2.763
+API + SQL,Agile,0.05,0.6,2.769
 API + MySQL,Java,0.058,0.875,2.763
+Docker,Git + JavaScript,0.058,0.438,2.763
 Agile + PostgreSQL,Java,0.058,0.875,2.763
-Java,Git,0.175,0.553,2.763
-Git + PostgreSQL,Java,0.058,0.875,2.763
 Git,Java,0.175,0.875,2.763
+Git + PostgreSQL,Java,0.058,0.875,2.763
+Java,Git,0.175,0.553,2.763
 Agile + Java,HTML,0.067,0.5,2.727
 Agile + CI/CD,Java,0.05,0.857,2.707
 Java + Oracle,Agile,0.058,0.583,2.692
 CSS,Git,0.117,0.538,2.692
 Java + Oracle,CSS,0.058,0.583,2.692
 Git,CSS,0.117,0.583,2.692
-CSS,Java,0.183,0.846,2.672
 Java,CSS,0.183,0.579,2.672
+CSS,Java,0.183,0.846,2.672
 Java + SQL,Git,0.067,0.533,2.667
 Oracle,Git + Java,0.05,0.462,2.637
-API + Java,SQL,0.05,0.462,2.637
 Oracle,CSS + HTML,0.05,0.462,2.637
-HTML,Git + Java,0.083,0.455,2.597
+API + Java,SQL,0.05,0.462,2.637
 Git + Java,HTML,0.083,0.476,2.597
+HTML,Git + Java,0.083,0.455,2.597
 CI/CD,Java,0.075,0.818,2.584
-Java,HTML,0.15,0.474,2.584
 HTML,Java,0.15,0.818,2.584
-Git + Java,API,0.075,0.429,2.571
+Java,HTML,0.15,0.474,2.584
 API,Git + Java,0.075,0.45,2.571
+Git + Java,API,0.075,0.429,2.571
 Python,API,0.05,0.429,2.571
-CSS + HTML,Java,0.142,0.81,2.556
 Java,CSS + HTML,0.142,0.447,2.556
+CSS + HTML,Java,0.142,0.81,2.556
 CI/CD,Java + JavaScript,0.058,0.636,2.545
 CI/CD,JavaScript,0.058,0.636,2.545
 API + Agile,Java,0.067,0.8,2.526
@@ -442,15 +442,15 @@ JavaScript + SQL,Agile,0.05,0.545,2.517
 Java + Oracle,Git,0.05,0.5,2.5
 Oracle,CSS,0.058,0.538,2.485
 Oracle,Agile,0.058,0.538,2.485
-Java + SQL,Agile,0.067,0.533,2.462
 Java + MySQL,Agile,0.067,0.533,2.462
+Java + SQL,Agile,0.067,0.533,2.462
 Java + SQL,CSS,0.067,0.533,2.462
 React,Java,0.058,0.778,2.456
 SQL,Agile,0.092,0.524,2.418
 Agile,SQL,0.092,0.423,2.418
 Java + SQL,API,0.05,0.4,2.4
-Agile + Git,Java,0.075,0.75,2.368
 HTML + SQL,Java,0.05,0.75,2.368
+Agile + Git,Java,0.075,0.75,2.368
 Agile + Git,JavaScript,0.058,0.583,2.333
 Git,Agile,0.1,0.5,2.308
 API,Agile,0.083,0.5,2.308
