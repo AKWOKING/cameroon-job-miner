@@ -6,47 +6,47 @@ CSS,26,9.1
 Git,24,8.4
 HTML,22,7.7
 SAP/ERP,22,7.7
-SQL,21,7.4
+SQL,21,7.3
 API,20,7.0
-Networking,17,6.0
+Networking,17,5.9
 Docker,16,5.6
 MySQL,16,5.6
 Monitoring,16,5.6
 Python,14,4.9
-Oracle,13,4.6
+Oracle,14,4.9
 Linux,12,4.2
 Cloud Computing,12,4.2
-CI/CD,11,3.9
-Azure,11,3.9
+CI/CD,11,3.8
+Azure,11,3.8
 PostgreSQL,10,3.5
 CRM,10,3.5
-React,9,3.2
-jQuery,9,3.2
+React,9,3.1
+jQuery,9,3.1
 MongoDB,8,2.8
 Redis,8,2.8
 Support Technique,8,2.8
 UI/UX,8,2.8
-TCP/IP,7,2.5
-Spring,7,2.5
-Photoshop,7,2.5
+TCP/IP,7,2.4
+Spring,7,2.4
+Photoshop,7,2.4
 Node.js,6,2.1
 Jira,6,2.1
-TDD,5,1.8
-Angular,5,1.8
-Bootstrap,5,1.8
-Bash,5,1.8
+TDD,5,1.7
+Angular,5,1.7
+Bootstrap,5,1.7
+Bash,5,1.7
 Django,4,1.4
 AWS,4,1.4
-Laravel,3,1.1
-VPN,3,1.1
-Android,3,1.1
-Ruby on Rails,3,1.1
-REST API,3,1.1
-Go,3,1.1
-C#,3,1.1
-Swift,3,1.1
-iOS,3,1.1
-Big Data,3,1.1
+Laravel,3,1.0
+VPN,3,1.0
+Android,3,1.0
+Ruby on Rails,3,1.0
+REST API,3,1.0
+Go,3,1.0
+C#,3,1.0
+Swift,3,1.0
+iOS,3,1.0
+Big Data,3,1.0
 ASSEMBLEUR,2,0.7
 COBOL,2,0.7
 DB2,2,0.7
@@ -57,27 +57,27 @@ Ruby,2,0.7
 WordPress,2,0.7
 Microservices,2,0.7
 Apache,2,0.7
-FORTRAN,1,0.4
-SAS,1,0.4
-Active Directory,1,0.4
-Next.js,1,0.4
-Elasticsearch,1,0.4
-Flask,1,0.4
-OAuth,1,0.4
-GraphQL,1,0.4
-Data Analysis,1,0.4
-R,1,0.4
-Vue.js,1,0.4
-MariaDB,1,0.4
-PHP,1,0.4
-Symfony,1,0.4
-Kubernetes,1,0.4
-TypeScript,1,0.4
-Virtualisation,1,0.4
-Cassandra,1,0.4
-Kotlin,1,0.4
-Backup,1,0.4
-ASP.NET,1,0.4
-C++,1,0.4
-Figma,1,0.4
-Cybersecurity,1,0.4
+FORTRAN,1,0.3
+SAS,1,0.3
+Active Directory,1,0.3
+Next.js,1,0.3
+Elasticsearch,1,0.3
+Flask,1,0.3
+OAuth,1,0.3
+GraphQL,1,0.3
+Data Analysis,1,0.3
+R,1,0.3
+Vue.js,1,0.3
+MariaDB,1,0.3
+PHP,1,0.3
+Symfony,1,0.3
+Kubernetes,1,0.3
+TypeScript,1,0.3
+Virtualisation,1,0.3
+Cassandra,1,0.3
+Kotlin,1,0.3
+Backup,1,0.3
+ASP.NET,1,0.3
+C++,1,0.3
+Figma,1,0.3
+Cybersecurity,1,0.3
